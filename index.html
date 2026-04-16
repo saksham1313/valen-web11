@@ -3,245 +3,309 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valen | Your body has a plan. Are you listening?</title>
-    <meta name="description" content="Valen reads your recovery and tells you exactly what's ready to train. Stop training blind and start making every session count.">
-    
-    <!-- Favicons -->
+    <title>Valen | Your body, decoded.</title>
+    <meta name="description" content="Valen reads recovery, fatigue, balance, and performance so you know what is actually ready to train.">
+
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Valen | Smart Training System">
-    <meta property="og:description" content="Train with your body, not against it. Recovery-based insights for serious lifters.">
+
+    <meta property="og:title" content="Valen | Your body, decoded.">
+    <meta property="og:description" content="Interactive recovery mapping, deep training insights, and smarter suggestions for serious lifters.">
     <meta property="og:image" content="og-image.png">
     <meta property="og:type" content="website">
-    
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
 
-    <!-- NAVBAR -->
+    <div class="store-ribbon" role="region" aria-label="Store availability">
+        <div class="container store-ribbon-inner">
+            <div class="store-ribbon-copy">
+                <span class="store-ribbon-label">AVAILABLE NOW</span>
+                <p>Join the latest Android testing build now. iPhone version is on the way.</p>
+            </div>
+            <div class="store-ribbon-actions">
+                <a
+                    href="https://play.google.com/apps/testing/com.valen.health"
+                    class="store-button store-button-live"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Get the app on Play Store
+                </a>
+                <span class="store-button store-button-disabled" aria-disabled="true">
+                    App Store
+                    <span class="store-button-note">Coming soon</span>
+                </span>
+                <button
+                    type="button"
+                    class="ribbon-close"
+                    aria-label="Dismiss store ribbon"
+                    onclick="this.closest('.store-ribbon').style.display='none';"
+                >
+                    ×
+                </button>
+            </div>
+        </div>
+    </div>
+
     <nav class="navbar">
         <div class="container nav-container">
-            <div class="logo-container">
+            <a href="index.html" class="logo-container" aria-label="Valen home">
                 <img src="logo.png" alt="Valen Logo" class="logo-img">
                 <span class="logo-text">Valen</span>
-            </div>
+            </a>
             <div class="nav-links">
-                <!-- Simple links can go here if needed, but the prompt asks for clean/minimal -->
+                <a href="#screens">Screens</a>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="https://play.google.com/apps/testing/com.valen.health" class="nav-cta" target="_blank" rel="noreferrer">Get Valen</a>
             </div>
         </div>
     </nav>
 
-    <!-- 1 - HERO SECTION -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-headline">Your body has a plan.<br>Are you listening to it?</h1>
-                <p class="hero-subheadline">
-                    Valen reads your recovery and tells you exactly what's ready to train - so every session counts.
-                </p>
-                <div class="hero-actions">
-                    <a href="#" class="btn btn-primary">Train Smarter</a>
-                    <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
-                </div>
-            </div>
-            <div class="hero-screenshot">
-                <div class="screenshot-box">
-                    Dashboard Screenshot
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 2 - PROBLEM SECTION -->
-    <section class="section">
-        <div class="container text-section">
-            <div class="text-content">
-                <h2>Most people train by feel.</h2>
-                <p>Walk in. Pick something. Hope for the best.</p>
-                <p>Chest again. Legs again. Whatever doesn't hurt yet.</p>
-                <p class="p-highlight">Here's the problem: soreness isn't recovery.</p>
-                <p>You can feel fine and still be undertrained, overtrained, or set up for injury.</p>
-                <p>Valen gives you the read your body can't give itself.</p>
-            </div>
-            <div class="text-visual">
-                <div class="screenshot-box" style="min-height: 300px;">
-                    Training Confusion vs Clarity
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 3 - PHILOSOPHY SECTION -->
-    <section class="section" style="background-color: var(--surface-color);">
-        <div class="container text-section reverse">
-            <div class="text-visual">
-                <div class="screenshot-box">
-                    Workout Logging Screenshot
-                </div>
-            </div>
-            <div class="text-content">
-                <h2>Train with your body. Not your ego.</h2>
-                <p>Every workout leaves a mark - micro-tears, fatigue, inflammation.</p>
-                <p>Recovery is what actually builds you.</p>
-                <p>Valen maps that in real time. You always know what's ready, what's fatigued, what needs space.</p>
-                <p class="p-highlight">No guessing. No burnout. Just progress.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 4 - DIFFERENTIATION SECTION -->
-    <section class="section">
-        <div class="container text-section">
-            <div class="text-content">
-                <h2>Other apps record history. Valen reads the present.</h2>
-                <p>Most fitness apps are expensive diaries. They tell you what you did. They don't tell you what it means.</p>
-                <p>Valen updates your full recovery map after every session - showing which muscles are loaded, which are fresh, and where you're leaving gains on the table.</p>
-                <p class="p-highlight">It's not a log. It's a lens.</p>
-            </div>
-            <div class="text-visual" style="display: flex; gap: 12px;">
-                <div class="screenshot-box" style="flex: 1; min-height: 250px;">Recovery Map Map</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 5 - FEATURES SECTION -->
-    <section class="section" style="background-color: var(--surface-color);">
-        <div class="container">
-            <div class="section-title">
-                <h2>Built for people who train seriously.</h2>
-                <p>Valen gives you the edge by focusing on the one thing that matters: readiness.</p>
-            </div>
-            <div class="features-grid">
-                <!-- Recovery Dashboard -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="kicker">RECOVERY INTELLIGENCE FOR SERIOUS LIFTERS</p>
+                    <h1 class="hero-title">Your body,<br>decoded.</h1>
+                    <p class="hero-subtitle">
+                        Valen turns your training history into a live recovery read, so you can see what is loaded,
+                        what is ready, and what deserves patience before you start the next session.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#screens" class="btn btn-primary">See the app</a>
+                        <a href="https://play.google.com/apps/testing/com.valen.health" class="btn btn-secondary" target="_blank" rel="noreferrer">Get Valen</a>
                     </div>
-                    <h3>Recovery Map</h3>
-                    <p>See your whole body's readiness at a glance. Know what to train before you walk in the door.</p>
-                </div>
-                <!-- Smart Suggestions -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                    <div class="hero-metrics">
+                        <div class="metric-chip">
+                            <span class="metric-label">Reads</span>
+                            <span class="metric-value">Recovery map</span>
+                        </div>
+                        <div class="metric-chip">
+                            <span class="metric-label">Tracks</span>
+                            <span class="metric-value">Strength + fatigue</span>
+                        </div>
+                        <div class="metric-chip">
+                            <span class="metric-label">Plans</span>
+                            <span class="metric-value">Smarter next sessions</span>
+                        </div>
                     </div>
-                    <h3>Smart Training Suggestions</h3>
-                    <p>No more second-guessing your split. Valen tells you what's ready based on real recovery data.</p>
                 </div>
-                <!-- Quick & Detailed Logging -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
-                    </div>
-                    <h3>Fast + Deep Logging</h3>
-                    <p>Quick enough for between sets. Detailed enough when you want it.</p>
-                </div>
-                <!-- Soreness & Injury Flags -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-                    </div>
-                    <h3>Injury & Soreness Flags</h3>
-                    <p>Spot overuse before it becomes a setback. Protect the muscles that keep you consistent.</p>
-                </div>
-                <!-- Training Balance Insights -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4"/><path d="M12 16V8"/></svg>
-                    </div>
-                    <h3>Balance Insights</h3>
-                    <p>See the gaps in your training - asymmetries, neglected muscle groups, imbalanced splits.</p>
-                </div>
-                <!-- Offline & Local Storage -->
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                    </div>
-                    <h3>Offline. Always.</h3>
-                    <p>No account. No cloud dependency. Your data stays yours.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- 6 - HOW IT WORKS -->
-    <section id="how-it-works" class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Simple enough for day one.<br>Powerful enough for year three.</h2>
-            </div>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">Step 1</div>
-                    <h3>Log your workout</h3>
-                </div>
-                <div class="step">
-                    <div class="step-number">Step 2</div>
-                    <h3>Valen updates your recovery map</h3>
-                </div>
-                <div class="step">
-                    <div class="step-number">Step 3</div>
-                    <h3>Train what’s ready</h3>
+                <div class="hero-visual">
+                    <div class="hero-device glass-panel">
+                        <div class="shot-badge shot-badge-top">RECOVERY MAP</div>
+                        <img
+                            src="assets/screenshots/2.jpg"
+                            alt="Valen recovery map screenshot"
+                            class="app-shot shot-hero"
+                        >
+                    </div>
                 </div>
             </div>
-            <div class="screenshot-box">
-                Recovery Insights Screenshot
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 7 - TRUST SECTION -->
-    <section class="section" style="padding-top: 0;">
-        <div class="container">
-            <div class="section-title" style="margin-bottom: 30px;">
-                <h2>Built for serious training.</h2>
-            </div>
-            <div class="trust-points">
-                <div class="trust-item">
-                    No account required
+        <section class="section signal-strip">
+            <div class="container signal-grid">
+                <div class="signal-card">
+                    <span class="signal-title">LOCAL-FIRST</span>
+                    <p>Your training data stays on-device by default.</p>
                 </div>
-                <div class="trust-item">
-                    Fully offline
+                <div class="signal-card">
+                    <span class="signal-title">PRO BACKUP</span>
+                    <p>Cloud backup is optional and only activated when you choose it.</p>
                 </div>
-                <div class="trust-item">
-                    Local-first
-                </div>
-                <div class="trust-item">
-                    Export & backup support
+                <div class="signal-card">
+                    <span class="signal-title">REAL READINESS</span>
+                    <p>Not just history logs. Valen interprets what your body is carrying today.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 8 - DOWNLOAD SECTION -->
-    <section class="section">
-        <div class="container">
-            <div class="download-section">
-                <h2 style="font-size: 3.5rem; margin-bottom: 24px;">Stop training blind.</h2>
-                <a href="#" class="btn btn-primary" style="padding: 20px 48px; font-size: 1.2rem;">Get Valen on Android</a>
-                <br>
-                <span class="download-beta">Early beta · Free to try</span>
+        <section id="screens" class="section section-screen">
+            <div class="container story-grid">
+                <div class="story-copy">
+                    <p class="kicker">SEE WHAT OTHER APPS MISS</p>
+                    <h2 class="section-heading">Your body is not just five zones.</h2>
+                    <p class="section-text">
+                        Valen goes deeper than broad body-part buckets. Tap into subzone detail, watch where fatigue is
+                        actually sitting, and understand what a single shoulder score is made of before you load it again.
+                    </p>
+                    <ul class="bullet-list">
+                        <li>Subzone breakdowns that explain what is driving a score</li>
+                        <li>Recovery reads grounded in actual exercise history</li>
+                        <li>A body map that keeps training decisions visual and fast</li>
+                    </ul>
+                </div>
+                <div class="story-visual">
+                    <div class="glass-panel visual-panel tall-panel">
+                        <img
+                            src="assets/screenshots/3.jpg"
+                            alt="Valen subzone breakdown screenshot"
+                            class="app-shot shot-subzone"
+                        >
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 9 - FOOTER -->
+        <section class="section">
+            <div class="container story-grid reverse-grid">
+                <div class="story-copy">
+                    <p class="kicker">METRICS WITH CONTEXT</p>
+                    <h2 class="section-heading">Progress, PRs, and trendlines in one place.</h2>
+                    <p class="section-text">
+                        Logging is only useful if it sharpens the next decision. Valen surfaces the numbers that matter
+                        most when you train seriously: estimated strength, recent velocity, progression over time, and
+                        what each lift has actually been doing lately.
+                    </p>
+                    <div class="pill-row">
+                        <span class="pill">e1RM</span>
+                        <span class="pill">Muscle progressions</span>
+                        <span class="pill">PRs</span>
+                    </div>
+                </div>
+                <div class="story-visual">
+                    <div class="glass-panel visual-panel tall-panel">
+                        <img
+                            src="assets/screenshots/4.jpg"
+                            alt="Valen performance analytics screenshot"
+                            class="app-shot shot-metrics"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-surface">
+            <div class="container">
+                <div class="section-title-block">
+                    <p class="kicker">WHAT VALEN ACTUALLY HELPS YOU DO</p>
+                    <h2 class="section-heading center-heading">Built for lifters who care about readiness, not noise.</h2>
+                </div>
+
+                <div id="features" class="feature-grid">
+                    <article class="feature-panel glass-panel">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2 4 6v6c0 5 3.4 9.4 8 10 4.6-.6 8-5 8-10V6l-8-4Z"></path>
+                                <path d="M9 12h6"></path>
+                                <path d="M12 9v6"></path>
+                            </svg>
+                        </div>
+                        <h3>Deep insights</h3>
+                        <p>
+                            Balance, streaks, consistency, coverage, and biological recovery signals in one screen
+                            instead of scattered metrics across five tabs.
+                        </p>
+                        <div class="feature-shot">
+                            <img src="assets/screenshots/5.jpg" alt="Valen insights screenshot" class="app-shot shot-insights">
+                        </div>
+                    </article>
+
+                    <article class="feature-panel glass-panel">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3Z"></path>
+                            </svg>
+                        </div>
+                        <h3>Intelligent suggestions</h3>
+                        <p>
+                            Valen proposes where to start, what to rotate toward, and when to back off so your weekly
+                            planning can evolve with the body you actually have that day.
+                        </p>
+                        <div class="feature-shot">
+                            <img src="assets/screenshots/6.jpg" alt="Valen suggestions screenshot" class="app-shot shot-suggestions">
+                        </div>
+                    </article>
+
+                    <article class="feature-panel glass-panel">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4 4h16v16H4z"></path>
+                                <path d="M8 8h8"></path>
+                                <path d="M8 12h5"></path>
+                                <path d="M8 16h7"></path>
+                            </svg>
+                        </div>
+                        <h3>Quick log or full detail</h3>
+                        <p>
+                            Move fast when you are in a hurry, or log every set when precision matters. The workflow is
+                            designed for both between-set speed and deep post-session detail.
+                        </p>
+                        <div class="feature-shot feature-shot-wide">
+                            <img src="assets/screenshots/7.jpg" alt="Valen quick log and detailed logging screenshot" class="app-shot shot-logging">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section">
+            <div class="container">
+                <div class="section-title-block">
+                    <p class="kicker">HOW IT WORKS</p>
+                    <h2 class="section-heading center-heading">Simple enough on day one. Sharp enough years in.</h2>
+                </div>
+                <div class="step-grid">
+                    <div class="step-card">
+                        <span class="step-number">01</span>
+                        <h3>Check in</h3>
+                        <p>Start with a body check, a quick session, or a fully logged workout.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">02</span>
+                        <h3>Update the map</h3>
+                        <p>Valen recalculates recovery, balance, confidence, and subzone load after every session.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">03</span>
+                        <h3>Train what is ready</h3>
+                        <p>Use the map, insights, and suggestions to decide where today’s best work should go.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="section download-section-wrap">
+            <div class="container">
+                <div class="download-panel glass-panel">
+                    <div class="download-copy">
+                        <p class="kicker">VALEN FOR ANDROID</p>
+                        <h2 class="download-title">Stop training blind.</h2>
+                        <p class="section-text">
+                            Bring recovery mapping, deep exercise analytics, and smarter next-session guidance into every
+                            week you train.
+                        </p>
+                    </div>
+                    <div class="download-actions">
+                        <a href="https://play.google.com/apps/testing/com.valen.health" class="btn btn-primary" target="_blank" rel="noreferrer">Get Valen on Android</a>
+                        <span class="download-note">Local-first by default. Optional Pro backup.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
-        <div class="container">
-            <img src="logo.png" alt="Valen Logo" class="footer-logo">
-            <p class="footer-motto">Train smarter. Recover better. Repeat.</p>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="logo.png" alt="Valen Logo" class="footer-logo">
+                <p class="footer-motto">Train smarter. Recover better. Repeat.</p>
+            </div>
             <div class="footer-nav">
                 <a href="privacy.html">Privacy Policy</a>
                 <a href="terms.html">Terms of Service</a>
                 <a href="delete-account.html">Delete Account</a>
                 <a href="mailto:support@valen.app">support@valen.app</a>
             </div>
-            <p class="footer-copyright">© 2024 Valen. All rights reserved.</p>
+            <p class="footer-copyright">© 2026 Valen. All rights reserved.</p>
         </div>
     </footer>
-
 </body>
 </html>
