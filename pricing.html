@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Valen</title>
+    <meta name="description" content="Simple, transparent pricing for Valen. Get early access for free.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-container" aria-label="Valen home">
+                <img src="logo.png" alt="Valen Logo" class="logo-img">
+                <span class="logo-text">Valen</span>
+            </a>
+            <div class="nav-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="index.html#features">Features</a>
+                <a href="pricing.html" class="active">Pricing</a>
+                <a href="https://docs.google.com/document/d/1KyaUsjy8aJjC3Rx-8UBh_H9WATatWcrO6IxkV0WHp0E/edit?usp=sharing" class="nav-cta" target="_blank"
+                    rel="noreferrer">Get Valen</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="pricing-hero">
+            <div class="pricing-hero-text">
+                <h1 class="section-heading" style="text-align: left; margin: 0 0 20px 0;">Pro Pricing</h1>
+                <p class="hero-subtitle" style="text-align: left; margin: 0; max-width: 400px;">Train smarter with recovery-based insights.</p>
+            </div>
+
+            <div class="early-access-card glass-panel">
+                <p class="early-access-title">EARLY ACCESS ONLY</p>
+                <div class="early-access-price">
+                    <span class="price-strike">$49.99</span>
+                    <span class="price-free">FREE</span>
+                </div>
+                <p class="section-text" style="margin-bottom: 0;">All Pro features unlocked till May 31</p>
+            </div>
+        </section>
+
+        <div class="future-pricing-context">
+            <p class="kicker">FUTURE PRICING</p>
+            <h2 class="section-heading center-heading">Post-Offer Plans</h2>
+            <p class="section-text" style="text-align: center; max-width: 500px; margin: 0 auto 40px;">
+                Once the early access period ends on May 31, Valen Pro will switch to the paid plans below. Get in now to unlock everything for free.
+            </p>
+        </div>
+
+        <section class="pricing-grid">
+            <div class="pricing-card glass-panel">
+                <h3 class="feature-title">Pro Yearly</h3>
+                <div class="price-value">$24.99<span class="price-sub"> / year</span></div>
+            </div>
+            <div class="pricing-card glass-panel featured">
+                <span class="card-badge">Best Value</span>
+                <h3 class="feature-title">Pro Lifetime</h3>
+                <div class="price-value">$49.99<span class="price-sub"> one-time</span></div>
+            </div>
+        </section>
+
+        <section class="pro-features-section">
+            <h2 class="section-heading center-heading">Everything in <span class="text-accent">Pro</span></h2>
+            <div class="pro-features-list">
+                <div class="pro-feature-item active">
+                    <div class="pro-feature-header" onclick="toggleAccordion(this)">
+                        <div class="pro-feature-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                            <span>Recovery-based training system</span>
+                        </div>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="pro-feature-content-wrapper">
+                        <div class="pro-feature-content">
+                            <p class="reveal-item">Valen tracks the exact recovery timeline of your muscles based on your historical volume and intensity.</p>
+                            <div class="info-graphic reveal-item">
+                                <div class="info-row">
+                                    <span class="info-label">Chest (Pecs)</span>
+                                    <div class="progress-track"><div class="progress-fill" style="width: 95%; background: var(--accent);"></div></div>
+                                    <span class="info-value text-accent">Primed</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Lats</span>
+                                    <div class="progress-track"><div class="progress-fill" style="width: 40%; background: #eab308;"></div></div>
+                                    <span class="info-value" style="color: #eab308;">Recovering</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Quads</span>
+                                    <div class="progress-track"><div class="progress-fill" style="width: 15%; background: #ef4444;"></div></div>
+                                    <span class="info-value" style="color: #ef4444;">Fatigued</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pro-feature-item">
+                    <div class="pro-feature-header" onclick="toggleAccordion(this)">
+                        <div class="pro-feature-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <span>Smart workout recommendations</span>
+                        </div>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="pro-feature-content-wrapper">
+                        <div class="pro-feature-content">
+                            <p class="reveal-item">The app dynamically proposes starting exercises and safe alternatives matching what your body can safely handle today.</p>
+                            <div class="info-graphic reveal-item flex-graphic">
+                                <div class="sugg-card main-sugg">
+                                    <div class="sugg-badge">Recommended Start</div>
+                                    <h4>Incline Dumbbell Press</h4>
+                                    <p>Optimal for current chest recovery</p>
+                                </div>
+                                <div class="sugg-card alt-sugg">
+                                    <div class="sugg-badge" style="background: rgba(255,255,255,0.1);">Alternative</div>
+                                    <h4>Pec Deck Fly</h4>
+                                    <p>Lower joint strain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pro-feature-item">
+                    <div class="pro-feature-header" onclick="toggleAccordion(this)">
+                        <div class="pro-feature-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                            <span>Weekly plan & insights</span>
+                        </div>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="pro-feature-content-wrapper">
+                        <div class="pro-feature-content">
+                            <p class="reveal-item">See your volume distribution, consistency streaks, and overall biological balance in one cohesive view.</p>
+                            <div class="info-graphic reveal-item insight-grid">
+                                <div class="insight-stat">
+                                    <span class="stat-value text-accent">14</span>
+                                    <span class="stat-label">Day Streak</span>
+                                </div>
+                                <div class="insight-chart">
+                                    <div class="bar-col"><div class="bar" style="height: 40%;"></div><span>M</span></div>
+                                    <div class="bar-col"><div class="bar" style="height: 70%;"></div><span>T</span></div>
+                                    <div class="bar-col"><div class="bar" style="height: 30%;"></div><span>W</span></div>
+                                    <div class="bar-col"><div class="bar active-bar" style="height: 90%;"></div><span class="text-accent">T</span></div>
+                                    <div class="bar-col"><div class="bar" style="height: 10%;"></div><span>F</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pro-feature-item">
+                    <div class="pro-feature-header" onclick="toggleAccordion(this)">
+                        <div class="pro-feature-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="6.5"></line></svg>
+                            <span>Tracks real localized fatigue</span>
+                        </div>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="pro-feature-content-wrapper">
+                        <div class="pro-feature-content">
+                            <p class="reveal-item">We track how specific lifts fatigue precise sub-zones of your body, offering a precise visual heatmap of localized overtraining.</p>
+                            <div class="info-graphic reveal-item heatmap-graphic">
+                                <div class="muscle-node text-accent">Upper Chest<br><small>Ready</small></div>
+                                <div class="muscle-link"></div>
+                                <div class="muscle-node alert">Front Delts<br><small>Fatigued</small></div>
+                                <div class="muscle-link"></div>
+                                <div class="muscle-node text-accent">Triceps<br><small>Ready</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pro-feature-item">
+                    <div class="pro-feature-header" onclick="toggleAccordion(this)">
+                        <div class="pro-feature-title">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            <span>Works fully offline</span>
+                        </div>
+                        <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    </div>
+                    <div class="pro-feature-content-wrapper">
+                        <div class="pro-feature-content">
+                            <p class="reveal-item">No internet required at the gym. All tracking, insights, and recovery calculations are performed natively on your device for zero latency.</p>
+                            <div class="info-graphic reveal-item offline-graphic">
+                                <div class="offline-node"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>Local Device</div>
+                                <div class="offline-arrow">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>
+                                    <span>0ms Latency</span>
+                                </div>
+                                <div class="offline-node text-accent"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>Valen Engine</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-valen-section">
+            <h2 class="section-heading center-heading">Why <span class="text-accent">Valen</span></h2>
+            <div class="why-grid">
+                <div class="why-card glass-panel">
+                    <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></div>
+                    <h3>Adapts to your actual recovery</h3>
+                </div>
+                <div class="why-card glass-panel">
+                    <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+                    <h3>Eliminates training guesswork</h3>
+                </div>
+                <div class="why-card glass-panel">
+                    <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg></div>
+                    <h3>Tracks real localized fatigue</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-section">
+            <h2 class="feature-title">No account required</h2>
+            <div class="trust-points">
+                <div class="trust-point">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Start instantly
+                </div>
+                <div class="trust-point">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Data stays on device
+                </div>
+                <div class="trust-point">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Secure Google backup
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <a href="https://docs.google.com/document/d/1KyaUsjy8aJjC3Rx-8UBh_H9WATatWcrO6IxkV0WHp0E/edit?usp=sharing" class="btn btn-primary" target="_blank" rel="noreferrer">Start Free</a>
+            <p class="download-note" style="margin-top: 15px;">No signup. Takes 10 seconds.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="logo.png" alt="Valen Logo" class="footer-logo">
+                <p class="footer-motto">Train smarter. Recover better. Repeat.</p>
+            </div>
+            <div class="footer-nav">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="delete-account.html">Delete Account</a>
+            </div>
+            <div class="footer-contact">
+                <a href="mailto:hello.valenapp@gmail.com" class="contact-link">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                    Contact us: hello.valenapp@gmail.com
+                </a>
+            </div>
+            <p class="footer-copyright">© 2026 Valen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleAccordion(headerElement) {
+            const item = headerElement.parentElement;
+            
+            // If the clicked item is already active, just close it
+            if (item.classList.contains('active')) {
+                item.classList.remove('active');
+                return;
+            }
+            
+            // Otherwise, close all and open the clicked one
+            document.querySelectorAll('.pro-feature-item').forEach(el => {
+                el.classList.remove('active');
+            });
+            item.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
