@@ -564,9 +564,9 @@ button,
 
 .shot-hero {
     width: 100%;
+    max-width: 440px;
     height: auto;
     display: block;
-    border-radius: 24px;
 }
 
 .shot-subzone {
