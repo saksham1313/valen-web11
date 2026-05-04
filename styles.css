@@ -155,9 +155,9 @@ button,
 }
 
 .hero-title {
-    max-width: 9ch;
-    font-size: clamp(4.2rem, 9vw, 8rem);
-    line-height: 0.9;
+    max-width: 12ch;
+    font-size: clamp(2.6rem, 5vw, 4.8rem);
+    line-height: 1.05;
     margin-bottom: 22px;
 }
 
@@ -172,15 +172,20 @@ button,
 }
 
 .section-heading {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: clamp(2.6rem, 5vw, 4.8rem);
-    line-height: 0.96;
+    line-height: 1.05;
     margin-bottom: 18px;
 }
 
 .center-heading {
-    max-width: 12ch;
-    margin-inline: auto;
     text-align: center;
+}
+
+.text-accent {
+    color: var(--accent);
 }
 
 .section-title-block {
@@ -427,6 +432,33 @@ button,
     background: rgba(30, 168, 173, 0.08);
 }
 
+.hero-status {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-muted);
+    font-size: 0.92rem;
+    font-weight: 500;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.dot-ready { background: #4ADE80; box-shadow: 0 0 10px rgba(74, 222, 128, 0.4); }
+.dot-fatigue { background: var(--orange); box-shadow: 0 0 10px rgba(240, 107, 39, 0.4); }
+.dot-next { background: #60A5FA; box-shadow: 0 0 10px rgba(96, 165, 250, 0.4); }
+
 .hero-metrics {
     display: flex;
     flex-wrap: wrap;
@@ -467,10 +499,14 @@ button,
 }
 
 .hero-device {
-    width: min(100%, 520px);
-    padding: 24px;
+    width: min(100%, 440px);
+    padding: 16px;
     border-radius: 40px;
-    transform: rotate(-3.5deg);
+    transform: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible !important;
 }
 
 .shot-badge {
@@ -521,14 +557,14 @@ button,
 
 .app-shot {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: block;
 }
 
 .shot-hero {
-    aspect-ratio: 0.77;
-    object-position: center 58%;
-    border-radius: 28px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
 }
 
 .shot-subzone {
@@ -575,20 +611,45 @@ button,
 }
 
 .signal-card {
-    padding: 26px 24px;
-    background: rgba(18, 38, 48, 0.7);
-    border: 1px solid rgba(79, 140, 159, 0.18);
+    padding: 38px 28px;
+    background: rgba(18, 38, 48, 0.4);
+    border: 1px solid rgba(79, 140, 159, 0.15);
     box-shadow: var(--shadow-sm);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.signal-icon {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    color: var(--accent);
+    background: var(--accent-low);
+    border-radius: 14px;
+    margin-bottom: 8px;
+}
+
+.signal-icon svg {
+    width: 24px;
+    height: 24px;
 }
 
 .signal-title {
     display: block;
-    margin-bottom: 10px;
     font-family: 'DM Mono', monospace;
-    font-size: 0.76rem;
-    color: var(--accent);
-    letter-spacing: 0.18em;
+    font-size: 0.85rem;
+    color: var(--text);
+    letter-spacing: 0.1em;
     text-transform: uppercase;
+}
+
+.signal-card p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
 }
 
 .story-copy {
@@ -685,30 +746,85 @@ button,
     stroke-linejoin: round;
 }
 
-.step-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 22px;
+.flow-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 60px auto 0;
+    gap: 0;
 }
 
-.step-card {
-    padding: 28px;
-    background: rgba(18, 38, 48, 0.7);
-    border: 1px solid rgba(79, 140, 159, 0.18);
+.flow-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 0 0 180px;
+    opacity: 0.15;
+    transform: translateY(10px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.step-number {
-    display: inline-block;
-    margin-bottom: 16px;
+.flow-step.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.flow-number {
     font-family: 'DM Mono', monospace;
-    font-size: 0.92rem;
-    letter-spacing: 0.22em;
+    font-size: 0.8rem;
     color: var(--accent);
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
 }
 
-.step-card h3 {
-    margin-bottom: 10px;
-    font-size: 1.55rem;
+.flow-icon {
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(30, 168, 173, 0.05);
+    border: 1px solid rgba(30, 168, 173, 0.12);
+    color: var(--accent);
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+.flow-step.active .flow-icon {
+    background: var(--accent-low);
+    border-color: var(--accent-border);
+    transform: scale(1.05);
+}
+
+.flow-icon svg {
+    width: 28px;
+    height: 28px;
+}
+
+.flow-label {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-soft);
+    white-space: nowrap;
+}
+
+.flow-connector {
+    flex-grow: 1;
+    height: 1px;
+    background: linear-gradient(90deg, var(--divider), transparent);
+    opacity: 0.3;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 -20px;
+    margin-bottom: 42px; /* Align with icons roughly */
+}
+
+.flow-connector.active {
+    transform: scaleX(1);
+    background: linear-gradient(90deg, var(--accent-border), var(--divider));
 }
 
 .download-section-wrap {
@@ -737,13 +853,16 @@ button,
 .download-actions {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
 }
 
 .download-note {
     font-size: 0.95rem;
     color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .footer {
@@ -810,16 +929,9 @@ button,
     color: var(--text-soft);
 }
 
-.legal-content h1 {
-    margin-bottom: 12px;
-    font-family: 'Anton', Impact, sans-serif;
-    font-size: clamp(2.8rem, 6vw, 4.8rem);
-    font-weight: 400;
-    line-height: 0.95;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    color: var(--text);
-}
+
+
+
 
 .legal-content h2 {
     margin-top: 36px;
