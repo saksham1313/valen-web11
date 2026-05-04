@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
 
+@keyframes heroReveal {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.96);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
 :root {
     --bg: #081317;
     --bg-2: #0C171D;
@@ -567,6 +579,9 @@ button,
     max-width: 440px;
     height: auto;
     display: block;
+    opacity: 0;
+    animation: heroReveal 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    will-change: transform, opacity;
 }
 
 .shot-subzone {
