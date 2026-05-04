@@ -557,6 +557,8 @@ button,
 
 .app-shot {
     width: 100%;
+    height: 100%;
+    object-fit: contain;
     display: block;
 }
 
@@ -991,7 +993,11 @@ button,
     .feature-grid,
     .signal-grid,
     .step-grid,
-    .download-panel {
+    .download-panel,
+    .pricing-hero,
+    .pricing-grid,
+    .comparison-grid,
+    .feature-mini-grid {
         grid-template-columns: 1fr;
     }
 
@@ -1060,10 +1066,19 @@ button,
 
     .nav-container {
         min-height: 74px;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 
     .nav-links {
-        display: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        flex-wrap: wrap;
     }
 
     .hero {
@@ -1659,10 +1674,6 @@ button,
 }
 
 @media (max-width: 760px) {
-    .pricing-hero, .pricing-grid, .comparison-grid, .trust-points, .feature-mini-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
     
     .why-grid {
         grid-template-columns: 1fr;
@@ -1683,10 +1694,60 @@ button,
     }
     
     .pro-feature-content {
-        padding: 0 20px 0 20px;
+        padding: 0 16px 0 16px;
     }
     
     .pro-feature-item.active .pro-feature-content {
         padding-bottom: 20px;
     }
+
+    /* Mobile Infographics Rules */
+    .info-graphic {
+        padding: 16px;
+    }
+
+    .flex-graphic {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .insight-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .heatmap-graphic {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .muscle-link {
+        width: 2px;
+        height: 20px;
+        top: 0;
+    }
+
+    .offline-graphic {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .info-row {
+        flex-wrap: wrap;
+    }
+
+    .info-label {
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+    .progress-track {
+        width: calc(100% - 70px);
+        flex-grow: 0;
+    }
+
+    .info-value {
+        width: 60px;
+    }
 }
+
