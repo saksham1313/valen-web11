@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Valen</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .legal-content {
+            max-width: 800px;
+            margin: 60px auto;
+            color: var(--text-secondary);
+        }
+        .legal-content h1 {
+            color: var(--text-primary);
+            margin-bottom: 32px;
+            font-size: 2.5rem;
+        }
+        .legal-content h2 {
+            color: var(--text-primary);
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+        .legal-content p {
+            margin-bottom: 16px;
+            line-height: 1.8;
+        }
+        .legal-content ul {
+            margin-bottom: 16px;
+            padding-left: 20px;
+        }
+        .legal-content li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="logo.png" alt="Valen Logo" class="logo-img">
+                <span class="logo-text">Valen</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="legal-content">
+            <h1>Privacy Policy</h1>
+            <p>Last Updated: May 19, 2026</p>
+            
+            <p>At Valen, we take your privacy seriously. This policy describes how we handle your data.</p>
+            
+            <h2>1. Local Data Storage</h2>
+            <p>Valen is designed as a local-first application. Your workout data, recovery metrics, and personal training information are stored locally on your device by default.</p>
+
+            <h2>2. Optional Cloud Backup</h2>
+            <p>On supported platforms, Valen Pro users may choose to enable cloud backup. When enabled, your exported training data is stored in Firebase Storage under your Google account so you can restore it later. Cloud backup is optional and requires an explicit sign-in.</p>
+
+            <h2>3. Personal Data Collection</h2>
+            <p>Valen does not require you to create an account to use the core app. If you choose to enable cloud backup, Google authentication is used only to identify your private backup container.</p>
+
+            <h2>4. No Third-Party Selling</h2>
+            <p>We do not sell your data. Outside of the optional cloud backup flow you initiate, Valen does not upload your workout data to our servers.</p>
+
+            <h2>5. Data Portability</h2>
+            <p>Users may export their data manually from within the app settings. This allows you to keep a backup or move your data as you see fit.</p>
+
+            <h2>6. Platform Backup Behavior</h2>
+            <p>Valen disables operating-system-level Android app backup so your training data is not copied to a Google account unless you explicitly enable Valen cloud backup.</p>
+
+            <h2>7. Data Retention & Deletion</h2>
+            <p><strong>Local Data:</strong> All workout history, body state, and profile data you create in Valen is stored locally on your device. You can delete this data at any time by clearing the app's data through your device settings, or by uninstalling the app.</p>
+            <p><strong>Cloud Backup Data:</strong> If you choose to enable Cloud Backup, your data is synced to Firebase (Google Cloud). We retain this data for as long as your account is active. If you stop using the app, we retain your cloud backup data for up to 12 months of inactivity, after which it is automatically deleted.</p>
+            <p><strong>Crash & Diagnostic Data:</strong> Anonymised crash reports collected via Firebase Crashlytics are retained for 90 days, after which they are automatically purged by the service.</p>
+            <p><strong>Purchase Records:</strong> Transaction records related to Pro subscriptions are retained as required by applicable law and Google Play's policies, typically for 7 years for financial compliance purposes.</p>
+            <p><strong>How to request deletion:</strong> To request deletion of your cloud backup data at any time, email us at <a href="mailto:hello.valenapp@gmail.com">hello.valenapp@gmail.com</a> with the subject line "Data Deletion Request." We will process your request and confirm deletion within 30 days. You may also delete your Firebase account data directly by navigating to Settings → Cloud Backup → Delete Account Data within the app.</p>
+
+            <h2>8. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <p><strong>hello.valenapp@gmail.com</strong></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <img src="logo.png" alt="Valen Logo" class="footer-logo">
+            <p class="footer-motto">Train smarter. Recover better.</p>
+            <div class="footer-nav">
+                <a href="privacypolicy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="delete-account.html">Delete Account</a>
+                <a href="mailto:hello.valenapp@gmail.com">hello.valenapp@gmail.com</a>
+            </div>
+            <p class="footer-copyright">© 2024 Valen. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
