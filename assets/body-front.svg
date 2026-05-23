@@ -1,0 +1,108 @@
+<svg viewBox="58 10 220 540" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <!-- Structural background elements -->
+  <polygon points="168,18 154,24 149,40 151,54 160,62 176,62 185,54 187,40 182,24" fill="#1c3347" stroke="#243d52" stroke-width="1.2" />
+  <polygon points="160,62 176,62 179,76 157,76" fill="#1c3347" stroke="#243d52" stroke-width="1" />
+  <polygon points="157,76 179,76 200,84 196,95 168,99 140,95 136,84" fill="#1c3347" stroke="#080c10" stroke-width="1" />
+
+  <!-- FRONT DELTS -->
+  <polygon points="136,84 96,82 86,92 82,112 86,128 90,130 116,130 140,95" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="shoulders" />
+  <polygon points="96,82 86,92 88,108 97,103" fill="#36515f" opacity="0.2" />
+  <polygon points="200,84 240,82 250,92 254,112 250,128 246,130 220,130 196,95" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="shoulders" />
+  <polygon points="240,82 250,92 248,108 239,103" fill="#36515f" opacity="0.2" />
+
+  <!-- BICEPS -->
+  <polygon points="90,130 116,130 104,178 78,178" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="arms" />
+  <line x1="96" y1="130" x2="90" y2="178" stroke="#080c10" stroke-width="1" opacity="0.45" />
+  <line x1="107" y1="130" x2="101" y2="178" stroke="#080c10" stroke-width="0.8" opacity="0.3" />
+  <polygon points="220,130 246,130 258,178 232,178" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="arms" />
+  <line x1="229" y1="130" x2="235" y2="178" stroke="#080c10" stroke-width="1" opacity="0.45" />
+  <line x1="239" y1="130" x2="245" y2="178" stroke="#080c10" stroke-width="0.8" opacity="0.3" />
+
+  <!-- FOREARMS -->
+  <polygon points="78,178 104,178 102,228 81,228" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="arms" />
+  <line x1="82" y1="180" x2="83" y2="226" stroke="#080c10" stroke-width="0.9" opacity="0.38" />
+  <polygon points="232,178 258,178 255,228 234,228" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="arms" />
+  <line x1="254" y1="180" x2="253" y2="226" stroke="#080c10" stroke-width="0.9" opacity="0.38" />
+
+  <!-- HANDS structural -->
+  <polygon points="81,228 102,228 100,242 82,242" fill="#243d52" stroke="#3a5a70" stroke-width="1.1" />
+  <polygon points="83,242 88,242 87,258 82,258" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <polygon points="88,242 93,242 92,258 87,258" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <polygon points="93,242 98,242 97,257 92,257" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <polygon points="98,242 102,242 101,256 97,256" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <line x1="88" y1="242" x2="87" y2="258" stroke="#36515f" stroke-width="1.5" />
+  <line x1="93" y1="242" x2="92" y2="258" stroke="#36515f" stroke-width="1.5" />
+  <line x1="98" y1="242" x2="97" y2="257" stroke="#36515f" stroke-width="1.5" />
+  <polygon points="234,228 255,228 254,242 235,242" fill="#243d52" stroke="#3a5a70" stroke-width="1.1" />
+  <polygon points="235,242 240,242 240,258 234,258" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <polygon points="240,242 245,242 245,258 240,258" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <polygon points="245,242 250,242 249,257 244,257" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <polygon points="250,242 254,242 253,256 249,256" fill="#2a4d66" stroke="#3a5a70" stroke-width="1" />
+  <line x1="240" y1="242" x2="240" y2="258" stroke="#36515f" stroke-width="1.5" />
+  <line x1="245" y1="242" x2="245" y2="258" stroke="#36515f" stroke-width="1.5" />
+  <line x1="250" y1="242" x2="249" y2="257" stroke="#36515f" stroke-width="1.5" />
+
+  <!-- CHEST -->
+  <polygon points="140,95 168,99 168,122 139,120 135,107" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="chest" />
+  <polygon points="196,95 168,99 168,122 197,120 201,107" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="chest" />
+  <polygon points="139,120 168,122 168,144 138,141 134,130" class="zone-resting" stroke="#080c10" stroke-width="1.2" data-zone="chest" />
+  <line x1="138" y1="141" x2="168" y2="144" stroke="#080c10" stroke-width="1.8" />
+  <polygon points="197,120 168,122 168,144 198,141 202,130" class="zone-resting" stroke="#080c10" stroke-width="1.2" data-zone="chest" />
+  <line x1="198" y1="141" x2="168" y2="144" stroke="#080c10" stroke-width="1.8" />
+
+  <!-- SERRATUS visual detail -->
+  <polygon points="132,107 138,120 131,131 124,122" fill="#36515f" opacity="0.32" stroke="#080c10" stroke-width="0.6" />
+  <polygon points="124,122 129,133 123,144 116,135" fill="#36515f" opacity="0.22" stroke="#080c10" stroke-width="0.6" />
+  <polygon points="204,107 198,120 205,131 212,122" fill="#36515f" opacity="0.32" stroke="#080c10" stroke-width="0.6" />
+  <polygon points="212,122 207,133 213,144 220,135" fill="#36515f" opacity="0.22" stroke="#080c10" stroke-width="0.6" />
+
+  <!-- ABS -->
+  <polygon points="138,144 167,146 167,163 138,161" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="core" />
+  <polygon points="169,146 198,144 198,161 169,163" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="core" />
+  <polygon points="138,163 167,163 167,181 139,179" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="core" />
+  <polygon points="169,163 198,163 197,179 169,181" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="core" />
+  <polygon points="139,181 167,181 167,199 140,197" class="zone-resting" stroke="#080c10" stroke-width="1.2" data-zone="core" />
+  <polygon points="169,181 197,181 196,197 169,199" class="zone-resting" stroke="#080c10" stroke-width="1.2" data-zone="core" />
+  <line x1="168" y1="144" x2="168" y2="199" stroke="#080c10" stroke-width="1.4" />
+  <line x1="138" y1="163" x2="198" y2="163" stroke="#080c10" stroke-width="1" opacity="0.5" />
+  <line x1="138" y1="181" x2="198" y2="181" stroke="#080c10" stroke-width="1" opacity="0.5" />
+
+  <!-- OBLIQUES -->
+  <polygon points="132,105 138,144 140,199 132,207 120,193 114,159 122,122 132,131" class="zone-resting" stroke="#080c10" stroke-width="0.9" data-zone="core" />
+  <polygon points="204,105 198,144 196,199 204,207 216,193 222,159 214,122 204,131" class="zone-resting" stroke="#080c10" stroke-width="0.9" data-zone="core" />
+
+  <!-- HIP / PELVIS structural -->
+  <polygon points="132,207 168,211 168,242 122,238 112,223 120,209" fill="#1c3347" stroke="#080c10" stroke-width="1" />
+  <polygon points="204,207 168,211 168,242 214,238 224,223 216,209" fill="#1c3347" stroke="#080c10" stroke-width="1" />
+  <polygon points="140,226 168,232 196,226 194,242 168,246 142,242" fill="#1c3347" stroke="#080c10" stroke-width="1" />
+
+  <!-- HIP FLEXORS -->
+  <polygon points="142,228 168,234 168,244 144,240" class="zone-resting" stroke="#080c10" stroke-width="0.8" data-zone="core" />
+  <polygon points="194,228 168,234 168,244 192,240" class="zone-resting" stroke="#080c10" stroke-width="0.8" data-zone="core" />
+
+  <!-- QUADS -->
+  <polygon points="124,242 156,246 153,374 124,382 116,316 118,248" class="zone-resting" stroke="#080c10" stroke-width="1.4" data-zone="legs" />
+  <line x1="128" y1="250" x2="122" y2="378" stroke="#080c10" stroke-width="1.2" opacity="0.38" />
+  <polygon points="212,242 180,246 183,374 212,382 220,316 218,248" class="zone-resting" stroke="#080c10" stroke-width="1.4" data-zone="legs" />
+  <line x1="208" y1="250" x2="214" y2="378" stroke="#080c10" stroke-width="1.2" opacity="0.38" />
+
+  <!-- ADDUCTORS FRONT -->
+  <polygon points="168,246 156,374 150,384 146,310 154,250" class="zone-resting" stroke="#080c10" stroke-width="0.9" data-zone="legs" />
+  <polygon points="168,246 180,374 186,384 190,310 182,250" class="zone-resting" stroke="#080c10" stroke-width="0.9" data-zone="legs" />
+
+  <!-- KNEES structural -->
+  <polygon points="124,382 153,374 151,390 125,396" fill="#1c3347" stroke="#080c10" stroke-width="1" />
+  <polygon points="183,374 212,382 211,396 185,390" fill="#1c3347" stroke="#080c10" stroke-width="1" />
+
+  <!-- SHINS -->
+  <polygon points="125,396 151,390 147,500 126,506 120,452 122,400" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="legs" />
+  <line x1="129" y1="402" x2="124" y2="502" stroke="#080c10" stroke-width="1.1" opacity="0.33" />
+  <polygon points="185,390 211,396 214,400 210,500 188,506 185,390" class="zone-resting" stroke="#080c10" stroke-width="1.3" data-zone="legs" />
+  <line x1="207" y1="402" x2="212" y2="502" stroke="#080c10" stroke-width="1.1" opacity="0.33" />
+
+  <!-- ANKLES / FEET structural -->
+  <polygon points="126,506 147,500 144,514 128,518" fill="#1c3347" stroke="#080c10" stroke-width="0.9" />
+  <polygon points="188,500 210,506 207,518 191,514" fill="#1c3347" stroke="#080c10" stroke-width="0.9" />
+  <polygon points="128,518 144,514 150,520 148,536 114,536 112,522" fill="#243d52" stroke="#3a5a70" stroke-width="1.1" />
+  <polygon points="191,514 207,518 220,522 218,536 182,536 180,520" fill="#243d52" stroke="#3a5a70" stroke-width="1.1" />
+</svg>
