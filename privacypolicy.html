@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#081317">
     <title>Privacy Policy | Valen</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .legal-content {
             max-width: 800px;
@@ -34,6 +34,18 @@
             margin-bottom: 8px;
         }
     </style>
+
+    <!-- PostHog -->
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_A7UnC4i9MNHuKfqEBUMJt8wTAjtbYZGrKc9ccubR34bu', {
+            api_host: 'https://eu.i.posthog.com',
+            person_profiles: 'identified_only',
+            capture_pageview: true,
+            capture_pageleave: true,
+            capture_performance: true
+        });
+    </script>
 </head>
 <body>
 
@@ -62,23 +74,26 @@
             <h2>3. Personal Data Collection</h2>
             <p>Valen does not require you to create an account to use the core app. If you choose to enable cloud backup, Google authentication is used only to identify your private backup container.</p>
 
-            <h2>4. No Third-Party Selling</h2>
+            <h2>4. Analytics & Crash Reporting</h2>
+            <p>We use PostHog for anonymized product analytics to understand how Valen is used and improve the app. We also use Firebase Crashlytics to report application crashes. Analytics are only collected if you explicitly consent, and you may opt out at any time within the app settings.</p>
+
+            <h2>5. No Third-Party Selling</h2>
             <p>We do not sell your data. Outside of the optional cloud backup flow you initiate, Valen does not upload your workout data to our servers.</p>
 
-            <h2>5. Data Portability</h2>
+            <h2>6. Data Portability</h2>
             <p>Users may export their data manually from within the app settings. This allows you to keep a backup or move your data as you see fit.</p>
 
-            <h2>6. Platform Backup Behavior</h2>
+            <h2>7. Platform Backup Behavior</h2>
             <p>Valen disables operating-system-level Android app backup so your training data is not copied to a Google account unless you explicitly enable Valen cloud backup.</p>
 
-            <h2>7. Data Retention & Deletion</h2>
+            <h2>8. Data Retention & Deletion</h2>
             <p><strong>Local Data:</strong> All workout history, body state, and profile data you create in Valen is stored locally on your device. You can delete this data at any time by clearing the app's data through your device settings, or by uninstalling the app.</p>
             <p><strong>Cloud Backup Data:</strong> If you choose to enable Cloud Backup, your data is synced to Firebase (Google Cloud). We retain this data for as long as your account is active. If you stop using the app, we retain your cloud backup data for up to 12 months of inactivity, after which it is automatically deleted.</p>
-            <p><strong>Crash & Diagnostic Data:</strong> Anonymised crash reports collected via Firebase Crashlytics are retained for 90 days, after which they are automatically purged by the service.</p>
+            <p><strong>Crash & Analytics Data:</strong> Anonymised crash reports collected via Firebase Crashlytics are retained for 90 days, after which they are automatically purged by the service. PostHog analytics data is retained securely in accordance with our data lifecycle policies.</p>
             <p><strong>Purchase Records:</strong> Transaction records related to Pro subscriptions are retained as required by applicable law and Google Play's policies, typically for 7 years for financial compliance purposes.</p>
             <p><strong>How to request deletion:</strong> To request deletion of your cloud backup data at any time, email us at <a href="mailto:hello.valenapp@gmail.com">hello.valenapp@gmail.com</a> with the subject line "Data Deletion Request." We will process your request and confirm deletion within 30 days. You may also delete your Firebase account data directly by navigating to Settings → Cloud Backup → Delete Account Data within the app.</p>
 
-            <h2>8. Contact Us</h2>
+            <h2>9. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy, please contact us at:</p>
             <p><strong>hello.valenapp@gmail.com</strong></p>
         </div>
@@ -87,7 +102,7 @@
     <footer class="footer">
         <div class="container">
             <img src="logo.png" alt="Valen Logo" class="footer-logo">
-            <p class="footer-motto">Train smarter. Recover better.</p>
+            <p class="footer-motto">Built by people who got tired of wasted sessions.</p>
             <div class="footer-nav">
                 <a href="privacypolicy.html">Privacy Policy</a>
                 <a href="terms.html">Terms of Service</a>
@@ -95,7 +110,7 @@
                 <a href="mailto:hello.valenapp@gmail.com">hello.valenapp@gmail.com</a>
             </div>
             <p class="footer-dev-note" style="max-width: 600px; font-size: 0.85rem; color: var(--text-faint); line-height: 1.6; margin-top: 10px; margin-bottom: 16px;">
-                Valen is built by independent developers who train. We're not backed by a corporation, a supplement brand, or anyone with an agenda. If something's broken, unclear, or missing — we actually want to know. Feedback, bug reports, and feature ideas go to hello.valenapp@gmail.com
+                Valen is built by independent developers who train. We're not backed by a corporation, a supplement brand, or anyone with an agenda. If something's broken, unclear, or missing, we actually want to know. Feedback, bug reports, and feature ideas go to hello.valenapp@gmail.com
             </p>
             <p class="footer-copyright">© 2026 Valen. All rights reserved.</p>
         </div>

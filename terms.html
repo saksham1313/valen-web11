@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#081317">
     <title>Terms of Service | Valen</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=3">
     <style>
         .legal-content {
             max-width: 800px;
@@ -27,6 +27,18 @@
             line-height: 1.8;
         }
     </style>
+
+    <!-- PostHog -->
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_A7UnC4i9MNHuKfqEBUMJt8wTAjtbYZGrKc9ccubR34bu', {
+            api_host: 'https://eu.i.posthog.com',
+            person_profiles: 'identified_only',
+            capture_pageview: true,
+            capture_pageleave: true,
+            capture_performance: true
+        });
+    </script>
 </head>
 <body>
 
@@ -72,7 +84,7 @@
     <footer class="footer">
         <div class="container">
             <img src="logo.png" alt="Valen Logo" class="footer-logo">
-            <p class="footer-motto">Train smarter. Recover better.</p>
+            <p class="footer-motto">Built by people who got tired of wasted sessions.</p>
             <div class="footer-nav">
                 <a href="privacypolicy.html">Privacy Policy</a>
                 <a href="terms.html">Terms of Service</a>
@@ -80,7 +92,7 @@
                 <a href="mailto:hello.valenapp@gmail.com">hello.valenapp@gmail.com</a>
             </div>
             <p class="footer-dev-note" style="max-width: 600px; font-size: 0.85rem; color: var(--text-faint); line-height: 1.6; margin-top: 10px; margin-bottom: 16px;">
-                Valen is built by independent developers who train. We're not backed by a corporation, a supplement brand, or anyone with an agenda. If something's broken, unclear, or missing — we actually want to know. Feedback, bug reports, and feature ideas go to hello.valenapp@gmail.com
+                Valen is built by independent developers who train. We're not backed by a corporation, a supplement brand, or anyone with an agenda. If something's broken, unclear, or missing, we actually want to know. Feedback, bug reports, and feature ideas go to hello.valenapp@gmail.com
             </p>
             <p class="footer-copyright">© 2026 Valen. All rights reserved.</p>
         </div>
