@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&family=Outfit:wght@400;600;700;800&display=swap');
 
 @keyframes heroReveal {
     0% {
@@ -429,9 +429,28 @@ button,
         radial-gradient(circle at 80% 70%, rgba(30, 168, 173, 0.03), transparent 50%);
     background-size: 200% 200%;
     animation: heroGlowShift 12s ease-in-out infinite;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    z-index: 0;
+    pointer-events: none;
 }
 
 .hero-grid {
+    position: relative;
+    z-index: 1;
     display: grid;
     grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
     gap: 56px;
@@ -2374,13 +2393,13 @@ button,
     }
 
     body {
-        font-size: 16px !important;
-        line-height: 1.5 !important;
+        font-size: 15px;
+        line-height: 1.5;
     }
 
-    p, span, li {
-        font-size: 16px !important;
-        line-height: 1.5 !important;
+    p, li {
+        font-size: 15px;
+        line-height: 1.5;
     }
 
     .kicker, .view-label, .flow-number, .metric-label, .status-label, .card-badge, .store-button-note, .hotspot-pill {
@@ -3051,6 +3070,226 @@ button,
         font-size: 0.88rem !important;
     }
 }
+
+/* ==========================================
+   INTERACTIVE APP UI MOCKUPS (LANDING PAGE)
+   ========================================== */
+.app-ui-mockup {
+    margin-top: 22px;
+    background: rgba(8, 19, 23, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 18px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: left;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.app-ui-mockup::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(30, 168, 173, 0.03) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.mockup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.mockup-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: var(--text-faint);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.mockup-badge {
+    background: rgba(30, 168, 173, 0.12);
+    border: 1px solid rgba(30, 168, 173, 0.25);
+    color: var(--accent);
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.mockup-badge.orange-badge {
+    background: rgba(240, 107, 39, 0.12);
+    border: 1px solid rgba(240, 107, 39, 0.25);
+    color: #f06b27;
+}
+
+.mockup-badge.red-badge {
+    background: rgba(224, 77, 54, 0.12);
+    border: 1px solid rgba(224, 77, 54, 0.25);
+    color: #e04d36;
+}
+
+.mockup-streak-row {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 14px;
+    padding: 12px;
+    margin-bottom: 14px;
+}
+
+.mockup-streak-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    background: rgba(211, 179, 86, 0.12);
+    border: 1px solid rgba(211, 179, 86, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+}
+
+.mockup-streak-detail {
+    flex: 1;
+    margin-left: 12px;
+}
+
+.mockup-streak-val {
+    font-weight: 700;
+    color: var(--text);
+    font-size: 0.9rem;
+}
+
+.mockup-streak-lbl {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-top: 1px;
+}
+
+.mockup-exercise-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 14px;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-left: 3px solid var(--accent);
+}
+
+.mockup-exercise-card.broken-card {
+    border-left-color: #e04d36;
+}
+
+.mockup-exercise-name {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.mockup-metric-grid {
+    margin-top: 8px;
+}
+
+.mockup-metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.72rem;
+    margin-top: 5px;
+}
+
+.mockup-metric-lbl {
+    color: var(--text-muted);
+}
+
+.mockup-metric-val {
+    color: var(--text-soft);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+}
+
+.mockup-arrow-up {
+    color: #94d1bc;
+    font-weight: bold;
+}
+
+.mockup-arrow-down {
+    color: #e04d36;
+    font-weight: bold;
+}
+
+.mockup-strain-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.mockup-strain-track {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 6px;
+    position: relative;
+}
+
+.mockup-strain-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #94d1bc 0%, #d3b356 50%, #e04d36 100%);
+    border-radius: 4px;
+}
+
+.mockup-recovery-grid {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.mockup-recovery-block {
+    flex: 1;
+    height: 10px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.mockup-recovery-block.active-block {
+    background: var(--accent);
+}
+
+.mockup-protocol-card {
+    background: rgba(224, 77, 54, 0.06);
+    border: 1px solid rgba(224, 77, 54, 0.15);
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 14px;
+}
+
+.mockup-protocol-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #e04d36;
+}
+
+.mockup-protocol-desc {
+    font-size: 0.74rem;
+    color: var(--text-muted);
+    line-height: 1.45;
+    margin-top: 4px;
+}
+
 
 
 

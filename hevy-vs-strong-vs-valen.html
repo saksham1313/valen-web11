@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#081317">
+    <title>Hevy vs Strong vs Valen | Valen Blog</title>
+    <meta name="description"
+        content="Valen reads recovery, fatigue, balance, and performance so you know what is actually ready to train.">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+
+    <meta property="og:title" content="Hevy vs Strong vs Valen | Valen Blog">
+    <meta property="og:description"
+        content="Interactive recovery mapping, deep training insights, and smarter suggestions for serious lifters.">
+    <meta property="og:image" content="og-image.png">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css?v=3">
+
+    <!-- PostHog -->
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_A7UnC4i9MNHuKfqEBUMJt8wTAjtbYZGrKc9ccubR34bu', {
+            api_host: 'https://eu.i.posthog.com',
+            person_profiles: 'identified_only',
+            capture_pageview: true,
+            capture_pageleave: true,
+            capture_performance: true
+        });
+    </script>
+</head>
+
+<body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <div class="store-ribbon" role="region" aria-label="Store availability">
+        <div class="container store-ribbon-inner">
+            <div class="store-ribbon-copy">
+                <span class="store-ribbon-label">AVAILABLE NOW</span>
+
+            </div>
+            <div class="store-ribbon-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="store-button store-button-live"
+                    target="_blank" rel="noreferrer">
+                    <svg viewBox="0 0 512 512" width="16" height="16" fill="currentColor" style="margin-right: 2px;">
+                        <path
+                            d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l220.7-221.2 60.1 60.1L104.6 499z" />
+                    </svg>
+                    Play Store
+                </a>
+                <a href="#" class="store-button" style="opacity: 0.5; cursor: not-allowed; pointer-events: none;" aria-disabled="true">
+                    <svg viewBox="0 0 384 512" width="16" height="16" fill="currentColor" style="margin-right: 2px;">
+                        <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+                    </svg>
+                    Coming Soon
+                </a>
+                <button type="button" class="ribbon-close" aria-label="Dismiss store ribbon"
+                    onclick="this.closest('.store-ribbon').style.display='none';">
+                    ×
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-container" aria-label="Valen home">
+                <img src="logo.png" alt="Valen Logo" class="logo-img">
+                <span class="logo-text">Valen</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="#faq">FAQ</a>
+                <a href="#features">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="blog.html">Blog</a>
+                <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="nav-cta" target="_blank"
+                    rel="noreferrer">Get Valen</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <article class="container" style="max-width: 800px; margin: 0 auto; padding-top: 120px; padding-bottom: 80px;">
+            <p class="kicker" style="text-align: center; margin-bottom: 20px;">TRAINING APPS</p>
+            <h1 class="hero-title" style="font-size: 48px; line-height: 1.1; margin-bottom: 30px; text-align: center;">Hevy vs Strong vs Valen: <br><span class="text-accent" style="display: inline-block;">The Honest Comparison for Gym Bros</span></h1>
+            
+            <div class="article-content" style="color: var(--text-secondary); font-size: 18px; line-height: 1.7; font-family: 'Inter', sans-serif;">
+                <p style="margin-bottom: 25px; font-size: 20px; color: var(--text-primary);">Three apps walked into a gym. Two of them logged the workout. One of them actually knew if you should be there.</p>
+
+                <p style="margin-bottom: 40px;">This is a feature by feature breakdown of Hevy, Strong, and Valen. No fluff, no sponsored opinions. Just what each app does and where it quietly gives up.</p>
+                <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.1); margin-bottom: 40px;">
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Workout Logging</h3>
+                <p style="margin-bottom: 20px;">All three let you log sets, reps, and weight. This is table stakes at this point.</p>
+                <p style="margin-bottom: 20px;">Strong is the fastest. The interface was built around one thing and one thing only — getting sets logged between rest periods without fumbling around. It's genuinely hard to beat on pure logging speed.</p>
+                <p style="margin-bottom: 20px;">Hevy is close behind. Slightly more visual, slightly more modern. Logging feels good. Not quite as snappy as Strong but most people wouldn't notice the difference.</p>
+                <p style="margin-bottom: 20px;">Valen logs workouts fine. Exercise library, custom exercises, sets and reps, RPE, session notes, rest timer built in. Where it differs is that every exercise you log feeds the recovery model automatically. So logging isn't just record-keeping, it's input data. Your chest day isn't just a workout entry, it's telling the app exactly what stress you put on upper chest, mid chest, lower chest, anterior delts, and triceps separately.</p>
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Strong on raw speed. Valen on what the log actually does afterward.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Exercise Library</h3>
+                <p style="margin-bottom: 20px;">Strong has a solid library. Covers everything most people will ever need, custom exercise creation works without friction.</p>
+                <p style="margin-bottom: 20px;">Hevy similar story. Good library, easy to add custom movements.</p>
+                <p style="margin-bottom: 20px;">Valen's library is built differently. Every exercise is mapped to its primary and secondary muscle groups at the subzone level, not just the broad muscle. Incline dumbbell press doesn't just say "chest." It loads upper chest primarily, mid chest secondarily, anterior deltoid as support. That mapping is what powers the recovery model, so it actually matters that it's accurate. You can also add custom exercises and assign them to specific muscle subzones manually.</p>
+                
+                <div class="glass-panel" style="padding: 20px; margin: 30px 0;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <span style="font-weight: 700; font-size: 18px; color: var(--text-primary);">Incline Dumbbell Press</span>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px;">
+                            <span style="color: var(--text-secondary); font-size: 15px;">Upper Chest</span>
+                            <span style="color: var(--color-fatigue); font-weight: 600; font-size: 12px; background: rgba(230,57,70,0.1); padding: 4px 8px; border-radius: 4px;">PRIMARY (60%)</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px;">
+                            <span style="color: var(--text-secondary); font-size: 15px;">Anterior Delt</span>
+                            <span style="color: var(--color-ready); font-weight: 600; font-size: 12px; background: rgba(42,157,143,0.1); padding: 4px 8px; border-radius: 4px;">SECONDARY (30%)</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.05); padding: 12px; border-radius: 8px;">
+                            <span style="color: var(--text-secondary); font-size: 15px;">Mid Chest</span>
+                            <span style="color: var(--text-faint); font-weight: 600; font-size: 12px; background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 4px;">SUPPORT (10%)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Valen, because the library doing something useful with the data rather than just storing it.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Progress Tracking</h3>
+                <p style="margin-bottom: 20px;">Strong shows you charts of your lifts over time. Weight on the bar going up. Estimated 1RM trends. Clean, functional, does the job.</p>
+                <p style="margin-bottom: 20px;">Hevy does this better visually. The charts are more readable, the volume breakdowns are more accessible, and the estimated 1RM graphs are genuinely satisfying to look at when things are going well.</p>
+                <p style="margin-bottom: 20px;">Valen tracks E1RM per exercise, PRs, progressive overload streaks, and velocity. Velocity here means the rate at which your strength is moving, so you can see if you're progressing, stalling, or quietly regressing before it becomes obvious. You also get 7-day trend lines per muscle group so you can see training load patterns, not just raw numbers.</p>
+                
+                <div class="glass-panel" style="padding: 24px; margin: 30px 0; display: flex; flex-direction: column; gap: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span style="font-weight: 700; font-size: 16px; color: var(--text-primary);">Squat e1RM Trend</span>
+                        <span style="color: var(--color-ready); font-weight: 700;">+12 lbs</span>
+                    </div>
+                    <div style="height: 120px; display: flex; align-items: flex-end; gap: 6px; padding-top: 10px;">
+                        <div style="flex: 1; background: var(--color-fatigue); height: 40%; border-radius: 4px 4px 0 0; opacity: 0.5;"></div>
+                        <div style="flex: 1; background: var(--color-fatigue); height: 45%; border-radius: 4px 4px 0 0; opacity: 0.6;"></div>
+                        <div style="flex: 1; background: var(--color-next); height: 60%; border-radius: 4px 4px 0 0; opacity: 0.7;"></div>
+                        <div style="flex: 1; background: var(--color-next); height: 55%; border-radius: 4px 4px 0 0; opacity: 0.8;"></div>
+                        <div style="flex: 1; background: var(--color-ready); height: 80%; border-radius: 4px 4px 0 0; opacity: 0.9;"></div>
+                        <div style="flex: 1; background: var(--color-ready); height: 100%; border-radius: 4px 4px 0 0; box-shadow: 0 0 15px rgba(42,157,143,0.4);"></div>
+                    </div>
+                    <div style="display: flex; gap: 10px; margin-top: 10px; flex-wrap: wrap;">
+                        <span style="font-size: 12px; background: rgba(255,255,255,0.05); padding: 6px 10px; border-radius: 12px; color: var(--text-secondary); font-weight: 500;">Velocity: High</span>
+                        <span style="font-size: 12px; background: rgba(42,157,143,0.1); color: var(--color-ready); padding: 6px 10px; border-radius: 12px; font-weight: 600;">Overload Streak: 3 Wks</span>
+                    </div>
+                </div>
+
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Valen on depth. Hevy on presentation. Strong gets the job done if you just want the basics.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Recovery Tracking</h3>
+                <p style="margin-bottom: 20px;">Strong: does not do this.</p>
+                <p style="margin-bottom: 20px;">Hevy: does not do this.</p>
+                <p style="margin-bottom: 20px;">Valen: this is the whole point.</p>
+                <p style="margin-bottom: 20px;">Every session gets processed through the Stimulus-Recovery-Adaptation model. Fatigue is calculated per muscle subzone, not per broad muscle group. It decays in real time based on training volume, intensity, and the muscle's individual recovery rate. You get a front and back body heatmap that updates hour by hour. Green means recovered and ready. Orange means partially recovered. Red means rest it.</p>
+                
+                <div class="glass-panel" style="padding: 24px; margin: 30px 0;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div style="background: rgba(42,157,143,0.05); padding: 20px; border-radius: 12px; text-align: center; border: 1px solid rgba(42,157,143,0.1);">
+                            <div style="width: 16px; height: 16px; background: var(--color-ready); border-radius: 50%; margin: 0 auto 12px; box-shadow: 0 0 12px var(--color-ready);"></div>
+                            <span style="display: block; font-weight: 700; color: var(--text-primary); font-size: 16px;">Lateral Delt</span>
+                            <span style="display: block; font-size: 13px; color: var(--text-faint); margin-top: 6px;">100% Recovered</span>
+                        </div>
+                        <div style="background: rgba(230,57,70,0.05); padding: 20px; border-radius: 12px; text-align: center; border: 1px solid rgba(230,57,70,0.1);">
+                            <div style="width: 16px; height: 16px; background: var(--color-fatigue); border-radius: 50%; margin: 0 auto 12px; box-shadow: 0 0 12px var(--color-fatigue);"></div>
+                            <span style="display: block; font-weight: 700; color: var(--text-primary); font-size: 16px;">Front Delt</span>
+                            <span style="display: block; font-size: 13px; color: var(--text-faint); margin-top: 6px;">Needs 24h</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p style="margin-bottom: 20px;">You can also manually flag soreness or fatigue on any muscle if the model doesn't match how you feel. The system adjusts. No wearable needed, no heart rate monitor, no sleep tracker. Just your workout log and a model that's been built carefully.</p>
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Valen by default since it's the only one playing this game.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Weekly Planning</h3>
+                <p style="margin-bottom: 20px;">Strong has routine templates. You build them, you follow them. It doesn't adapt to anything.</p>
+                <p style="margin-bottom: 20px;">Hevy same thing. Good routine management, static planning.</p>
+                <p style="margin-bottom: 20px;">Valen's weekly planner is dynamic. It takes your preferred split, your training frequency, and your real-time muscle fatigue state and suggests what to train each day. If you missed a session or trained something unexpectedly, it adjusts. It tells you which day is your peak readiness day for each muscle group so you can schedule your hardest sessions when your body is actually prepared for them. It also flags when your systemic fatigue is high enough that you should probably just rest regardless of what the plan says.</p>
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Valen. The other two don't have a weekly planner that knows anything about your body.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Muscle Balance and Volume Insights</h3>
+                <p style="margin-bottom: 20px;">Strong: not a feature.</p>
+                <p style="margin-bottom: 20px;">Hevy: basic volume tracking by muscle group, nothing analytical.</p>
+                <p style="margin-bottom: 20px;">Valen shows you anterior versus posterior volume balance, push versus pull ratios, and flags specialization penalties if you're hammering one muscle group while neglecting its counterpart. If your chest is getting 65% of your weekly volume and your back is getting 7%, Valen will quietly let you know you're building a posture problem. CNS strain is tracked separately from local muscle fatigue, so you can see when your nervous system is cooked even if individual muscles look recovered on the map.</p>
+                
+                <div class="glass-panel" style="padding: 24px; margin: 30px 0;">
+                    <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px;">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-end; height: 100px; padding: 0 10%;">
+                            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                                <div style="width: 44px; height: 90px; background: rgba(255,255,255,0.05); border-radius: 6px; position: relative; overflow: hidden;">
+                                    <div style="position: absolute; bottom: 0; width: 100%; height: 95%; background: var(--color-fatigue); border-radius: 6px;"></div>
+                                </div>
+                                <span style="font-size: 12px; color: var(--text-faint); font-family: 'DM Mono', monospace;">ANTERIOR</span>
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                                <div style="width: 44px; height: 90px; background: rgba(255,255,255,0.05); border-radius: 6px; position: relative; overflow: hidden;">
+                                    <div style="position: absolute; bottom: 0; width: 100%; height: 25%; background: var(--color-ready); border-radius: 6px;"></div>
+                                </div>
+                                <span style="font-size: 12px; color: var(--text-faint); font-family: 'DM Mono', monospace;">POSTERIOR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background: rgba(230, 57, 70, 0.1); border-left: 3px solid #e63946; padding: 18px; border-radius: 6px;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#e63946" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            <span style="color: #e63946; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">ANTERIOR OVERLOAD DETECTED</span>
+                        </div>
+                        <p style="color: var(--text-secondary); font-size: 15px; margin: 0; line-height: 1.5;">Pushing movements account for 85% of your volume this week. Add posterior work to prevent postural issues.</p>
+                    </div>
+                </div>
+                
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Valen, and it's not close.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Rest Timer & Plate Calculator</h3>
+                <p style="margin-bottom: 20px;">All three apps have functional rest timers and plate calculators. Valen gets a slight nod on the rest timer for being unobtrusive, but they all do the job fine. Moving on.</p>
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> All the same.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Sharing and Social</h3>
+                <p style="margin-bottom: 20px;">Strong: no social feed. Some people consider this a feature.</p>
+                <p style="margin-bottom: 20px;">Hevy: has a social feed where you can follow other users and see their workouts. Active community, some people love it, others find it completely irrelevant to why they downloaded a workout app.</p>
+                <p style="margin-bottom: 20px;">Valen has share cards. You export your recovery heatmap overlaid on a photo as a card to post wherever you want. No in-app social feed, no followers, no community to maintain. Just a clean export if you want to show someone what your body looked like after a hard week.</p>
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> depends entirely on whether you want a social feed in your workout app or not. If yes, Hevy. If no, Strong or Valen.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Offline Use & Pricing</h3>
+                <p style="margin-bottom: 20px;"><strong>Offline Use:</strong> Strong and Valen are fully offline first. Hevy works offline but syncs when connected. Valen gets a small nod for making offline the default rather than the fallback.</p>
+                <p style="margin-bottom: 20px;"><strong>Free Tier:</strong> Hevy offers unlimited routines and full history. Valen offers full recovery heatmap, unlimited logging, exercise library with subzone mapping, all free. Valen wins on how much the free tier actually tells you about your body.</p>
+                <p style="margin-bottom: 40px;"><strong>Pricing:</strong> Strong has a subscription tier for advanced features. Hevy is subscription based. Valen offers a free tier plus annual or lifetime Pro. Lifetime option exists, which is increasingly rare in the app world.</p>
+
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Platform</h3>
+                <p style="margin-bottom: 20px;">Strong: iOS and Android.</p>
+                <p style="margin-bottom: 20px;">Hevy: iOS and Android.</p>
+                <p style="margin-bottom: 20px;">Valen: Android only right now. iOS is coming.</p>
+                <p style="margin-bottom: 40px;"><strong>Winner:</strong> Strong and Hevy. Valen is catching up.</p>
+
+                <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.1); margin-bottom: 40px; margin-top: 60px;">
+                <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Who Should Use What</h3>
+                <p style="margin-bottom: 20px;">You want the fastest possible logging experience with zero distractions: <strong>Strong.</strong></p>
+                <p style="margin-bottom: 20px;">You want a free, modern logger with a social layer and clean progress visuals: <strong>Hevy.</strong></p>
+                <p style="margin-bottom: 20px;">You want to know what your body is actually doing between sessions and stop guessing what to train: <strong>Valen.</strong></p>
+                <p style="margin-bottom: 20px;">You want all three things: use Strong or Hevy for the logging speed if it matters that much to you, but Valen is the only one that answers the question every serious lifter eventually starts asking. Not "what did I lift" but "am I actually ready to lift again."</p>
+
+                <p style="margin-top: 60px; font-style: italic; color: var(--text-faint);">Valen is free on Android. valenapp.tech</p>
+            </div>
+        </article>
+
