@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#081317">
     <title>Valen | Train smarter</title>
+    <link rel="canonical" href="https://valenapp.tech/">
     <meta name="description"
         content="Valen reads recovery, fatigue, balance, and performance so you know what is actually ready to train.">
 
@@ -1197,6 +1198,11 @@
                 otherTooltip.classList.remove('visible');
 
                 showTooltip(e.target);
+
+                if (window.posthog && typeof window.posthog.capture === 'function') {
+                    const muscleZone = e.target.closest('.muscle-zone');
+                    window.posthog.capture('muscle_zone_clicked', { zone: muscleZone ? muscleZone.getAttribute('data-zone') : 'unknown' });
+                }
             });
         });
 

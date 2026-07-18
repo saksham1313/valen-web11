@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#081317">
     <title>Valen | Blog</title>
+    <link rel="canonical" href="https://valenapp.tech/blog.html">
     <meta name="description"
         content="Valen reads recovery, fatigue, balance, and performance so you know what is actually ready to train.">
 
@@ -105,7 +106,7 @@
                 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px;">
                     
                     <!-- Article 1 -->
-                    <div class="glass-panel" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='hevy-vs-strong-vs-valen.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
+                    <div class="glass-panel ph-autocapture" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='hevy-vs-strong-vs-valen.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
                         <p class="kicker" style="font-size: 11px; margin-bottom: 15px;">APP COMPARISON</p>
                         <h3 class="section-heading" style="font-size: 24px; margin-bottom: 15px;">Hevy vs Strong vs Valen: The Honest Comparison for Gym Bros</h3>
                         <p class="section-text" style="font-size: 15px; flex-grow: 1; margin-bottom: 25px;">Three apps walked into a gym. Two of them logged the workout. One of them actually knew if you should be there.</p>
@@ -113,7 +114,7 @@
                     </div>
 
                     <!-- Article 2 -->
-                    <div class="glass-panel" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='why-shoulders-never-recover.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
+                    <div class="glass-panel ph-autocapture" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='why-shoulders-never-recover.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
                         <p class="kicker" style="font-size: 11px; margin-bottom: 15px;">TRAINING SCIENCE</p>
                         <h3 class="section-heading" style="font-size: 24px; margin-bottom: 15px;">Why Your Shoulders Never Seem to Recover</h3>
                         <p class="section-text" style="font-size: 15px; flex-grow: 1; margin-bottom: 25px;">You trained shoulders three days ago. They still feel like someone filled them with wet concrete. The frustrating part is that you're probably not doing anything obviously wrong.</p>
@@ -121,7 +122,7 @@
                     </div>
 
                     <!-- Article 3 -->
-                    <div class="glass-panel" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
+                    <div class="glass-panel ph-autocapture" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
                         <p class="kicker" style="font-size: 11px; margin-bottom: 15px;">PRODUCT UPDATE</p>
                         <h3 class="section-heading" style="font-size: 24px; margin-bottom: 15px;">Introducing Adaptive Weekly Planning</h3>
                         <p class="section-text" style="font-size: 15px; flex-grow: 1; margin-bottom: 25px;">Say goodbye to rigid schedules. Valen now automatically shifts your Push/Pull/Legs days based on real-time localized muscle fatigue and recovery metrics.</p>
@@ -349,6 +350,11 @@
                 otherTooltip.classList.remove('visible');
 
                 showTooltip(e.target);
+
+                if (window.posthog && typeof window.posthog.capture === 'function') {
+                    const muscleZone = e.target.closest('.muscle-zone');
+                    window.posthog.capture('muscle_zone_clicked', { zone: muscleZone ? muscleZone.getAttribute('data-zone') : 'unknown' });
+                }
             });
         });
 
