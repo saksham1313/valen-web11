@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://valenapp.tech/sitemap.xml
+Sitemap: https://www.valenapp.tech/sitemap.xml

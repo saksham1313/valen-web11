@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://valenapp.tech/</loc>
+    <loc>https://www.valenapp.tech/</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/pricing.html</loc>
+    <loc>https://www.valenapp.tech/pricing.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/blog.html</loc>
+    <loc>https://www.valenapp.tech/blog.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/hevy-vs-strong-vs-valen.html</loc>
+    <loc>https://www.valenapp.tech/hevy-vs-strong-vs-valen.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/why-shoulders-never-recover.html</loc>
+    <loc>https://www.valenapp.tech/why-shoulders-never-recover.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/privacypolicy.html</loc>
+    <loc>https://www.valenapp.tech/privacypolicy.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/terms.html</loc>
+    <loc>https://www.valenapp.tech/terms.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://valenapp.tech/delete-account.html</loc>
+    <loc>https://www.valenapp.tech/delete-account.html</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
