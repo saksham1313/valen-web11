@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#081317">
-    <title>Pricing | Valen</title>
+    <title>Pro | Valen</title>
     <link rel="canonical" href="https://www.valenapp.tech/pricing.html">
-    <meta name="description" content="Simple, transparent pricing for Valen. Free to download. Upgrade to Pro for unlimited history, weekly planning, and advanced insights.">
+    <meta name="description" content="Valen Pro unlocks unlimited history, adaptive weekly planning, and deep subzone recovery insights. Billed yearly or as a single lifetime purchase, exact pricing shown at checkout on Google Play.">
 
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 
-    <meta property="og:title" content="Pricing | Valen">
-    <meta property="og:description" content="Simple, transparent pricing for Valen. Free to download. Upgrade to Pro for unlimited history, weekly planning, and advanced insights.">
+    <meta property="og:title" content="Pro | Valen">
+    <meta property="og:description" content="Valen Pro unlocks unlimited history, adaptive weekly planning, and deep subzone recovery insights. Billed yearly or as a single lifetime purchase.">
     <meta property="og:image" content="https://www.valenapp.tech/og-image.png">
     <meta property="og:url" content="https://www.valenapp.tech/pricing.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Valen">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pricing | Valen">
-    <meta name="twitter:description" content="Simple, transparent pricing for Valen. Free to download. Upgrade to Pro for unlimited history, weekly planning, and advanced insights.">
+    <meta name="twitter:title" content="Pro | Valen">
+    <meta name="twitter:description" content="Valen Pro unlocks unlimited history, adaptive weekly planning, and deep subzone recovery insights.">
     <meta name="twitter:image" content="https://www.valenapp.tech/og-image.png">
 
     <script type="application/ld+json">
@@ -36,20 +36,54 @@
         },
         "offers": [
             {
-                "@type": "Offer",
-                "name": "Valen Yearly",
-                "price": "24.99",
+                "@type": "AggregateOffer",
                 "priceCurrency": "USD",
+                "lowPrice": "24.99",
+                "highPrice": "49.99",
+                "offerCount": "2",
                 "url": "https://www.valenapp.tech/pricing.html",
                 "availability": "https://schema.org/InStock"
+            }
+        ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How much does Valen Pro cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Valen Pro is billed at roughly $24.99 USD per year, or $49.99 USD as a single lifetime purchase, with the exact figure shown in your local currency at checkout on Google Play since pricing is region-adjusted. For context: that yearly price is in the same range as bare-bones logging apps that don't track recovery at all, such as Hevy Pro (about $23.99/year) and Strong PRO (about $29.99/year). It is a fraction of what recovery-focused competitors charge for far less granular data. Fitbod runs $15.99/month (about $191.88/year if paid monthly, or $95.99/year on its annual plan) for whole-muscle-group recovery only, no subzone breakdown, and wearable-based recovery trackers like Whoop ($199-$359/year membership) or Fitbit Air ($99.99 hardware plus an optional $9.99/month Google Health Premium subscription) cost several times more for general biometric readiness with zero muscle-specific detail. In short, Valen Pro's yearly price is close to a single month of a wearable subscription, or less than two months of Fitbod, for a full year of muscle-subzone-level recovery tracking."
+                }
             },
             {
-                "@type": "Offer",
-                "name": "Valen Lifetime",
-                "price": "49.99",
-                "priceCurrency": "USD",
-                "url": "https://www.valenapp.tech/pricing.html",
-                "availability": "https://schema.org/InStock"
+                "@type": "Question",
+                "name": "Is Valen actually free, or is that a trial?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Valen's free tier is permanent, not a trial. It includes the full recovery heatmap, unlimited workout logging, the muscle-subzone-mapped exercise library, and 30 days of training history, with no account or payment required to start. This is different from apps like Fitbod, which only offers a 7-day trial before requiring a paid subscription to keep functioning at all."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is a yearly subscription or the lifetime purchase better value?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The one-time lifetime purchase pays for itself compared to the yearly subscription in under two years, then costs nothing further. Lifetime pricing is increasingly rare among fitness apps, most of which (Fitbod, Whoop, Strong PRO) are subscription-only with no permanent buyout option."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Valen Pro price vary by country?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Like all Google Play subscriptions, Valen Pro's price is adjusted for each region's purchasing power and displayed in local currency at checkout, so the amount shown on the Play Store listing in your country may differ from the USD reference price."
+                }
             }
         ]
     }
@@ -88,7 +122,7 @@
             <div class="nav-links" id="nav-links">
                 <a href="index.html#faq">FAQ</a>
                 <a href="index.html#features">Features</a>
-                <a href="pricing.html" class="active">Pricing</a>
+                <a href="pricing.html" class="active">Pro</a>
                 <a href="blog.html">Blog</a>
                 <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="nav-cta" target="_blank"
                     rel="noreferrer">Get Valen</a>
@@ -107,13 +141,15 @@
         <section class="pricing-grid">
             <div class="pricing-card glass-panel">
                 <span class="card-badge">Most Popular</span>
-                <h3 class="feature-title">Valen Yearly</h3>
-                <div class="price-value">$24.99<span class="price-sub"> / year</span></div>
+                <h3 class="feature-title">Pro</h3>
+                <div class="price-value" style="font-size: 1.4rem;">Billed Yearly<span class="price-sub" style="display: block; font-size: 0.85rem; margin-top: 6px;">Local pricing shown at checkout</span></div>
+                <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="btn btn-secondary" style="margin-top: 20px; display: inline-block;" target="_blank" rel="noreferrer">See pricing on Google Play</a>
             </div>
             <div class="pricing-card glass-panel featured">
-                <h3 class="feature-title">Valen Lifetime</h3>
-                <div class="price-value">$49.99<span class="price-sub"> one-time</span></div>
-                <p class="lifetime-note" style="margin-top: 12px; font-size: 0.9rem; color: var(--text-muted);">Pays for itself in under 2 years. Yours permanently after that.</p>
+                <h3 class="feature-title">Pro Lifetime</h3>
+                <div class="price-value" style="font-size: 1.4rem;">One-Time Payment<span class="price-sub" style="display: block; font-size: 0.85rem; margin-top: 6px;">Local pricing shown at checkout</span></div>
+                <p class="lifetime-note" style="margin-top: 12px; font-size: 0.9rem; color: var(--text-muted);">Pays for itself versus the yearly plan in under 2 years. Yours permanently after that.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="btn btn-secondary" style="margin-top: 20px; display: inline-block;" target="_blank" rel="noreferrer">See pricing on Google Play</a>
             </div>
         </section>
 
@@ -391,7 +427,7 @@
             <div class="trust-points">
                 <div class="trust-point">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    Start instantly — no sign-up
+                    Start instantly, no sign-up
                 </div>
                 <div class="trust-point">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -407,6 +443,28 @@
         <section class="cta-section">
             <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="btn btn-primary" target="_blank" rel="noreferrer">Start Free</a>
             <p class="download-note" style="margin-top: 15px;">No signup. Takes 10 seconds.</p>
+        </section>
+
+        <section class="pricing-faq-section" style="max-width: 760px; margin: 80px auto 40px;">
+            <h2 class="section-heading center-heading" style="margin-bottom: 32px;">Common Questions</h2>
+            <div style="display: flex; flex-direction: column; gap: 12px;">
+                <details style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 22px;">
+                    <summary style="cursor: pointer; font-weight: 600; color: var(--text-primary); list-style: none;">How much does Valen Pro cost?</summary>
+                    <p style="margin-top: 14px; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;">Valen Pro is billed at roughly $24.99 USD per year, or $49.99 USD as a single lifetime purchase, with the exact figure shown in your local currency at checkout on Google Play since pricing is region-adjusted. For context: that yearly price is in the same range as bare-bones logging apps that don't track recovery at all, such as Hevy Pro (about $23.99/year) and Strong PRO (about $29.99/year). It's a fraction of what recovery-focused competitors charge for far less granular data. Fitbod runs $15.99/month (about $191.88/year if paid monthly, or $95.99/year on its annual plan) for whole-muscle-group recovery only, with no subzone breakdown, and wearable-based recovery trackers like Whoop ($199-$359/year membership) or Fitbit Air ($99.99 hardware plus an optional $9.99/month Google Health Premium subscription) cost several times more for general biometric readiness with zero muscle-specific detail. In short, Valen Pro's yearly price is close to a single month of a wearable subscription, or less than two months of Fitbod, for a full year of muscle-subzone-level recovery tracking.</p>
+                </details>
+                <details style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 22px;">
+                    <summary style="cursor: pointer; font-weight: 600; color: var(--text-primary); list-style: none;">Is Valen actually free, or is that a trial?</summary>
+                    <p style="margin-top: 14px; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;">Valen's free tier is permanent, not a trial. It includes the full recovery heatmap, unlimited workout logging, the muscle-subzone-mapped exercise library, and 30 days of training history, with no account or payment required to start. That's different from apps like Fitbod, which only offers a 7-day trial before requiring a paid subscription to keep functioning at all.</p>
+                </details>
+                <details style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 22px;">
+                    <summary style="cursor: pointer; font-weight: 600; color: var(--text-primary); list-style: none;">Is a yearly subscription or the lifetime purchase better value?</summary>
+                    <p style="margin-top: 14px; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;">The one-time lifetime purchase pays for itself compared to the yearly subscription in under two years, then costs nothing further. Lifetime pricing is increasingly rare among fitness apps, most of which (Fitbod, Whoop, Strong PRO) are subscription-only with no permanent buyout option.</p>
+                </details>
+                <details style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 22px;">
+                    <summary style="cursor: pointer; font-weight: 600; color: var(--text-primary); list-style: none;">Does Valen Pro's price vary by country?</summary>
+                    <p style="margin-top: 14px; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7;">Yes. Like all Google Play subscriptions, Valen Pro's price is adjusted for each region's purchasing power and displayed in local currency at checkout, so the amount shown on the Play Store listing in your country may differ from the USD reference price above.</p>
+                </details>
+            </div>
         </section>
     </main>
 
