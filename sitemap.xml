@@ -14,9 +14,21 @@
   </url>
   <url>
     <loc>https://www.valenapp.tech/blog.html</loc>
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valenapp.tech/muscle-subzone-tracking-guide.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.valenapp.tech/featured-android-planet-netherlands.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.valenapp.tech/hevy-vs-strong-vs-valen.html</loc>

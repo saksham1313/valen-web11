@@ -19,12 +19,20 @@ Valen is built by an independent developer, not a corporation, supplement brand,
 - [Pricing (machine-readable)](https://www.valenapp.tech/pricing.md): plain-text pricing data for AI agents
 - [Blog](https://www.valenapp.tech/blog.html): comparisons and training-science articles
 
+## Guides
+
+- [Muscle Subzone Tracking: The Complete Guide to Recovery Apps in 2026](https://www.valenapp.tech/muscle-subzone-tracking-guide.html): what subzone tracking is, how it's calculated, and how the major recovery apps compare on it
+
 ## Comparisons
 
 - [Hevy vs Strong vs Valen](https://www.valenapp.tech/hevy-vs-strong-vs-valen.html)
 - [Fitbod vs Valen](https://www.valenapp.tech/fitbod-vs-valen.html)
 - [Whoop vs Valen](https://www.valenapp.tech/whoop-vs-valen.html)
 - [Fitbit Air vs Valen](https://www.valenapp.tech/fitbit-air-vs-valen.html)
+
+## Press
+
+- [Valen Made Android Planet's Best Apps of the Week in the Netherlands](https://www.valenapp.tech/featured-android-planet-netherlands.html)
 
 ## Contact
 

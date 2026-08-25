@@ -36,6 +36,16 @@
         "blogPost": [
             {
                 "@type": "BlogPosting",
+                "headline": "Muscle Subzone Tracking: The Complete Guide to Recovery Apps in 2026",
+                "url": "https://www.valenapp.tech/muscle-subzone-tracking-guide.html"
+            },
+            {
+                "@type": "BlogPosting",
+                "headline": "Valen Made Android Planet's Best Apps of the Week in the Netherlands",
+                "url": "https://www.valenapp.tech/featured-android-planet-netherlands.html"
+            },
+            {
+                "@type": "BlogPosting",
                 "headline": "Hevy vs Strong vs Valen: The Honest Comparison for Gym Bros",
                 "url": "https://www.valenapp.tech/hevy-vs-strong-vs-valen.html"
             },
@@ -152,7 +162,23 @@
         <section class="section" style="padding-top: 20px;">
             <div class="container">
                 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px;">
-                    
+
+                    <!-- Article 0a -->
+                    <div class="glass-panel ph-autocapture" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='muscle-subzone-tracking-guide.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
+                        <p class="kicker" style="font-size: 11px; margin-bottom: 15px;">COMPLETE GUIDE</p>
+                        <h3 class="section-heading" style="font-size: 24px; margin-bottom: 15px;">Muscle Subzone Tracking: The Complete Guide to Recovery Apps in 2026</h3>
+                        <p class="section-text" style="font-size: 15px; flex-grow: 1; margin-bottom: 25px;">What subzone tracking actually is, why "chest: 60% recovered" hides the imbalance that matters, and how Valen, Whoop, Fitbod, Fitbit Air, Hevy, and Strong compare on it.</p>
+                        <a href="muscle-subzone-tracking-guide.html" style="color: var(--text-accent); text-decoration: none; font-weight: 500; font-family: 'Inter', sans-serif; display: flex; align-items: center; gap: 8px;">Read Article <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+
+                    <!-- Article 0b -->
+                    <div class="glass-panel ph-autocapture" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='featured-android-planet-netherlands.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
+                        <p class="kicker" style="font-size: 11px; margin-bottom: 15px;">PRESS</p>
+                        <h3 class="section-heading" style="font-size: 24px; margin-bottom: 15px;">Valen Made Android Planet's Best Apps of the Week in the Netherlands</h3>
+                        <p class="section-text" style="font-size: 15px; flex-grow: 1; margin-bottom: 25px;">A solo-built recovery app got picked up by one of the Netherlands' biggest Android publications. Here's the honest story of what got noticed, and what's next.</p>
+                        <a href="featured-android-planet-netherlands.html" style="color: var(--text-accent); text-decoration: none; font-weight: 500; font-family: 'Inter', sans-serif; display: flex; align-items: center; gap: 8px;">Read Article <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+
                     <!-- Article 1 -->
                     <div class="glass-panel ph-autocapture" style="padding: 30px; display: flex; flex-direction: column; cursor: pointer; transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;" onclick="window.location.href='hevy-vs-strong-vs-valen.html'" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(0, 0, 0, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(0, 0, 0, 0.2)';">
                         <p class="kicker" style="font-size: 11px; margin-bottom: 15px;">APP COMPARISON</p>
@@ -333,108 +359,6 @@
                 }
             });
         }
-
-        // Premium Anatomical Body Map Interaction & Tooltips
-        const ZONE_DETAILS = {
-            chest: { name: 'Chest', status: 'ready', label: 'Ready' },
-            core: { name: 'Core', status: 'ready', label: 'Ready' },
-            arms: { name: 'Arms', status: 'ready', label: 'Ready' },
-            back: { name: 'Back', status: 'recovering', label: 'Recovering' },
-            legs: { name: 'Legs', status: 'recovering', label: 'Recovering' },
-            shoulders: { name: 'Shoulders', status: 'fatigued', label: 'Needs Rest' }
-        };
-
-        const frontTooltip = document.getElementById('front-tooltip');
-        const backTooltip = document.getElementById('back-tooltip');
-
-        // Stagger load the muscle zones on page load
-        window.addEventListener('DOMContentLoaded', () => {
-            const silhouettes = document.querySelectorAll('.body-silhouette');
-            silhouettes.forEach(sil => {
-                setTimeout(() => {
-                    sil.classList.add('loaded');
-                }, 150);
-            });
-        });
-
-        function showTooltip(path) {
-            const zoneId = path.getAttribute('data-zone');
-            const details = ZONE_DETAILS[zoneId];
-            if (!details) return;
-
-            // Determine if path belongs to front or back view
-            const isFront = path.closest('svg').getAttribute('aria-label').includes('front');
-            const tooltip = isFront ? frontTooltip : backTooltip;
-            const viewBoxMinX = isFront ? 58 : 400;
-
-            // Get precise SVG bounds and compute percentage center relative to the viewBox width/height
-            const bbox = path.getBBox();
-            const centroidX = bbox.x + bbox.width / 2;
-            const centroidY = bbox.y;
-
-            const leftPercent = ((centroidX - viewBoxMinX) / 220) * 100;
-            const topPercent = ((centroidY - 10) / 540) * 100;
-
-            // Populate tooltip chip markup matching the app's premium visual design
-            tooltip.innerHTML = `
-                <span class="tooltip-dot"></span>
-                <span>${details.name}</span>
-                <span class="tooltip-status-label">${details.label}</span>
-            `;
-
-            // Reset status classes
-            tooltip.className = 'custom-tooltip';
-            tooltip.classList.add(details.status);
-
-            // Position and show
-            tooltip.style.left = `${leftPercent}%`;
-            tooltip.style.top = `${topPercent}%`;
-            tooltip.classList.add('visible');
-        }
-
-        function hideTooltip(path) {
-            const isFront = path.closest('svg').getAttribute('aria-label').includes('front');
-            const tooltip = isFront ? frontTooltip : backTooltip;
-            tooltip.classList.remove('visible');
-        }
-
-        // Add event listeners to all interactive muscle zones
-        const interactiveZones = document.querySelectorAll('[data-zone]');
-        interactiveZones.forEach(zone => {
-            // Mouse interactions (Desktop)
-            zone.addEventListener('mouseenter', (e) => {
-                showTooltip(e.target);
-            });
-
-            zone.addEventListener('mouseleave', (e) => {
-                hideTooltip(e.target);
-            });
-
-            // Touch/Click interactions (Mobile & Desktop fallback)
-            zone.addEventListener('click', (e) => {
-                e.stopPropagation();
-                
-                const isFront = e.target.closest('svg').getAttribute('aria-label').includes('front');
-                const tooltip = isFront ? frontTooltip : backTooltip;
-                const otherTooltip = isFront ? backTooltip : frontTooltip;
-                
-                // Hide other tooltip
-                otherTooltip.classList.remove('visible');
-
-                showTooltip(e.target);
-
-                if (window.posthog && typeof window.posthog.capture === 'function') {
-                    const muscleZone = e.target.closest('.muscle-zone');
-                    window.posthog.capture('muscle_zone_clicked', { zone: muscleZone ? muscleZone.getAttribute('data-zone') : 'unknown' });
-                }
-            });
-        });
-
-        // Hide tooltips on tapping anywhere else
-        document.addEventListener('click', () => {
-            frontTooltip.classList.remove('visible');
-            backTooltip.classList.remove('visible');
-        });
     </script>
 </body>
 
