@@ -131,6 +131,35 @@
             <p class="kicker" style="text-align: center; margin-bottom: 20px;">PRESS</p>
             <h1 class="hero-title" style="font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 30px; text-align: center;">We Made Android Planet's Best Apps of the Week <br><span class="text-accent" style="display: inline-block;">in the Netherlands</span></h1>
 
+            <div style="margin: 0 auto 45px; max-width: 720px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.35);">
+                <svg viewBox="0 0 720 220" width="100%" height="auto" style="display:block; background: var(--bg-2);" role="img" aria-label="A press badge with a ribbon, marking a features roundup mention">
+                    <defs>
+                        <radialGradient id="pressGlowA" cx="18%" cy="15%" r="65%">
+                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.26"/>
+                            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="pressGlowB" cx="85%" cy="90%" r="55%">
+                            <stop offset="0%" stop-color="var(--orange)" stop-opacity="0.18"/>
+                            <stop offset="100%" stop-color="var(--orange)" stop-opacity="0"/>
+                        </radialGradient>
+                        <pattern id="pressDots" width="24" height="24" patternUnits="userSpaceOnUse">
+                            <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+                        </pattern>
+                    </defs>
+                    <rect width="720" height="220" fill="var(--bg-2)"/>
+                    <rect width="720" height="220" fill="url(#pressDots)"/>
+                    <rect width="720" height="220" fill="url(#pressGlowA)"/>
+                    <rect width="720" height="220" fill="url(#pressGlowB)"/>
+                    <g transform="translate(360,100)">
+                        <path d="M -26 34 L -48 96 L -18 84 L 0 108 L 22 44 Z" fill="var(--orange)" opacity="0.55"/>
+                        <path d="M 26 34 L 48 96 L 18 84 L 0 108 L -22 44 Z" fill="var(--orange)" opacity="0.4"/>
+                        <circle r="52" fill="var(--panel)" stroke="var(--accent)" stroke-width="3"/>
+                        <circle r="52" fill="none" stroke="var(--accent)" stroke-width="1" opacity="0.4" stroke-dasharray="2 6"/>
+                        <path d="M -18 2 L -6 16 L 20 -14" fill="none" stroke="var(--accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
+            </div>
+
             <div class="article-content" style="color: var(--text-secondary); font-size: 18px; line-height: 1.7; font-family: 'Inter', sans-serif;">
                 <p style="margin-bottom: 25px; font-size: 20px; color: var(--text-primary);">Last week, Valen showed up in Android Planet's Best Apps of the Week roundup for the Netherlands. No ad budget, no PR agency, no launch campaign. Just a solo-built recovery app getting picked up by one of the country's largest independent Android publications because it did something the roundup hadn't seen before.</p>
                 <p style="margin-bottom: 40px;">If you're reading this because you clicked through from that feature, welcome. Here's the honest version of what happened and what Valen actually is, no marketing gloss.</p>

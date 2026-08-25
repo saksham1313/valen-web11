@@ -172,6 +172,43 @@
             <p class="kicker" style="text-align: center; margin-bottom: 20px;">RECOVERY TRACKING</p>
             <h1 class="hero-title" style="font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 30px; text-align: center;">Fitbit Air vs Valen: <br><span class="text-accent" style="display: inline-block;">Whole-Body Tracking vs Muscle-Level Recovery</span></h1>
 
+            <div style="margin: 0 auto 45px; max-width: 720px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.35);">
+                <svg viewBox="0 0 720 220" width="100%" height="auto" style="display:block; background: var(--bg-2);" role="img" aria-label="A small screenless tracker pod on one side and a phone with a subzone grid on the other, split by a divider">
+                    <defs>
+                        <radialGradient id="fitbitGlowA" cx="15%" cy="10%" r="65%">
+                            <stop offset="0%" stop-color="var(--yellow)" stop-opacity="0.2"/>
+                            <stop offset="100%" stop-color="var(--yellow)" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="fitbitGlowB" cx="88%" cy="92%" r="55%">
+                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.24"/>
+                            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+                        </radialGradient>
+                        <pattern id="fitbitDots" width="24" height="24" patternUnits="userSpaceOnUse">
+                            <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+                        </pattern>
+                    </defs>
+                    <rect width="720" height="220" fill="var(--bg-2)"/>
+                    <rect width="720" height="220" fill="url(#fitbitDots)"/>
+                    <rect width="720" height="220" fill="url(#fitbitGlowA)"/>
+                    <rect width="720" height="220" fill="url(#fitbitGlowB)"/>
+                    <line x1="360" y1="30" x2="360" y2="190" stroke="var(--border)" stroke-width="1.5" stroke-dasharray="3 8"/>
+                    <g transform="translate(200,110)">
+                        <rect x="-22" y="-30" width="44" height="60" rx="22" fill="var(--panel)" stroke="var(--yellow)" stroke-width="3"/>
+                        <circle cx="0" cy="-6" r="7" fill="var(--yellow)" opacity="0.8"/>
+                        <rect x="-30" y="-46" width="60" height="10" rx="5" fill="none" stroke="var(--yellow)" stroke-width="2.5" opacity="0.5"/>
+                        <rect x="-30" y="36" width="60" height="10" rx="5" fill="none" stroke="var(--yellow)" stroke-width="2.5" opacity="0.5"/>
+                    </g>
+                    <g transform="translate(520,110)">
+                        <rect x="-40" y="-62" width="80" height="124" rx="14" fill="var(--panel)" stroke="var(--accent)" stroke-width="3"/>
+                        <rect x="-26" y="-38" width="20" height="20" rx="4" fill="var(--accent)" opacity="0.85"/>
+                        <rect x="6" y="-38" width="20" height="20" rx="4" fill="var(--accent)" opacity="0.3"/>
+                        <rect x="-26" y="-10" width="20" height="20" rx="4" fill="var(--orange)" opacity="0.5"/>
+                        <rect x="6" y="-10" width="20" height="20" rx="4" fill="var(--accent)" opacity="0.6"/>
+                        <rect x="-26" y="18" width="52" height="10" rx="5" fill="var(--accent)" opacity="0.4"/>
+                    </g>
+                </svg>
+            </div>
+
             <div class="article-content" style="color: var(--text-secondary); font-size: 18px; line-height: 1.7; font-family: 'Inter', sans-serif;">
                 <p style="margin-bottom: 25px; font-size: 20px; color: var(--text-primary);">Google's Fitbit Air is a twelve-gram screenless tracker built to disappear on your wrist and quietly log your biology 24/7. Valen is a free app built to tell you exactly which muscles are ready to train. They're not really competing products, and pretending otherwise would be dishonest. Here's what each one actually does.</p>
 

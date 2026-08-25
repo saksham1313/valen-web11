@@ -130,7 +130,37 @@
         <article class="container" style="max-width: 800px; margin: 0 auto; padding-top: 120px; padding-bottom: 80px;">
             <p class="kicker" style="text-align: center; margin-bottom: 20px;">TRAINING SCIENCE</p>
             <h1 class="hero-title" style="font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 30px; text-align: center;">Why Your Shoulders Never Seem to Recover <br><span class="text-accent" style="display: inline-block;">(And What's Actually Going On Under the Hood)</span></h1>
-            
+
+            <div style="margin: 0 auto 45px; max-width: 720px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.35);">
+                <svg viewBox="0 0 720 220" width="100%" height="auto" style="display:block; background: var(--bg-2);" role="img" aria-label="Three overlapping arcs representing the front, side, and rear deltoid heads, each with its own fatigue level">
+                    <defs>
+                        <radialGradient id="shoulderGlowA" cx="15%" cy="10%" r="65%">
+                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.26"/>
+                            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="shoulderGlowB" cx="88%" cy="92%" r="55%">
+                            <stop offset="0%" stop-color="var(--orange)" stop-opacity="0.16"/>
+                            <stop offset="100%" stop-color="var(--orange)" stop-opacity="0"/>
+                        </radialGradient>
+                        <pattern id="shoulderDots" width="24" height="24" patternUnits="userSpaceOnUse">
+                            <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+                        </pattern>
+                    </defs>
+                    <rect width="720" height="220" fill="var(--bg-2)"/>
+                    <rect width="720" height="220" fill="url(#shoulderDots)"/>
+                    <rect width="720" height="220" fill="url(#shoulderGlowA)"/>
+                    <rect width="720" height="220" fill="url(#shoulderGlowB)"/>
+                    <g transform="translate(360,112)">
+                        <circle cx="-58" cy="0" r="62" fill="var(--accent)" opacity="0.4"/>
+                        <circle cx="0" cy="-18" r="62" fill="var(--accent)" opacity="0.72"/>
+                        <circle cx="58" cy="0" r="62" fill="var(--orange)" opacity="0.4"/>
+                        <circle cx="-58" cy="0" r="62" fill="none" stroke="var(--bg-2)" stroke-width="3"/>
+                        <circle cx="0" cy="-18" r="62" fill="none" stroke="var(--bg-2)" stroke-width="3"/>
+                        <circle cx="58" cy="0" r="62" fill="none" stroke="var(--bg-2)" stroke-width="3"/>
+                    </g>
+                </svg>
+            </div>
+
             <div class="article-content" style="color: var(--text-secondary); font-size: 18px; line-height: 1.7; font-family: 'Inter', sans-serif;">
                 <p style="margin-bottom: 20px;">You trained shoulders three days ago. They still feel like someone filled them with wet concrete. You skip them anyway because you have a program to follow, grind through a mediocre session, wonder why your overhead press has been stuck for four months, and repeat the whole cycle next week.</p>
                 <p style="margin-bottom: 20px;">Sound familiar.</p>

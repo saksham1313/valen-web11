@@ -131,6 +131,38 @@
             <p class="kicker" style="text-align: center; margin-bottom: 20px;">PRODUCT UPDATE</p>
             <h1 class="hero-title" style="font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 30px; text-align: center;">Introducing <span class="text-accent" style="display: inline-block;">Adaptive Weekly Planning</span></h1>
 
+            <div style="margin: 0 auto 45px; max-width: 720px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.35);">
+                <svg viewBox="0 0 720 220" width="100%" height="auto" style="display:block; background: var(--bg-2);" role="img" aria-label="A seven-day calendar of load bars with a curved line showing the plan adapting around them">
+                    <defs>
+                        <radialGradient id="planGlowA" cx="15%" cy="10%" r="65%">
+                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.26"/>
+                            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="planGlowB" cx="88%" cy="92%" r="55%">
+                            <stop offset="0%" stop-color="var(--orange)" stop-opacity="0.16"/>
+                            <stop offset="100%" stop-color="var(--orange)" stop-opacity="0"/>
+                        </radialGradient>
+                        <pattern id="planDots" width="24" height="24" patternUnits="userSpaceOnUse">
+                            <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+                        </pattern>
+                    </defs>
+                    <rect width="720" height="220" fill="var(--bg-2)"/>
+                    <rect width="720" height="220" fill="url(#planDots)"/>
+                    <rect width="720" height="220" fill="url(#planGlowA)"/>
+                    <rect width="720" height="220" fill="url(#planGlowB)"/>
+                    <g>
+                        <rect x="192" y="90" width="26" height="90" rx="6" fill="var(--accent)" opacity="0.75"/>
+                        <rect x="238" y="130" width="26" height="50" rx="6" fill="var(--accent)" opacity="0.35"/>
+                        <rect x="284" y="60" width="26" height="120" rx="6" fill="var(--orange)" opacity="0.55"/>
+                        <rect x="330" y="110" width="26" height="70" rx="6" fill="var(--accent)" opacity="0.5"/>
+                        <rect x="376" y="45" width="26" height="135" rx="6" fill="var(--accent)" opacity="0.85"/>
+                        <rect x="422" y="140" width="26" height="40" rx="6" fill="var(--accent)" opacity="0.3"/>
+                        <rect x="468" y="95" width="26" height="85" rx="6" fill="var(--orange)" opacity="0.4"/>
+                        <path d="M 205 84 C 250 118, 290 40, 343 96 S 415 30, 481 80" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 9"/>
+                    </g>
+                </svg>
+            </div>
+
             <div class="article-content" style="color: var(--text-secondary); font-size: 18px; line-height: 1.7; font-family: 'Inter', sans-serif;">
                 <p style="margin-bottom: 25px; font-size: 20px; color: var(--text-primary);">Say goodbye to rigid schedules. Valen now automatically shifts your Push/Pull/Legs days based on real-time localized muscle fatigue and recovery metrics.</p>
 

@@ -172,6 +172,42 @@
             <p class="kicker" style="text-align: center; margin-bottom: 20px;">APP COMPARISON</p>
             <h1 class="hero-title" style="font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 30px; text-align: center;">Fitbod vs Valen: <br><span class="text-accent" style="display: inline-block;">Whole-Muscle Recovery vs Subzone Recovery</span></h1>
 
+            <div style="margin: 0 auto 45px; max-width: 720px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.35);">
+                <svg viewBox="0 0 720 220" width="100%" height="auto" style="display:block; background: var(--bg-2);" role="img" aria-label="A single whole-muscle block on one side and a phone with a subzone grid on the other, split by a divider">
+                    <defs>
+                        <radialGradient id="fitbodGlowA" cx="15%" cy="10%" r="65%">
+                            <stop offset="0%" stop-color="var(--terra)" stop-opacity="0.18"/>
+                            <stop offset="100%" stop-color="var(--terra)" stop-opacity="0"/>
+                        </radialGradient>
+                        <radialGradient id="fitbodGlowB" cx="88%" cy="92%" r="55%">
+                            <stop offset="0%" stop-color="var(--accent)" stop-opacity="0.24"/>
+                            <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+                        </radialGradient>
+                        <pattern id="fitbodDots" width="24" height="24" patternUnits="userSpaceOnUse">
+                            <circle cx="1.5" cy="1.5" r="1.5" fill="rgba(255,255,255,0.05)"/>
+                        </pattern>
+                    </defs>
+                    <rect width="720" height="220" fill="var(--bg-2)"/>
+                    <rect width="720" height="220" fill="url(#fitbodDots)"/>
+                    <rect width="720" height="220" fill="url(#fitbodGlowA)"/>
+                    <rect width="720" height="220" fill="url(#fitbodGlowB)"/>
+                    <line x1="360" y1="30" x2="360" y2="190" stroke="var(--border)" stroke-width="1.5" stroke-dasharray="3 8"/>
+                    <g transform="translate(200,110)">
+                        <rect x="-42" y="-52" width="84" height="104" rx="14" fill="var(--terra)" opacity="0.45"/>
+                        <rect x="-42" y="-52" width="84" height="104" rx="14" fill="none" stroke="var(--terra)" stroke-width="3"/>
+                        <text x="0" y="8" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="var(--text)">60%</text>
+                    </g>
+                    <g transform="translate(520,110)">
+                        <rect x="-40" y="-62" width="80" height="124" rx="14" fill="var(--panel)" stroke="var(--accent)" stroke-width="3"/>
+                        <rect x="-26" y="-38" width="20" height="20" rx="4" fill="var(--accent)" opacity="0.85"/>
+                        <rect x="6" y="-38" width="20" height="20" rx="4" fill="var(--accent)" opacity="0.3"/>
+                        <rect x="-26" y="-10" width="20" height="20" rx="4" fill="var(--orange)" opacity="0.5"/>
+                        <rect x="6" y="-10" width="20" height="20" rx="4" fill="var(--accent)" opacity="0.6"/>
+                        <rect x="-26" y="18" width="52" height="10" rx="5" fill="var(--accent)" opacity="0.4"/>
+                    </g>
+                </svg>
+            </div>
+
             <div class="article-content" style="color: var(--text-secondary); font-size: 18px; line-height: 1.7; font-family: 'Inter', sans-serif;">
                 <p style="margin-bottom: 25px; font-size: 20px; color: var(--text-primary);">Fitbod is the AI-workout app most lifters on Reddit end up recommending when someone asks about muscle recovery tracking. It's genuinely good at what it does. It's also asking a coarser question than a lot of people realize.</p>
                 <p style="margin-bottom: 40px;">Both apps show you a muscle recovery percentage. The difference is the resolution: Fitbod tells you your chest is at 60% recovered. Valen tells you your upper chest is at 32% and your lower chest is at 68%, and those two numbers can be that far apart on the same day.</p>
