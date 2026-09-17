@@ -26,21 +26,27 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Valen Pro",
+        "@type": "SoftwareApplication",
+        "name": "Valen",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Android",
         "description": "Unlock full history, weekly planning, and advanced recovery insights in Valen.",
+        "url": "https://www.valenapp.tech/pricing.html",
         "image": "https://www.valenapp.tech/og-image.png",
-        "brand": {
-            "@type": "Brand",
-            "name": "Valen"
-        },
         "offers": [
             {
-                "@type": "AggregateOffer",
+                "@type": "Offer",
+                "name": "Valen Pro Yearly",
+                "price": "24.99",
                 "priceCurrency": "USD",
-                "lowPrice": "24.99",
-                "highPrice": "49.99",
-                "offerCount": "2",
+                "url": "https://www.valenapp.tech/pricing.html",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "name": "Valen Pro Lifetime",
+                "price": "49.99",
+                "priceCurrency": "USD",
                 "url": "https://www.valenapp.tech/pricing.html",
                 "availability": "https://schema.org/InStock"
             }
