@@ -5,170 +5,280 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#081317">
-    <title>Valen | Train smarter</title>
+    <title>Valen | Muscle recovery tracker for lifters</title>
     <link rel="canonical" href="https://www.valenapp.tech/">
     <meta name="description"
-        content="Valen reads recovery, fatigue, balance, and performance so you know what is actually ready to train.">
+        content="Valen is a fitness app that tracks recovery for 24 muscle subzones from your own workout log, shows what is ready to train today, and builds a short session to fix what is falling behind.">
 
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
 
-    <meta property="og:title" content="Valen | Train smarter">
+    <meta property="og:title" content="Valen | Know which muscles are ready to train">
     <meta property="og:description"
-        content="Interactive recovery mapping, deep training insights, and smarter suggestions for serious lifters.">
+        content="Fitness app that tracks recovery per muscle subzone, shows what to train today, and builds a session to fix what is lagging.">
     <meta property="og:image" content="https://www.valenapp.tech/og-image.png">
     <meta property="og:url" content="https://www.valenapp.tech/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Valen">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Valen | Train smarter">
+    <meta name="twitter:title" content="Valen | Know which muscles are ready to train">
     <meta name="twitter:description"
-        content="Interactive recovery mapping, deep training insights, and smarter suggestions for serious lifters.">
+        content="Fitness app that tracks recovery per muscle subzone, shows what to train today, and builds a session to fix what is lagging.">
     <meta name="twitter:image" content="https://www.valenapp.tech/og-image.png">
 
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Valen",
-        "url": "https://www.valenapp.tech/",
-        "logo": "https://www.valenapp.tech/logo-512.png",
-        "sameAs": [
-            "https://play.google.com/store/apps/details?id=com.valen.health"
-        ]
-    }
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Valen",
+    "url": "https://www.valenapp.tech/",
+    "logo": "https://www.valenapp.tech/logo-512.png",
+    "sameAs": [
+        "https://play.google.com/store/apps/details?id=com.valen.health",
+        "https://www.instagram.com/trainwith_valen/"
+    ]
+}
     </script>
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Valen",
-        "url": "https://www.valenapp.tech/"
-    }
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Valen",
+    "url": "https://www.valenapp.tech/"
+}
     </script>
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Valen",
-        "applicationCategory": "HealthApplication",
-        "operatingSystem": "Android",
-        "description": "Valen reads recovery, fatigue, balance, and performance so you know what is actually ready to train.",
-        "url": "https://www.valenapp.tech/",
-        "image": "https://www.valenapp.tech/og-image.png",
-        "offers": [
-            {
-                "@type": "Offer",
-                "name": "Free",
-                "price": "0",
-                "priceCurrency": "USD"
-            },
-            {
-                "@type": "Offer",
-                "name": "Valen Pro Yearly",
-                "price": "24.99",
-                "priceCurrency": "USD"
-            },
-            {
-                "@type": "Offer",
-                "name": "Valen Pro Lifetime",
-                "price": "49.99",
-                "priceCurrency": "USD"
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Valen",
+    "applicationCategory": "HealthApplication",
+    "operatingSystem": "Android",
+    "description": "Valen is a fitness app that tracks recovery for 24 muscle subzones from your own workout log, shows what is ready to train today, and builds a short session to fix what is falling behind.",
+    "url": "https://www.valenapp.tech/",
+    "image": "https://www.valenapp.tech/og-image.png",
+    "featureList": [
+        "Recovery tracking for 24 muscle subzones",
+        "Hour by hour fatigue decay",
+        "Subzone diagnosis and corrective sessions",
+        "Adaptive weekly plan with 4 to 6 week training blocks",
+        "Saved routines",
+        "Quick Log",
+        "Smart rest timer",
+        "Plate calculator",
+        "209 exercises mapped to subzones",
+        "Home screen widgets",
+        "Works offline",
+        "Optional encrypted cloud backup",
+        "No ads",
+        "No account required",
+        "Export and import your data as JSON"
+    ],
+    "offers": [
+        {
+            "@type": "Offer",
+            "name": "Free",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        {
+            "@type": "Offer",
+            "name": "Valen Pro Yearly",
+            "price": "24.99",
+            "priceCurrency": "USD"
+        },
+        {
+            "@type": "Offer",
+            "name": "Valen Pro Lifetime",
+            "price": "49.99",
+            "priceCurrency": "USD"
+        }
+    ]
+}
+    </script>
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is a muscle subzone?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A subzone is one region of a muscle group. Valen splits the body into 24 of them, such as upper, mid and lower chest, front, lateral and rear delts, lats, rhomboids and upper back, quads, hamstrings, glutes and calves. Every exercise in the app is mapped to the subzones it works, so a set of incline press adds fatigue mainly to upper chest and a set of dips to lower chest."
             }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What makes Valen different from a normal workout tracker?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Most workout apps stop at logging sets. Valen tracks muscular recovery dynamically, helping you understand what's actually ready to perform, recover, or be pushed harder. Instead of guessing fatigue, you train with recovery awareness built in."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does it work without a wearable?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Everything runs on what you log. No heart rate monitor, no sleep tracker, no extra hardware needed."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Will Valen tell me when to push harder or recover?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Valen continuously evaluates muscular readiness and fatigue accumulation to help guide smarter training decisions over time."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can beginners use Valen?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. Valen adapts recommendations based on your experience level, training frequency, and goals, whether you're just starting or training seriously for years."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does Valen track individual muscle recovery?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Different muscle groups recover at different rates. Valen models localized recovery dynamically rather than treating the body as one global fatigue score."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do I need to manually track everything?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. Valen is designed to stay fast during workouts with streamlined logging and automated recovery calculations running in the background."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is my data private?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Everything lives on your device. Cloud backup is available for Pro users who want it, but it's optional, encrypted, and you can delete it anytime."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does Valen work offline?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Core logging and recovery systems continue functioning even without an internet connection."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can Valen help prevent junk volume?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "That's one of the goals. Valen helps identify when additional training volume may become less productive due to accumulated fatigue and recovery imbalance."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What if I miss a few days?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Valen handles it. Recovery decay runs continuously; missed days mean your muscles recovered, and your map updates accordingly. The app doesn't get confused when real life happens."
-                }
+        },
+        {
+            "@type": "Question",
+            "name": "How does Valen work out how recovered a muscle is?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Every set you log adds fatigue to the subzones it worked. The amount depends on the weight compared with a baseline for that lift, the reps, how hard the set was (RPE 1 to 10) and how demanding the exercise is. That fatigue then fades hour by hour. The half life depends on the muscle group: about 24 hours for core, 25 for arms, 27 for shoulders, 31 for chest, 35 for back and 37 for legs. If you mark a muscle as sore or injured it fades more slowly."
             }
-        ]
-    }
+        },
+        {
+            "@type": "Question",
+            "name": "How accurate is it without a wearable?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It is a model, not a measurement. It is built from your logged training and published recovery research, and it does not read your body. That is why Valen shows readiness as a range from ready to fatigued instead of a made-up precise number, and why you can mark a muscle sore or injured to override it. Nothing in the app is medical advice."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do I have to give up my routine?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. You can save any exercise list as a named routine, or save a finished session as one, and keep training the way you like. Each routine shows a recovery dot for every muscle it hits, so you can see that Push Day is ready but your front delts are not. Saved routines are unlimited and free."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the corrective session?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Valen looks at your last 21 days of training and compares each subzone's share of your volume with a healthy range for that muscle group. If one is falling behind, it builds a short session of up to four exercises, three sets each, chosen to cover the biggest gaps in the least time. It needs at least four sessions in that window before it gives a verdict. The ranges are training guidelines, not medical advice. The corrective session is a Pro feature."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is a training block?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A block is a run of 4, 5 or 6 weeks that builds up your weekly volume and then drops it. It goes intro, build, peak, deload. Weekly set targets sit between your minimum and maximum effective volume for each muscle, and they scale with your experience level. The peak week stops at 85% of the modelled ceiling on purpose, because that ceiling is an estimate. Blocks are part of the Pro weekly planner."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is free and what is Pro?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Free includes the full recovery map, unlimited workout logging with Quick Log, 209 exercises, daily session suggestions, saved routines, a rest timer with notification, the plate calculator, the progressive overload streak and unlimited history. Pro adds the adaptive weekly plan and training blocks, score breakdowns, strain vs recovery, the corrective session, split over time, training intelligence, physique trajectory, Smart Rest, home screen widgets and encrypted cloud backup. Pro is $24.99 a year or $49.99 once, with local pricing at checkout."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does it work offline and is my data private?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes to both. Logging and all recovery calculations run on your phone with no connection, and your training data stays on the device by default. There is no account to create. Cloud backup is optional, encrypted, Pro only, and you can delete it any time."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I use kg or lb?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Either, and you can switch whenever you like. Weights are stored in one unit internally, so switching only changes how they are displayed and never rescales your history."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What if I miss a few days?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The map catches up on its own. Recovery decays continuously, so a missed week just means your muscles recovered, and the map shows it. Nothing breaks and there is nothing to fix."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Valen on iPhone?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "iOS is coming soon. For now Valen is available on Google Play."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How is Valen different from Hevy, Strong or Fitbod?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hevy and Strong are logbooks: they record what you did. Fitbod tracks recovery per muscle group. Valen tracks it per subzone, diagnoses which one is behind, and builds the fix. The comparison pages linked above go through each in detail."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Valen easy to learn?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Quick Log records a session in a few taps: pick the muscle groups you trained, set a number of sets, save. Recovery is calculated automatically from that, and Valen suggests what is ready to train today, so you do not need to know any training science to use it. The full workout log, with weight, reps, RPE and set types, is there when you want more detail."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Valen good for beginners?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. You never have to interpret a chart to use it. The map shows a colour and a percentage per muscle, and the daily suggestion tells you what to train. Experienced lifters get the deeper layers, such as subzone drill-downs, volume targets and the corrective session, when they want them."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is logging in Valen fast?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Fast enough, but not the fastest. For set-by-set entry Strong is widely regarded as the quickest logger, and Valen does not claim to beat it. In Valen you pick the exercise, set weight and reps, and tap Log. Quick Log is faster than any set-by-set entry when you only want to record what you trained."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I export my data, or import it from Hevy or Strong?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can export everything (history, custom exercises, settings) as a JSON file to your Downloads folder, on the free plan too, and import that file back. Valen cannot export CSV and cannot import CSV files from Hevy, Strong or other apps, so history from another app does not carry over."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Valen work with a smartwatch, Wear OS or Health Connect?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Valen has no watch app and does not read from or write to Health Connect or Google Fit. You log on your phone. Recovery is calculated only from the sets you log, so nothing needs to be connected."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Are there ads, and is anything capped on the free plan?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are no ads on any plan and no social feed. The free plan has no cap on logged sessions, saved routines or custom exercises. Pro adds features such as the adaptive weekly plan, the corrective session, Smart Rest, widgets and cloud backup."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do I need an account, and what data does Valen collect?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No account is needed. Your training data stays on your phone by default. Valen does send anonymous product analytics and crash reports, which are on by default, never include personal information, and can be turned off in Settings under About and Support. Cloud backup is optional, Pro only, and needs a Google sign-in."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is the best app for muscle recovery without a wearable?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Valen estimates recovery for 24 muscle subzones from your workout log alone, with no wearable, heart rate monitor or sleep tracker. Its numbers are model estimates, not measurements, and you can mark a muscle as sore or injured to override them."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Valen safe to rely on if it is built by a small team?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It carries the ordinary risk of any small independent app. Your data lives on your phone and can be exported as a file at any time, and Pro can be bought once as a lifetime purchase. Neither removes the risk that a small app changes or stops being updated."
+            }
+        }
+    ]
+}
     </script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="home.css?v=11">
 
     <!-- PostHog -->
     <script>
@@ -184,7 +294,7 @@
     </script>
 </head>
 
-<body>
+<body class="home">
     <div class="page-glow page-glow-left"></div>
     <div class="page-glow page-glow-right"></div>
 
@@ -229,10 +339,11 @@
                 <span></span>
             </button>
             <div class="nav-links" id="nav-links">
-                <a href="#faq">FAQ</a>
+                <a href="#how">How it works</a>
                 <a href="#features">Features</a>
-                <a href="pricing.html">Pro</a>
+                <a href="pricing.html">Pricing</a>
                 <a href="blog.html">Blog</a>
+                <a href="#faq">FAQ</a>
                 <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="nav-cta" target="_blank"
                     rel="noreferrer">Get Valen</a>
             </div>
@@ -240,897 +351,352 @@
     </nav>
 
     <main>
-        <section class="hero">
-            <div class="container hero-grid">
-                <div class="hero-copy">
-                    <p class="kicker">TOO MANY MUSCLES TO TRACK. ONE APP THAT DOES — SERIOUSLY.</p>
-                    <h1 class="hero-title"><span style="display: block;">You trained hard yesterday.</span><span class="text-accent" style="display: block;">Now what?</span></h1>
-                    <p class="hero-subtitle">
-                        Valen maps your recovery across every muscle group, so you always know what to train, what to rest, and what's about to peak.
-                    </p>
-                    <div class="hero-status">
-                        <div class="status-item">
-                            <span class="status-dot dot-ready"></span>
-                            <span class="status-label">Ready</span>
-                        </div>
-                        <div class="status-item">
-                            <span class="status-dot dot-fatigue"></span>
-                            <span class="status-label">Fatigued</span>
-                        </div>
-                        <div class="status-item">
-                            <span class="status-dot dot-next"></span>
-                            <span class="status-label">Next</span>
-                        </div>
+        <section class="h-hero">
+            <div class="h-wrap h-hero-grid">
+                <div class="h-hcopy">
+                    <span class="h-eyebrow">Recovery-based workout tracker</span>
+                    <h1>Know which muscles are <em>ready to train.</em></h1>
+                    <p class="h-sub">Valen is a workout tracker that shows which muscles have recovered and what to train today. Just log your sets.</p>
+                    <div class="h-cta-row">
+                        <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="h-btn h-btn-primary" target="_blank" rel="noreferrer" data-cta="hero-play"><svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l220.7-221.2 60.1 60.1L104.6 499z"/></svg> Get Valen on Google Play</a>
+                        <a href="#how" class="h-btn h-btn-ghost">See how it works</a>
                     </div>
-
+                    <p class="h-micro">No account. No wearable. No ads. Works offline.</p>
                 </div>
-
-                <div class="hero-visual">
-                    <img src="assets/screenshots/hero.webp" alt="Valen recovery map screenshot"
-                        class="app-shot shot-hero" width="440" height="545" fetchpriority="high" loading="eager">
+                <div class="h-phones" aria-hidden="false">
+                    <div class="h-phone p1"><img src="assets/app/01-recovery-map.jpg" alt="Valen recovery map showing front and back body with muscle recovery states" width="720" height="1560" fetchpriority="high"></div>
+                    <div class="h-phone p2"><img src="assets/app/03-insights.jpg" alt="Valen insights with volume split and fatigue by muscle group" width="720" height="1560" loading="eager"></div>
                 </div>
             </div>
         </section>
 
-
-
-        <div class="stats-trust-bar">
-            <div class="container stats-trust-inner">
-                <span class="stats-trust-item">Built for serious lifters.</span>
+        <div class="h-proof">
+            <div class="h-wrap h-proof-grid">
+                <div class="h-proof-item"><div class="h-proof-num">24</div><div class="h-proof-label">muscle subzones tracked, not just 6 muscle groups</div></div>
+                <div class="h-proof-item"><div class="h-proof-num">209</div><div class="h-proof-label">exercises, each mapped to the subzones it works</div></div>
+                <div class="h-proof-item"><div class="h-proof-num">1<small> hr</small></div><div class="h-proof-label">recovery updates continuously, not overnight</div></div>
+                <div class="h-proof-item"><div class="h-proof-num">0</div><div class="h-proof-label">wearables needed, recovery comes from your log</div></div>
             </div>
         </div>
 
-        <!-- SRA Science Section -->
-        <section id="sra-science" class="section section-surface">
-            <div class="container sra-grid">
-                <div class="sra-copy scroll-reveal">
-                    <p class="kicker">THE SCIENCE OF BETTER SESSIONS</p>
-                    <h2 class="section-heading">Your body recovers <span class="text-accent">on its own schedule.</span></h2>
-                    <p class="section-text">
-                        Monday isn't chest day. Tuesday isn't legs. Your body doesn't care about your calendar. Valen tracks the Stimulus-Recovery-Adaptation cycle at the individual muscle level, so you train the right things at the right time.
-                    </p>
-                    <div class="sra-features">
-                        <div class="sra-feat">
-                            <span class="sra-number">01</span>
-                            <div>
-                                <h4>Calculated Stimulus</h4>
-                                <p>Every set logs direct load to the muscles it actually hit, adjusted for reps, weight, and effort.</p>
-                            </div>
-                        </div>
-                        <div class="sra-feat">
-                            <span class="sra-number">02</span>
-                            <div>
-                                <h4>Hour-by-hour decay</h4>
-                                <p>Recovery is continuous, not overnight. Your Core recovers differently than your Back. Valen models both.</p>
-                            </div>
-                        </div>
-                        <div class="sra-feat">
-                            <span class="sra-number">03</span>
-                            <div>
-                                <h4>Supercompensation window</h4>
-                                <p>When a muscle peaks above baseline readiness, Valen tells you. That's when you push.</p>
-                            </div>
-                        </div>
+        <section class="h-section" id="problem">
+            <div class="h-wrap">
+                <span class="h-eyebrow">The problem</span>
+                <h2 class="h-h2">Your app says chest is recovered. Which part?</h2>
+                <p class="h-lead">A bench press, an incline press and a dip load your chest in different ways. So do a lateral raise and an overhead press for your shoulders, or a squat and a Romanian deadlift for your legs. Apps that keep one score per muscle group cannot see that difference, so you end up resting what is ready or training what is not, and your weak areas fall further behind.</p>
+                <div class="h-compare">
+                    <div class="h-card rv">
+                        <h3>One score per muscle group</h3>
+                        <div class="h-row"><span>Chest</span><span class="hbar"><i class="y" style="width:41%"></i></span><b>41%</b></div>
+                        <p class="h-note">Ready or not? Which part? No way to tell.</p>
                     </div>
-                </div>
-                <div class="sra-visual scroll-reveal">
-                    <div class="glass-panel sra-panel">
-                        <svg viewBox="0 0 400 220" width="100%" height="100%" class="sra-curve-svg" style="display: block; overflow: visible;">
-                            <defs>
-                                <linearGradient id="curveGradient" x1="0" y1="0" x2="1" y2="0">
-                                    <stop offset="0%" stop-color="#ef4444" />
-                                    <stop offset="40%" stop-color="#f59e0b" />
-                                    <stop offset="85%" stop-color="#10b981" />
-                                    <stop offset="100%" stop-color="#10b981" />
-                                </linearGradient>
-                                <linearGradient id="glowGradient" x1="0" y1="0" x2="0" y2="1">
-                                    <stop offset="0%" stop-color="#1ea8ad" stop-opacity="0.25" />
-                                    <stop offset="100%" stop-color="#1ea8ad" stop-opacity="0" />
-                                </linearGradient>
-                            </defs>
-                            
-                            <!-- Baseline indicator -->
-                            <line x1="30" y1="90" x2="370" y2="90" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" stroke-dasharray="4 4" />
-                            <text x="35" y="82" fill="var(--text-faint)" font-size="10" font-family="'DM Mono', monospace" letter-spacing="0.1em">BASELINE READINESS</text>
-                            
-                            <!-- SRA Curve path -->
-                            <path d="M 30 90 Q 95 190 145 160 T 250 90 Q 285 40 325 50 T 370 85" fill="none" stroke="url(#curveGradient)" stroke-width="4.5" stroke-linecap="round" />
-                            
-                            <!-- Area fill under the curve -->
-                            <path d="M 30 90 Q 95 190 145 160 T 250 90 Q 285 40 325 50 T 370 85 L 370 210 L 30 210 Z" fill="url(#glowGradient)" opacity="0.4" />
-                            
-                            <!-- Phase markers -->
-                            <g class="sra-marker" style="transform: translate(95px, 175px);">
-                                <circle cx="0" cy="0" r="5" fill="#ef4444" />
-                                <text x="10" y="4" fill="#ef4444" font-size="11" font-weight="700" font-family="'Inter', sans-serif">1. STIMULUS</text>
-                            </g>
-                            
-                            <g class="sra-marker" style="transform: translate(210px, 125px);">
-                                <circle cx="0" cy="0" r="5" fill="#f59e0b" />
-                                <text x="10" y="4" fill="#f59e0b" font-size="11" font-weight="700" font-family="'Inter', sans-serif">2. RECOVERY</text>
-                            </g>
-                            
-                            <g class="sra-marker" style="transform: translate(290px, 45px);">
-                                <circle cx="0" cy="0" r="5" fill="#10b981" />
-                                <text x="10" y="-8" fill="#10b981" font-size="11" font-weight="700" font-family="'Inter', sans-serif">3. SUPERCOMPENSATION</text>
-                            </g>
-                            
-                            <!-- Grid axes -->
-                            <line x1="30" y1="20" x2="30" y2="210" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
-                            <line x1="30" y1="210" x2="370" y2="210" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
-                            <text x="370" y="205" fill="var(--text-faint)" font-size="9" text-anchor="end" font-family="'DM Mono', monospace">TIME (HOURS) →</text>
-                            <text x="25" y="30" fill="var(--text-faint)" font-size="9" transform="rotate(-90 25 30)" text-anchor="end" font-family="'DM Mono', monospace">READINESS % →</text>
-                        </svg>
+                    <div class="h-card win rv">
+                        <h3>Valen, per subzone</h3>
+                        <div class="h-row"><span>Upper chest</span><span class="hbar"><i class="g" style="width:74%"></i></span><b>74%</b></div>
+                        <div class="h-row"><span>Mid chest</span><span class="hbar"><i class="y" style="width:50%"></i></span><b>50%</b></div>
+                        <div class="h-row"><span>Lower chest</span><span class="hbar"><i class="r" style="width:18%"></i></span><b>18%</b></div>
+                        <p class="h-note">Example for illustration. Train incline today, leave dips for tomorrow.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="screens" class="section section-screen">
-            <div class="container story-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">TRAIN WITH REAL DATA</p>
-                    <h2 class="section-heading">Your shoulder isn't <span class="text-accent">one thing.</span></h2>
-                    <p class="section-text">
-                        Front delt. Lateral delt. Rear delt. Three muscles. Three recovery timelines.<br><br>
-                        Generic apps lump them together and bench your whole shoulder for two days. Valen knows your lateral delt is fresh and your front delt needs one more day.<br><br>
-                        Train the right part. Leave the rest alone.
-                    </p>
-                    <a href="muscle-subzone-tracking-guide.html" style="display: inline-block; margin-top: 8px; color: var(--accent); font-weight: 600; font-size: 0.9rem; text-decoration: underline;">Read the complete guide to muscle subzone tracking &rarr;</a>
+        <section class="h-section alt" id="how">
+            <div class="h-wrap">
+                <span class="h-eyebrow">How it works</span>
+                <h2 class="h-h2">Log a set. Valen does the recovery maths.</h2>
+                <p class="h-lead">Recovery comes from one thing only: what you logged. No heart rate, no sleep score, no extra hardware.</p>
+                <div class="h-steps">
+                    <div class="h-step rv"><div class="n">01</div><h3>Log a set, or just a muscle group</h3><p>Log full sets with weight, reps and RPE, or use Quick Log: tap the muscles you trained, pick a set count from 1 to 30, save. Nine sets of chest is spread across upper, mid and lower chest for you.</p></div>
+                    <div class="h-step rv"><div class="n">02</div><h3>Every set adds fatigue where it landed</h3><p>The amount scales with the weight compared with a baseline for that lift, the reps and how hard the set was, then splits across the subzones the exercise works. A cap stops one huge session from skewing your map, and your experience level tunes the pace.</p></div>
+                    <div class="h-step rv"><div class="n">03</div><h3>Fatigue fades hour by hour</h3><p>Recovery is continuous, not reset at midnight. Open the app and see each subzone as ready, recovering or fatigued. Tap any muscle for its subzone breakdown. Mark a muscle sore or injured and it recovers more slowly.</p></div>
                 </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel tall-panel" style="padding: 32px 28px; display: flex; flex-direction: column; gap: 0; background: rgba(6,16,20,0.85); border: 1px solid rgba(255,255,255,0.06);">
-                        <!-- Section header -->
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px;">
-                            <div>
-                                <div style="font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; margin-bottom: 4px;">SHOULDER COMPLEX</div>
-                                <div style="font-size: 1.05rem; font-weight: 700; color: var(--text);">Sub-Zone Recovery</div>
-                            </div>
-                            <div style="background: rgba(30,168,173,0.1); border: 1px solid var(--accent-border); border-radius: 8px; padding: 6px 12px; font-size: 0.65rem; font-weight: 700; color: var(--accent); letter-spacing: 0.08em;">LIVE</div>
-                        </div>
+                <div class="h-half rv">
+                    <h4>Time for fatigue to halve, by muscle group</h4>
+                    <div class="h-half-bars">
+                        <div>Core <i style="width:64%"></i><span>~24 h</span></div>
+                        <div>Arms <i style="width:67%"></i><span>~25 h</span></div>
+                        <div>Shoulders <i style="width:73%"></i><span>~27 h</span></div>
+                        <div>Chest <i style="width:84%"></i><span>~31 h</span></div>
+                        <div>Back <i style="width:94%"></i><span>~35 h</span></div>
+                        <div>Legs <i style="width:100%"></i><span>~37 h</span></div>
+                    </div>
+                </div>
+                <p class="h-note">Recovery rates are modelled estimates informed by published research on muscle recovery, not measurements of your body. Valen is a training tool and gives no medical advice.</p>
+            </div>
+        </section>
 
-                        <!-- Anterior Deltoid -->
-                        <div style="margin-bottom: 22px;">
-                            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 8px;">
-                                <div>
-                                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--text);">Anterior Deltoid</div>
-                                    <div style="font-size: 0.68rem; color: var(--text-muted); margin-top: 2px;">Front · Last loaded 18h ago</div>
-                                </div>
-                                <div style="text-align: right;">
-                                    <div style="font-size: 1.1rem; font-weight: 800; color: #ef4444;">42%</div>
-                                    <div style="font-size: 0.6rem; color: #ef4444; font-weight: 600;">~30h to full</div>
-                                </div>
-                            </div>
-                            <div style="height: 7px; background: rgba(255,255,255,0.07); border-radius: 4px; overflow: hidden;">
-                                <div style="height: 100%; width: 42%; background: linear-gradient(90deg, #ef4444, #f87171); border-radius: 4px; box-shadow: 0 0 8px rgba(239,68,68,0.4);"></div>
-                            </div>
-                        </div>
+        <section class="h-section" id="features">
+            <div class="h-wrap">
+                <span class="h-eyebrow">What Valen does</span>
+                <h2 class="h-h2">From what is ready, to what is lagging, to the fix.</h2>
+            <div class="h-feature rv" id="diagnosis">
+                    <div class="h-fcopy">
+                        <span class="h-eyebrow">Diagnosis and fix</span><span class="h-pro">PRO</span>
+                        <h3>Finds the muscle that is falling behind, then builds the fix</h3>
+                        <p>Valen looks at your last 21 days and works out each subzone's share of your volume within its muscle group. If your lateral delts are under 28% of your shoulder work, or your hamstrings trail your quads, it flags it.</p>
+                        <p>Then it picks up to four exercises, three sets each, that cover the biggest gaps in the least time. It will not guess from one workout: it needs at least four sessions before it gives a verdict.</p>
+                        <ul class="h-facts">
+                            <li>The healthy ranges are training guidelines drawn from programming principles, not medical advice.</li>
+                            <li>Injured zones are left out of the fix automatically.</li>
+                        </ul>
+                    </div>
+                    <div class="h-fvisual pair"><div class="h-phone "><img src="assets/app/07-corrective.jpg" alt="Valen corrective session card showing one gap to close and an 8 minute session" width="720" height="1560" loading="lazy"></div><div class="h-phone "><img src="assets/app/10b-zone-detail.jpg" alt="Valen legs volume split showing each subzone against its ideal range" width="720" height="1560" loading="lazy"></div></div>
+                </div>
+            <div class="h-feature rv flip">
+                    <div class="h-fcopy">
+                        <span class="h-eyebrow">Daily suggestions</span>
+                        <h3>Tells you what to train today, from what has recovered</h3>
+                        <p>Open the app and Valen ranks sessions by how ready each muscle is. It steers away from anything fatigued, sore or injured and toward what is ready, so your week is not tied to "Monday is chest".</p>
+                        <ul class="h-facts">
+                            <li>Suggestions come with the exercises and set counts already filled in.</li>
+                            <li>Your split, days per week and goal shape what it offers.</li>
+                        </ul>
+                    </div>
+                    <div class="h-fvisual"><div class="h-phone "><img src="assets/app/06-suggestions.jpg" alt="Valen suggested sessions list with legs, balanced and light sessions" width="720" height="1560" loading="lazy"></div></div>
+                </div>
+            <div class="h-feature rv" id="planner">
+                    <div class="h-fcopy">
+                        <span class="h-eyebrow">Weekly plan and blocks</span><span class="h-pro">PRO</span>
+                        <h3>Plans your week around recovery, in 4 to 6 week blocks</h3>
+                        <p>Pick your split and how many days you train. Valen lays out the week and reshuffles it when a muscle is not ready, swapping in a lighter session or a rest day instead of running you into it.</p>
+                        <p>On top of that sits a training block that goes intro, build, peak, deload. Weekly set targets sit between your own minimum and maximum effective volume, so a beginner and an advanced lifter get different numbers.</p>
+                        <ul class="h-facts">
+                            <li>The peak week stops at 85% of the modelled ceiling on purpose. That ceiling is an estimate, so Valen does not aim you at it.</li>
+                            <li>The block is worked out from one start date, so missing a month never breaks it.</li>
+                        </ul>
+                    </div>
+                    <div class="h-fvisual"><div class="h-phone "><img src="assets/app/25-mesocycle.jpg" alt="Valen weekly plan showing block 1 week 1 of 5 with intro, build, peak and deload weeks" width="720" height="1560" loading="lazy"></div></div>
+                </div>
+            <div class="h-feature rv flip">
+                    <div class="h-fcopy">
+                        <span class="h-eyebrow">Insights</span><span class="h-pro">PRO</span>
+                        <h3>Shows where your volume really goes</h3>
+                        <p>See your push and pull split, your sets per muscle group against weekly targets, and how fatigued each group is right now. When you push more than you pull, or one area soaks up most of your volume, it shows up as a number you can act on.</p>
+                        <ul class="h-facts">
+                            <li>Strain vs recovery compares how hard you are training with how recovered you are.</li>
+                            <li>Score breakdowns explain exactly why each score moved.</li>
+                            <li>Split over time shows how the balance changes week to week.</li>
+                        </ul>
+                    </div>
+                    <div class="h-fvisual pair"><div class="h-phone"><img src="assets/app/03-insights.jpg" alt="Valen insights showing volume split and fatigue now" width="720" height="1560" loading="lazy"></div><div class="h-phone "><img src="assets/app/27-strain-vs-recovery.jpg" alt="Valen strain versus recovery view" width="720" height="1560" loading="lazy"></div></div>
+                </div>
+            <div class="h-feature rv">
+                    <div class="h-fcopy">
+                        <span class="h-eyebrow">Progress</span><span class="h-pro">PRO</span>
+                        <h3>Tracks the lifts, not just the logging</h3>
+                        <p>Every exercise gets an estimated one rep max, all time bests and a progressive overload streak, so you can tell whether a lift is climbing, stalled or slipping. The timeline keeps every session in one calendar.</p>
+                        <ul class="h-facts">
+                            <li>The progressive overload streak is included with every plan.</li>
+                            <li>Physique trajectory shows how your muscle balance moved over three months: which areas are improving, which are slipping, and by how many points.</li>
+                            <li>Weak spots lists what is under-trained and the exercises you already do that fix it.</li>
+                        </ul>
+                    </div>
+                    <div class="h-fvisual pair"><div class="h-phone "><img src="assets/app/13-progression-trends.jpg" alt="Valen progression trends showing which muscles are improving and slipping over three months" width="720" height="1560" loading="lazy"></div><div class="h-phone "><img src="assets/app/14-weak-spots.jpg" alt="Valen weak spots screen with exercises to fix an under-trained area" width="720" height="1560" loading="lazy"></div></div>
+                </div>
+            </div>
+        </section>
 
-                        <!-- Lateral Deltoid -->
-                        <div style="margin-bottom: 22px;">
-                            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 8px;">
-                                <div>
-                                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--text);">Lateral Deltoid</div>
-                                    <div style="font-size: 0.68rem; color: var(--text-muted); margin-top: 2px;">Side · Last loaded 38h ago</div>
-                                </div>
-                                <div style="text-align: right;">
-                                    <div style="font-size: 1.1rem; font-weight: 800; color: #d3b356;">78%</div>
-                                    <div style="font-size: 0.6rem; color: #d3b356; font-weight: 600;">~8h to full</div>
-                                </div>
-                            </div>
-                            <div style="height: 7px; background: rgba(255,255,255,0.07); border-radius: 4px; overflow: hidden;">
-                                <div style="height: 100%; width: 78%; background: linear-gradient(90deg, #d3b356, #f0d080); border-radius: 4px; box-shadow: 0 0 8px rgba(211,179,86,0.3);"></div>
-                            </div>
-                        </div>
-
-                        <!-- Posterior Deltoid -->
-                        <div style="margin-bottom: 28px;">
-                            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 8px;">
-                                <div>
-                                    <div style="font-size: 0.82rem; font-weight: 700; color: var(--text);">Posterior Deltoid</div>
-                                    <div style="font-size: 0.68rem; color: var(--text-muted); margin-top: 2px;">Rear · Last loaded 52h ago</div>
-                                </div>
-                                <div style="text-align: right;">
-                                    <div style="font-size: 1.1rem; font-weight: 800; color: #94d1bc;">96%</div>
-                                    <div style="font-size: 0.6rem; color: #94d1bc; font-weight: 600;">Ready to train</div>
-                                </div>
-                            </div>
-                            <div style="height: 7px; background: rgba(255,255,255,0.07); border-radius: 4px; overflow: hidden;">
-                                <div style="height: 100%; width: 96%; background: linear-gradient(90deg, var(--accent), #94d1bc); border-radius: 4px; box-shadow: 0 0 8px rgba(30,168,173,0.4);"></div>
-                            </div>
-                        </div>
-
-                        <!-- Divider -->
-                        <div style="height: 1px; background: rgba(255,255,255,0.05); margin-bottom: 20px;"></div>
-
-                        <!-- Valen's suggestion -->
-                        <div style="background: linear-gradient(135deg, rgba(30,168,173,0.08) 0%, transparent 100%); border: 1px solid rgba(30,168,173,0.2); border-radius: 14px; padding: 16px;">
-                            <div style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; color: var(--accent); text-transform: uppercase; margin-bottom: 6px;">Valen Recommends</div>
-                            <div style="font-size: 0.82rem; color: var(--text-soft); line-height: 1.5;">Skip pressing today. Train rear delts and lateral raises — both are ready. Let the front delt recover another day.</div>
-                        </div>
+        <section class="h-section alt" id="example">
+            <div class="h-wrap">
+                <span class="h-eyebrow">See it in action</span>
+                <h2 class="h-h2">What a neglected rear delt looks like in the data.</h2>
+                <div class="h-scenario rv">
+                    <div class="h-scenario-copy">
+                        <span class="h-tag">Case study*</span>
+                        <h3>Trained shoulders three times a week. Rear delts got 4% of the work.</h3>
+                        <p>A per-muscle tracker would have said "shoulders: recovered" every week. Subzone tracking shows the front delts doing 52% of the volume and the rear delts almost none, then builds a short corrective session to close the gap.</p>
+                        <p>The numbers, the six week fix, and an honest look at what this does and does not mean.</p>
+                        <a href="example-scenario-neglected-rear-delts.html" class="h-btn h-btn-ghost" style="margin-top:10px;">Read the full case study</a>
+                    </div>
+                    <div class="h-scenario-data">
+                        <h4>Shoulder volume share*</h4>
+                        <div class="h-row"><span>Front delt</span><span class="hbar"><i class="r" style="width:52%"></i></span><b>52%</b></div>
+                        <div class="h-row"><span>Lateral delt</span><span class="hbar"><i class="g" style="width:41%"></i></span><b>41%</b></div>
+                        <div class="h-row"><span>Rear delt</span><span class="hbar"><i class="r" style="width:4%"></i></span><b>4%</b></div>
+                        <div class="h-row"><span>Traps</span><span class="hbar"><i class="y" style="width:3%"></i></span><b>3%</b></div>
+                        <p class="h-note">Healthy range for rear delts: 14% to 36% of shoulder volume. *Illustrative only, based on real experiences of the researchers behind Valen. Not medical advice.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="container story-grid reverse-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">METRICS WITH CONTEXT</p>
-                    <h2 class="section-heading">Is your squat <span class="text-accent">actually getting stronger?</span></h2>
-                    <p class="section-text">
-                        Not "did I add weight this session." Whether your strength is trending up, plateauing, or quietly going backwards over the last 90 days.<br><br>
-                        e1RM, velocity, and all-time PRs are tracked automatically across every lift you log. No spreadsheet required.
-                    </p>
-                    <div class="pill-row">
-                        <span class="pill">e1RM</span>
-                        <span class="pill">Muscle progressions</span>
-                        <span class="pill">PRs</span>
-                    </div>
+        <section class="h-section">
+            <div class="h-wrap">
+                <span class="h-eyebrow">Built around how you already train</span>
+                <h2 class="h-h2">Keep your routine. Point it at your goal.</h2>
+                <div class="h-strip rv">
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/11-routines.jpg" alt="Valen saved routines list with readiness tags" width="720" height="1560" loading="lazy"></div><figcaption>Saved routines, with a readiness tag on each</figcaption></figure>
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/12-routine-editor.jpg" alt="Valen routine editor with sets, reps and warm-up, drop and failure sets" width="720" height="1560" loading="lazy"></div><figcaption>Build a routine with sets, reps and set types</figcaption></figure>
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/16-physique-goals.jpg" alt="Valen physique goal picker with Balanced, V-Taper, Wide Frame, Fuller Chest, Bigger Arms and Stronger Base" width="720" height="1560" loading="lazy"></div><figcaption>Pick a physique goal and the suggestions lean toward it</figcaption></figure>
                 </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel tall-panel">
-                        <img src="assets/screenshots/new2.png" alt="Valen performance analytics screenshot"
-                            class="app-shot shot-metrics" loading="lazy">
-                    </div>
+                <div class="h-grid">
+                <div class="h-card rv"><h3>Saved routines</h3><p>Save any exercise list as a named routine, or turn a finished session into one. Each routine shows a recovery dot for every muscle it hits, so you can see that Push Day is ready but your front delts are not.</p></div>
+                <div class="h-card rv"><h3>Physique goals</h3><p>Choose Balanced, V-Taper, Wide Frame, Fuller Chest, Bigger Arms or Stronger Base. Valen leans exercise picks toward the subzones that build that look, without ever overriding recovery, injury or volume limits.</p></div>
+                <div class="h-card rv"><h3>Useful on day one</h3><p>Choose your split, training days and goal, then rate how each muscle group feels right now. The map starts with a sensible picture instead of a blank body.</p></div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-surface">
-            <div class="container">
-                <div class="section-title-block">
-                    <p class="kicker">WHAT VALEN ACTUALLY DOES</p>
-                    <h2 class="section-heading center-heading">Built for lifters who <span class="text-accent">hate wasted sessions.</span>
-                    </h2>
+        <section class="h-section alt" id="gym">
+            <div class="h-wrap">
+                <span class="h-eyebrow">Made for the gym floor</span>
+                <h2 class="h-h2">Fast enough to use between sets.</h2>
+                <p class="h-lead">Every screen was designed for sweaty thumbs, one hand and a phone that might have no signal.</p>
+                <div class="h-strip rv">
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/24-quick-log.jpg" alt="Valen Quick Log with muscle groups and a set count" width="720" height="1560" loading="lazy"></div><figcaption>Quick Log: tap muscles, pick sets, save</figcaption></figure>
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/17-set-types.jpg" alt="Valen set type picker with normal, warm-up, drop and failure" width="720" height="1560" loading="lazy"></div><figcaption>Warm-up, drop and failure sets</figcaption></figure>
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/18-rest-timer.jpg" alt="Valen rest timer counting down between sets" width="720" height="1560" loading="lazy"></div><figcaption>Rest timer with skip and add-set</figcaption></figure>
+                    <figure class="h-shot"><div class="h-phone"><img src="assets/app/23-exercise-detail.jpg" alt="Valen exercise detail showing the subzones an exercise works and an estimated one rep max" width="720" height="1560" loading="lazy"></div><figcaption>Every exercise shows the subzones it hits</figcaption></figure>
                 </div>
-
-                <div id="features" class="feature-grid">
-                    <article class="feature-panel glass-panel scroll-reveal">
-                        <div class="feature-header">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="M12 2 4 6v6c0 5 3.4 9.4 8 10 4.6-.6 8-5 8-10V6l-8-4Z"></path>
-                                    <path d="M9 12h6"></path>
-                                    <path d="M12 9v6"></path>
-                                </svg>
-                            </div>
-                            <div class="feature-text-block">
-                                <p class="feature-desc">
-                                    Read muscular recovery at a glance. Color-coded states show readiness with no wearables required.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="feature-shot">
-                            <img src="assets/screenshots/5.jpg" alt="Valen insights screenshot"
-                                class="app-shot shot-insights" loading="lazy">
-                        </div>
-                    </article>
- 
-                    <article class="feature-panel glass-panel scroll-reveal">
-                        <div class="feature-header">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3Z"></path>
-                                </svg>
-                            </div>
-                            <div class="feature-text-block">
-                                <p class="feature-desc">
-                                    Get training suggestions based on what is actually recovered, not the day of the week.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="feature-shot">
-                            <img src="assets/screenshots/6.jpg" alt="Valen suggestions screenshot"
-                                class="app-shot shot-suggestions" loading="lazy">
-                        </div>
-                    </article>
-
-                    <article class="feature-panel glass-panel scroll-reveal">
-                        <div class="feature-header">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16v16H4z"></path>
-                                    <path d="M8 8h8"></path>
-                                    <path d="M8 12h5"></path>
-                                    <path d="M8 16h7"></path>
-                                </svg>
-                            </div>
-                            <div class="feature-text-block">
-                                <p class="feature-desc">
-                                    Log detailed set-by-set entries or use 10-second quick logs to dynamically feed the recovery engine.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="feature-shot feature-shot-wide">
-                            <img src="assets/screenshots/7.jpg" alt="Valen quick log and detailed logging screenshot"
-                                class="app-shot shot-logging" loading="lazy">
-                    </article>
-                    <article class="feature-panel glass-panel scroll-reveal">
-                        <div class="feature-header">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
-                                </svg>
-                            </div>
-                            <div class="feature-text-block">
-                                <p class="feature-desc">
-                                    Track session-over-session progressive overload. Celebrate performance gains with automated streak counters.
-                                </p>
-                            </div>
-                        </div>
-                        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 18px; padding: 24px 20px; margin-top: 20px; display: flex; flex-direction: column; gap: 14px;">
-                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                <div style="display: flex; align-items: center; gap: 10px;">
-                                    <span style="font-size: 1.5rem;">🔥</span>
-                                    <div>
-                                        <div style="font-size: 0.95rem; font-weight: 700; color: var(--text);">5 Sessions</div>
-                                        <div style="font-size: 0.7rem; color: var(--text-muted);">Progressive Overload Streak</div>
-                                    </div>
-                                </div>
-                                <span style="font-size: 0.65rem; font-weight: 700; color: var(--accent); border: 1px solid var(--accent-border); background: var(--accent-low); padding: 4px 8px; border-radius: 8px;">ALL-TIME BEST</span>
-                            </div>
-                            
-                            <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;">
-                                <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.78rem;">
-                                    <span style="color: var(--text-soft);">Incline Press Volume</span>
-                                    <span style="color: #94d1bc; font-weight: 600;">+12% vs last week ▲</span>
-                                </div>
-                                <div style="height: 6px; background: rgba(255,255,255,0.06); border-radius: 3px; position: relative;">
-                                    <div style="position: absolute; left: 0; top: 0; height: 100%; width: 75%; background: rgba(255,255,255,0.15); border-radius: 3px;"></div>
-                                    <div style="position: absolute; left: 0; top: 0; height: 100%; width: 87%; background: var(--accent); border-radius: 3px; box-shadow: 0 0 10px rgba(30,168,173,0.4);"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="feature-panel glass-panel scroll-reveal">
-                        <div class="feature-header">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                                </svg>
-                            </div>
-                            <div class="feature-text-block">
-                                <p class="feature-desc">
-                                    Monitor central nervous system (CNS) fatigue. Get automated deload alerts before entering systemic overtraining.
-                                </p>
-                            </div>
-                        </div>
-                        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 18px; padding: 24px 20px; margin-top: 20px; display: flex; flex-direction: column; gap: 14px;">
-                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-soft); letter-spacing: 0.05em; text-transform: uppercase;">CNS Fatigue State</span>
-                                <span style="color: #ef4444; font-size: 0.8rem; font-weight: 700;">68% (High)</span>
-                            </div>
-                            
-                            <div style="height: 8px; background: rgba(255, 255, 255, 0.08); border-radius: 4px; overflow: hidden; position: relative;">
-                                <div style="height: 100%; width: 68%; background: linear-gradient(90deg, #94d1bc 0%, #d3b356 50%, #e04d36 100%); border-radius: 4px;"></div>
-                            </div>
-                            
-                            <div style="background: rgba(239, 68, 68, 0.06); border: 1px solid rgba(239, 68, 68, 0.15); border-radius: 12px; padding: 12px; margin-top: 4px; display: flex; gap: 10px; align-items: flex-start;">
-                                <span style="font-size: 1.1rem; line-height: 1;">⚠️</span>
-                                <div>
-                                    <div style="font-size: 0.82rem; font-weight: 700; color: #ef4444;">Deload Recommended</div>
-                                    <div style="font-size: 0.72rem; color: var(--text-muted); line-height: 1.4; margin-top: 2px;">Reduce training volume by 50% for the next 3 sessions to restore muscular homeostasis.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="feature-panel glass-panel scroll-reveal">
-                        <div class="feature-header">
-                            <div class="feature-icon">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                    <line x1="12" y1="8" x2="12" y2="12"></line>
-                                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                                </svg>
-                            </div>
-                            <div class="feature-text-block">
-                                <p class="feature-desc">
-                                    Identify localized training plateaus and push/pull imbalances with dynamic exercise substitutions.
-                                </p>
-                            </div>
-                        </div>
-                        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 18px; padding: 24px 20px; margin-top: 20px; display: flex; flex-direction: column; gap: 12px;">
-                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                <span style="font-size: 0.78rem; font-weight: 700; color: var(--text-soft); font-family: 'Outfit', sans-serif;">Dumbbell Shoulder Press</span>
-                                <span style="font-size: 0.62rem; font-weight: 700; background: rgba(240, 107, 39, 0.12); color: #f06b27; padding: 3px 6px; border-radius: 6px; border: 1px solid rgba(240, 107, 39, 0.25);">4-WEEK PLATEAU</span>
-                            </div>
-                            <div style="font-size: 0.74rem; color: var(--text-muted); line-height: 1.45; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 12px;">
-                                Strength plateau detected. Valen advises swapping to <span style="color: var(--accent); font-weight: 600;">Barbell Overhead Press</span> for 2 weeks to change load distribution.
-                            </div>
-                            
-                            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px;">
-                                <span style="font-size: 0.74rem; font-weight: 700; color: var(--text-soft); font-family: 'Outfit', sans-serif;">Push vs. Pull Balance</span>
-                                <span style="font-size: 0.62rem; font-weight: 700; background: rgba(240, 107, 39, 0.12); color: #f06b27; padding: 3px 6px; border-radius: 6px; border: 1px solid rgba(240, 107, 39, 0.25);">SKEWED</span>
-                            </div>
-                            <div style="font-size: 0.74rem; color: var(--text-muted); line-height: 1.45;">
-                                Pushing volume is 2.2x pulling volume. Incorporate Face Pulls or Lat Pulldowns in your next session.
-                            </div>
-                        </div>
-                    </article>
-            </div>
-        </section>
-
-        <!-- Day One Onboarding Section -->
-        <section class="day-one-section">
-            <div class="container">
-                <div class="day-one-header scroll-reveal" style="margin-bottom: 40px;">
-                    <div class="day-one-badge">Useful on day one. Not day twenty-one.</div>
-                </div>
-                
-                <div class="day-one-cards-grid scroll-reveal">
-                    <!-- Step 1 Card -->
-                    <div class="day-one-card glass-panel">
-                        <div class="day-one-card-step">STEP 01</div>
-                        <h4 class="day-one-card-title">Tell us your split</h4>
-                        <p class="day-one-card-desc">Push-Pull-Legs. Upper-Lower. Bro split. Whatever you're actually running.</p>
-                        <div class="day-one-visual-box choice-box">
-                            <div class="choice-item active">
-                                <span>Push-Pull-Legs</span>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                            </div>
-                            <div class="choice-item">
-                                <span>Upper / Lower</span>
-                                <span class="choice-dot"></span>
-                            </div>
-                            <div class="choice-item">
-                                <span>Bro Split</span>
-                                <span class="choice-dot"></span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Step 2 Card -->
-                    <div class="day-one-card glass-panel featured-card">
-                        <div class="day-one-card-step step-accent">STEP 02</div>
-                        <h4 class="day-one-card-title">We fill the gaps</h4>
-                        <p class="day-one-card-desc">Valen generates 21 sessions of synthetic history based on your frequency and profile.</p>
-                        <div class="day-one-visual-box processing-box">
-                            <div class="processing-header">
-                                <span>Generating 21 logs</span>
-                                <span class="percent text-accent">100% Complete</span>
-                            </div>
-                            <div class="progress-bar-glow">
-                                <div class="progress-fill-glow" style="width: 100%;"></div>
-                            </div>
-                            <div class="processing-spark">
-                                <div class="spark-node active"></div>
-                                <div class="spark-node active"></div>
-                                <div class="spark-node active"></div>
-                                <div class="spark-node active"></div>
-                                <div class="spark-node active"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Step 3 Card -->
-                    <div class="day-one-card glass-panel">
-                        <div class="day-one-card-step">STEP 03</div>
-                        <h4 class="day-one-card-title">Start with a live map</h4>
-                        <p class="day-one-card-desc">Ready zones. Loaded zones. Fatigue scores. Day one looks like week four.</p>
-                        <div class="day-one-visual-box heatmap-box">
-                            <div class="mini-heatmap">
-                                <div class="muscle-group ready-g">Pecs<br><small>Ready</small></div>
-                                <div class="muscle-group alert-g">Delts<br><small>Fatigued</small></div>
-                                <div class="muscle-group recovery-g">Legs<br><small>Recovering</small></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-
-            </div>
-        </section>
-
-
-        <section class="section signal-strip">
-            <div class="container signal-grid">
-                <div class="signal-card">
-                    <div class="signal-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                    </div>
-                    <span class="signal-title">On-device</span>
-                    <p>Private by default.</p>
-                </div>
-                <div class="signal-card">
-                    <div class="signal-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M17.5 19c2.5 0 4.5-2 4.5-4.5 0-2.3-1.7-4.1-3.9-4.5-.4-3.1-3.1-5.5-6.1-5.5-2.6 0-4.8 1.8-5.7 4.2C3.8 9.3 2 11.2 2 13.5 2 16 4 18 6.5 18H17.5z">
-                            </path>
-                        </svg>
-                    </div>
-                    <span class="signal-title">Cloud Backup</span>
-                    <p>Encrypted & optional.</p>
-                </div>
-                <div class="signal-card">
-                    <div class="signal-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M13 2L3 14h9v8l10-12h-9l1 8z"></path>
-                        </svg>
-                    </div>
-                    <span class="signal-title">Real Readiness</span>
-                    <p>Actual daily read.</p>
+                <div class="h-grid">
+                <div class="h-card rv"><h3>Quick Log</h3><p>Chest, 9 sets, done. Pick muscles, set a number, save. Supporting muscles count as partial volume automatically.</p></div>
+                <div class="h-card rv"><h3>Warm-up, drop and failure sets</h3><p>Mark a set as what it is, so warm-ups do not count like working sets and a drop set is not mistaken for a heavy one.</p></div>
+                <div class="h-card rv"><h3>Smart Rest <span class="h-pro">PRO</span></h3><p>Rest time scales with how draining the lift is, how close the weight is to your best, and which set you are on. Shorter for isolation lifts, longer for heavy compounds. It runs as a notification, so it works with your phone locked.</p></div>
+                <div class="h-card rv"><h3>Plate calculator</h3><p>Enter a target weight and see which plates to load on each side. No mental arithmetic between sets.</p></div>
+                <div class="h-card rv"><h3>Search that speaks gym</h3><p>Type &quot;db curl&quot; or &quot;bb row&quot; and find the exercise. 209 exercises, each showing the subzones it works.</p></div>
+                <div class="h-card rv"><h3>Home screen widgets <span class="h-pro">PRO</span></h3><p>Three home screen widgets: Readiness, Weekly Coverage and Today's Session. See what is ready without opening the app.</p></div>
+                <div class="h-card rv"><h3>kg or lb, your call</h3><p>Switch any time. Weights are stored in one unit, so your history never gets rescaled when you change.</p></div>
+                <div class="h-card rv"><h3>Fully offline</h3><p>Logging and every recovery calculation run on your phone. A basement gym with no signal is fine.</p></div>
+                <div class="h-card rv"><h3>Private by default</h3><p>Data stays on your device. No account. Optional encrypted cloud backup for Pro, which you can delete whenever you want.</p></div>
                 </div>
             </div>
         </section>
 
-        <section id="download" class="section download-section-wrap">
-            <div class="container">
-                <div class="download-panel glass-panel">
-                    <div class="download-copy">
-                        <h2 class="download-title">Free for all. <span class="text-accent">Pro for Pros.</span></h2>
-                        <p class="section-text">
-                            Valen is free to download and use. Unlock Pro (full history, weekly planning, and advanced insights) with a simple yearly subscription or a single lifetime purchase. You own it on your terms.
-                        </p>
-                    </div>
-                    <div class="download-actions" style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
-                        <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; width: 100%;">
-                            <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="btn btn-primary"
-                                target="_blank" rel="noreferrer">
-                                <svg viewBox="0 0 512 512" width="20" height="20" fill="currentColor"
-                                    style="margin-right: 10px;">
-                                    <path
-                                        d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l220.7-221.2 60.1 60.1L104.6 499z" />
-                                </svg>
-                                Get for Android
-                            </a>
-                            <a href="pricing.html" class="btn" style="background: rgba(255, 255, 255, 0.05); color: var(--text-primary); border: 1px solid var(--accent-border); padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; transition: all 0.2s;" onmouseover="this.style.background='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.05)'">
-                                See what's in Pro
-                            </a>
-                        </div>
-                        <span class="download-note">
-                            Private by default. Works offline. Your data stays on your device.
-                            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor"
-                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
-                                style="opacity: 0.8;">
-                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                            </svg>
-                        </span>
-                    </div>
+        <section class="h-section" id="plans">
+            <div class="h-wrap">
+                <span class="h-eyebrow">Plans</span>
+                <h2 class="h-h2">Start with the full recovery map.</h2>
+                <p class="h-lead">The recovery map, unlimited logging, unlimited history and daily suggestions are on every plan. Pro adds the adaptive weekly plan, the corrective session, deeper insights, Smart Rest, widgets and cloud backup, at $24.99 a year or $49.99 once.</p>
+                <div class="h-cta-row"><a href="pricing.html" class="h-btn h-btn-ghost">See pricing and what is in Pro</a></div>
+                <div class="h-links" aria-label="Comparison pages">
+                    <a href="hevy-vs-strong-vs-valen.html">Valen vs Hevy and Strong</a>
+                    <a href="fitbod-vs-valen.html">Valen vs Fitbod</a>
+                    <a href="whoop-vs-valen.html">Valen vs Whoop</a>
+                    <a href="oura-vs-valen.html">Valen vs Oura</a>
+                    <a href="muscle-subzone-tracking-guide.html">The subzone tracking guide</a>
                 </div>
             </div>
         </section>
 
-        <!-- FAQ Section -->
-        <section id="faq" class="section">
-            <div class="container faq-container-inner">
-                <div class="section-title-block scroll-reveal">
-                    <p class="kicker">ANSWERS TO RAW QUESTIONS</p>
-                    <h2 class="section-heading center-heading">Frequently Asked Questions</h2>
-                </div>
-                
-                <div class="faq-group scroll-reveal">
-                    <details class="faq-disclosure" name="valen-faq" open>
-                        <summary class="faq-summary">
-                            <span>What makes Valen different from a normal workout tracker?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Most workout apps stop at logging sets. Valen tracks muscular recovery dynamically, helping you understand what’s actually ready to perform, recover, or be pushed harder. Instead of guessing fatigue, you train with recovery awareness built in.</p>
-                        </div>
+        <section class="h-section alt" id="faq">
+            <div class="h-wrap">
+                <span class="h-eyebrow">Straight answers</span>
+                <h2 class="h-h2">Questions lifters ask first</h2>
+                <div class="h-faq">
+                    <details class="rv">
+                        <summary>What is a muscle subzone?</summary>
+                        <p>A subzone is one region of a muscle group. Valen splits the body into 24 of them, such as upper, mid and lower chest, front, lateral and rear delts, lats, rhomboids and upper back, quads, hamstrings, glutes and calves. Every exercise in the app is mapped to the subzones it works, so a set of incline press adds fatigue mainly to upper chest and a set of dips to lower chest.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Does it work without a wearable?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Yes. Everything runs on what you log. No heart rate monitor, no sleep tracker, no extra hardware needed.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>How does Valen work out how recovered a muscle is?</summary>
+                        <p>Every set you log adds fatigue to the subzones it worked. The amount depends on the weight compared with a baseline for that lift, the reps, how hard the set was (RPE 1 to 10) and how demanding the exercise is. That fatigue then fades hour by hour. The half life depends on the muscle group: about 24 hours for core, 25 for arms, 27 for shoulders, 31 for chest, 35 for back and 37 for legs. If you mark a muscle as sore or injured it fades more slowly.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Will Valen tell me when to push harder or recover?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Yes. Valen continuously evaluates muscular readiness and fatigue accumulation to help guide smarter training decisions over time.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>How accurate is it without a wearable?</summary>
+                        <p>It is a model, not a measurement. It is built from your logged training and published recovery research, and it does not read your body. That is why Valen shows readiness as a range from ready to fatigued instead of a made-up precise number, and why you can mark a muscle sore or injured to override it. Nothing in the app is medical advice.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Can beginners use Valen?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Absolutely. Valen adapts recommendations based on your experience level, training frequency, and goals, whether you’re just starting or training seriously for years.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>Do I have to give up my routine?</summary>
+                        <p>No. You can save any exercise list as a named routine, or save a finished session as one, and keep training the way you like. Each routine shows a recovery dot for every muscle it hits, so you can see that Push Day is ready but your front delts are not. Saved routines are unlimited and free.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Does Valen track individual muscle recovery?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Yes. Different muscle groups recover at different rates. Valen models localized recovery dynamically rather than treating the body as one global fatigue score.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>What is the corrective session?</summary>
+                        <p>Valen looks at your last 21 days of training and compares each subzone's share of your volume with a healthy range for that muscle group. If one is falling behind, it builds a short session of up to four exercises, three sets each, chosen to cover the biggest gaps in the least time. It needs at least four sessions in that window before it gives a verdict. The ranges are training guidelines, not medical advice. The corrective session is a Pro feature.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Do I need to manually track everything?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>No. Valen is designed to stay fast during workouts with streamlined logging and automated recovery calculations running in the background.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>What is a training block?</summary>
+                        <p>A block is a run of 4, 5 or 6 weeks that builds up your weekly volume and then drops it. It goes intro, build, peak, deload. Weekly set targets sit between your minimum and maximum effective volume for each muscle, and they scale with your experience level. The peak week stops at 85% of the modelled ceiling on purpose, because that ceiling is an estimate. Blocks are part of the Pro weekly planner.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Is my data private?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Everything lives on your device. Cloud backup is available for Pro users who want it, but it's optional, encrypted, and you can delete it anytime.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>What is free and what is Pro?</summary>
+                        <p>Free includes the full recovery map, unlimited workout logging with Quick Log, 209 exercises, daily session suggestions, saved routines, a rest timer with notification, the plate calculator, the progressive overload streak and unlimited history. Pro adds the adaptive weekly plan and training blocks, score breakdowns, strain vs recovery, the corrective session, split over time, training intelligence, physique trajectory, Smart Rest, home screen widgets and encrypted cloud backup. Pro is $24.99 a year or $49.99 once, with local pricing at checkout.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Does Valen work offline?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Yes. Core logging and recovery systems continue functioning even without an internet connection.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>Does it work offline and is my data private?</summary>
+                        <p>Yes to both. Logging and all recovery calculations run on your phone with no connection, and your training data stays on the device by default. There is no account to create. Cloud backup is optional, encrypted, Pro only, and you can delete it any time.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>Can Valen help prevent junk volume?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>That’s one of the goals. Valen helps identify when additional training volume may become less productive due to accumulated fatigue and recovery imbalance.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>Can I use kg or lb?</summary>
+                        <p>Either, and you can switch whenever you like. Weights are stored in one unit internally, so switching only changes how they are displayed and never rescales your history.</p>
                     </details>
-                    
-                    <details class="faq-disclosure" name="valen-faq">
-                        <summary class="faq-summary">
-                            <span>What if I miss a few days?</span>
-                            <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                        </summary>
-                        <div class="faq-content">
-                            <p>Valen handles it. Recovery decay runs continuously; missed days mean your muscles recovered, and your map updates accordingly. The app doesn't get confused when real life happens.</p>
-                        </div>
+                    <details class="rv">
+                        <summary>What if I miss a few days?</summary>
+                        <p>The map catches up on its own. Recovery decays continuously, so a missed week just means your muscles recovered, and the map shows it. Nothing breaks and there is nothing to fix.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Is Valen on iPhone?</summary>
+                        <p>iOS is coming soon. For now Valen is available on Google Play.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>How is Valen different from Hevy, Strong or Fitbod?</summary>
+                        <p>Hevy and Strong are logbooks: they record what you did. Fitbod tracks recovery per muscle group. Valen tracks it per subzone, diagnoses which one is behind, and builds the fix. The comparison pages linked above go through each in detail.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Is Valen easy to learn?</summary>
+                        <p>Yes. Quick Log records a session in a few taps: pick the muscle groups you trained, set a number of sets, save. Recovery is calculated automatically from that, and Valen suggests what is ready to train today, so you do not need to know any training science to use it. The full workout log, with weight, reps, RPE and set types, is there when you want more detail.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Is Valen good for beginners?</summary>
+                        <p>Yes. You never have to interpret a chart to use it. The map shows a colour and a percentage per muscle, and the daily suggestion tells you what to train. Experienced lifters get the deeper layers, such as subzone drill-downs, volume targets and the corrective session, when they want them.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Is logging in Valen fast?</summary>
+                        <p>Fast enough, but not the fastest. For set-by-set entry Strong is widely regarded as the quickest logger, and Valen does not claim to beat it. In Valen you pick the exercise, set weight and reps, and tap Log. Quick Log is faster than any set-by-set entry when you only want to record what you trained.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Can I export my data, or import it from Hevy or Strong?</summary>
+                        <p>You can export everything (history, custom exercises, settings) as a JSON file to your Downloads folder, on the free plan too, and import that file back. Valen cannot export CSV and cannot import CSV files from Hevy, Strong or other apps, so history from another app does not carry over.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Does Valen work with a smartwatch, Wear OS or Health Connect?</summary>
+                        <p>No. Valen has no watch app and does not read from or write to Health Connect or Google Fit. You log on your phone. Recovery is calculated only from the sets you log, so nothing needs to be connected.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Are there ads, and is anything capped on the free plan?</summary>
+                        <p>There are no ads on any plan and no social feed. The free plan has no cap on logged sessions, saved routines or custom exercises. Pro adds features such as the adaptive weekly plan, the corrective session, Smart Rest, widgets and cloud backup.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Do I need an account, and what data does Valen collect?</summary>
+                        <p>No account is needed. Your training data stays on your phone by default. Valen does send anonymous product analytics and crash reports, which are on by default, never include personal information, and can be turned off in Settings under About and Support. Cloud backup is optional, Pro only, and needs a Google sign-in.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>What is the best app for muscle recovery without a wearable?</summary>
+                        <p>Valen estimates recovery for 24 muscle subzones from your workout log alone, with no wearable, heart rate monitor or sleep tracker. Its numbers are model estimates, not measurements, and you can mark a muscle as sore or injured to override them.</p>
+                    </details>
+                    <details class="rv">
+                        <summary>Is Valen safe to rely on if it is built by a small team?</summary>
+                        <p>It carries the ordinary risk of any small independent app. Your data lives on your phone and can be exported as a file at any time, and Pro can be bought once as a lifetime purchase. Neither removes the risk that a small app changes or stops being updated.</p>
                     </details>
                 </div>
             </div>
         </section>
-        <!-- Section 1: Weekly Planner -->
-        <section id="weekly-planner" class="section">
-            <div class="container story-grid reverse-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">ADAPTIVE WEEKLY PLANNING</p>
-                    <h2 class="section-heading">A plan that adapts to <span class="text-accent">you</span>.</h2>
-                    <p class="section-text">
-                        Your body isn't a spreadsheet. If you're carrying extreme fatigue, Valen automatically reschedules your high-intensity sessions and swaps in active recovery or rest. It’s dynamic periodization, entirely on autopilot.
-                    </p>
-                </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel" style="padding: 30px 20px; display: flex; flex-direction: column; gap: 15px; border: 1px solid rgba(255,255,255,0.05); background: rgba(0,0,0,0.2);">
-                        <!-- Mon -->
-                        <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.03); padding: 12px 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
-                            <div style="display: flex; align-items: center; gap: 12px;">
-                                <span style="color: var(--text-muted); font-weight: 600; width: 35px;">Mon</span>
-                                <div style="width: 3px; height: 18px; background: var(--accent); border-radius: 2px;"></div>
-                                <span style="color: var(--text); font-weight: 500;">Push Day</span>
-                            </div>
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                        </div>
-                        <!-- Tue -->
-                        <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(30, 168, 173, 0.1); padding: 12px 16px; border-radius: 12px; border: 1px solid var(--accent); box-shadow: inset 0 0 15px rgba(30, 168, 173, 0.1);">
-                            <div style="display: flex; align-items: center; gap: 12px;">
-                                <span style="color: var(--accent); font-weight: 600; width: 35px;">Tue</span>
-                                <div style="width: 3px; height: 18px; background: var(--accent); border-radius: 2px;"></div>
-                                <span style="color: var(--text); font-weight: 500;">Pull Day</span>
-                            </div>
-                            <span style="background: var(--accent); color: #000; font-size: 0.75rem; font-weight: 700; padding: 3px 8px; border-radius: 12px;">TODAY</span>
-                        </div>
-                        <!-- Wed (Rescheduled) -->
-                        <div style="display: flex; align-items: center; justify-content: space-between; background: rgba(239, 68, 68, 0.05); padding: 12px 16px; border-radius: 12px; border: 1px dashed rgba(239, 68, 68, 0.4);">
-                            <div style="display: flex; align-items: center; gap: 12px;">
-                                <span style="color: var(--text-muted); font-weight: 600; width: 35px;">Wed</span>
-                                <div style="width: 3px; height: 18px; background: #ef4444; border-radius: 2px;"></div>
-                                <span style="color: var(--text); font-weight: 500;">Rest Day <span style="color: #ef4444; font-size: 0.8rem; margin-left: 8px;">(High Fatigue)</span></span>
-                            </div>
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--text-muted)" stroke-width="2"><path d="M21.5 2v6h-6M2.13 15.57a9 9 0 1 0 3.84-10.36L2 2v6h6"></path></svg>
-                        </div>
-                    </div>
+
+        <section class="h-section" id="limits">
+            <div class="h-wrap">
+                <span class="h-eyebrow">The honest part</span>
+                <h2 class="h-h2">What Valen does not do.</h2>
+                <p class="h-lead">Valen has no smartwatch app and no Health Connect link, it cannot import history from Hevy or Strong, and it does not include percentage programs such as 5/3/1. Recovery percentages are estimates from your log, not sensor readings.</p>
+                <div class="h-links">
+                    <a href="what-valen-does-not-do.html">The full list of limits</a>
+                    <a href="workout-app-data-privacy-offline.html">Your data: no account, offline, free export</a>
+                    <a href="workout-app-no-learning-curve.html">How easy is it to learn?</a>
                 </div>
             </div>
         </section>
 
-        <!-- Section 2: Smart Suggestions -->
-        <section id="smart-suggestions" class="section section-surface">
-            <div class="container story-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">SMART SUGGESTIONS</p>
-                    <h2 class="section-heading">Never ask <span class="text-accent">"what should I train today?"</span></h2>
-                    <p class="section-text">
-                        Every time you open the app, Valen scans your localized fatigue across all 15 sub-zones. It instantly calculates what is fully recovered, avoids what is fatigued or injured, and serves up the perfect optimal training session.
-                    </p>
+        <section class="h-final">
+            <div class="h-wrap">
+                <span class="h-brand">Valen</span>
+                <h2 class="h-h2">Stop guessing which part of the muscle is ready.</h2>
+                <p class="h-lead" style="margin:0 auto;">Log your next session and watch the map update.</p>
+                <div class="h-cta-row">
+                    <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="h-btn h-btn-primary" target="_blank" rel="noreferrer" data-cta="final-play"><svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l220.7-221.2 60.1 60.1L104.6 499z"/></svg> Get Valen on Google Play</a>
                 </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel" style="padding: 40px 20px; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at center, rgba(30,168,173,0.1) 0%, transparent 70%); border: none;">
-                        <div style="background: rgba(8, 19, 23, 0.8); border: 1px solid rgba(255,255,255,0.05); border-radius: 20px; width: 100%; max-width: 350px; padding: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); backdrop-filter: blur(10px);">
-                            <div style="font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.1em; margin-bottom: 12px; font-weight: 600;">TODAY'S OPTIMAL SESSION</div>
-                            <div style="display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, rgba(30,168,173,0.15) 0%, rgba(30,168,173,0) 100%); border: 1px solid rgba(30,168,173,0.3); border-radius: 12px; padding: 16px;">
-                                <div>
-                                    <div style="font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 6px;">Balance Session</div>
-                                    <div style="display: flex; gap: 8px;">
-                                        <span style="background: rgba(30, 168, 173, 0.2); color: var(--accent); padding: 4px 8px; border-radius: 6px; font-size: 0.65rem; font-weight: 700;">CHEST READY</span>
-                                        <span style="background: rgba(30, 168, 173, 0.2); color: var(--accent); padding: 4px 8px; border-radius: 6px; font-size: 0.65rem; font-weight: 700;">ARMS READY</span>
-                                    </div>
-                                </div>
-                                <div style="background: var(--accent); color: #000; padding: 10px 18px; border-radius: 20px; font-weight: 700; font-size: 0.9rem;">Start</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p class="h-micro">iOS coming soon.</p>
             </div>
         </section>
 
-        <!-- Section 3: Android Widgets -->
-        <section id="android-widgets" class="section">
-            <div class="container story-grid reverse-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">HOME SCREEN WIDGETS</p>
-                    <h2 class="section-heading">Your recovery, <span class="text-accent">at a glance.</span></h2>
-                    <p class="section-text">
-                        Keep your readiness front and center without even opening the app. Our beautifully crafted native Android widgets give you real-time recovery rings and status updates right alongside your other apps.
-                    </p>
-                </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel" style="padding: 30px; display: flex; align-items: center; justify-content: center; position: relative; border: none; background: transparent;">
-                        <div style="width: min(280px, 90vw); background: #0a0a0a; border: 8px solid #222; border-radius: 40px; padding: 25px 15px; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
-                            <div style="width: 40px; height: 4px; background: #333; border-radius: 2px; position: absolute; top: 12px; left: 50%; transform: translateX(-50%);"></div>
-                            
-                            <!-- App Icons Mock -->
-                            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 20px; margin-top: 15px;">
-                                <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                            </div>
-                            
-                            <!-- 4x2 Widget -->
-                            <div style="background: rgba(30,168,173,0.05); border: 1px solid rgba(30,168,173,0.2); border-radius: 20px; padding: 15px; margin-bottom: 15px; backdrop-filter: blur(10px);">
-                                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
-                                    <span style="font-size: 0.8rem; font-weight: 600; color: #fff;">Valen Recovery</span>
-                                    <span style="font-size: 0.7rem; color: var(--accent); font-weight: bold;">PRIMED</span>
-                                </div>
-                                <div style="display: flex; justify-content: space-between;">
-                                    <div style="text-align: center;">
-                                        <div style="height: 40px; width: 40px; border-radius: 50%; border: 3px solid var(--accent); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; color: #fff; margin: 0 auto 5px;">92</div>
-                                        <div style="font-size: 0.55rem; color: #aaa; letter-spacing: 0.05em;">CHEST</div>
-                                    </div>
-                                    <div style="text-align: center;">
-                                        <div style="height: 40px; width: 40px; border-radius: 50%; border: 3px solid var(--accent); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; color: #fff; margin: 0 auto 5px;">88</div>
-                                        <div style="font-size: 0.55rem; color: #aaa; letter-spacing: 0.05em;">ARMS</div>
-                                    </div>
-                                    <div style="text-align: center;">
-                                        <div style="height: 40px; width: 40px; border-radius: 50%; border: 3px solid #ef4444; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; color: #fff; margin: 0 auto 5px;">12</div>
-                                        <div style="font-size: 0.55rem; color: #aaa; letter-spacing: 0.05em;">LEGS</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- 2x2 Widget + App Icons -->
-                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                                <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 20px; padding: 15px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                    <div style="height: 65px; width: 65px; border-radius: 50%; border: 4px solid #f59e0b; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; font-weight: bold; color: #fff; margin-bottom: 8px;">65</div>
-                                    <div style="font-size: 0.65rem; color: #fff; font-weight: 600; letter-spacing: 0.05em;">BACK</div>
-                                </div>
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; align-content: space-between;">
-                                    <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                    <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                    <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                    <div style="aspect-ratio: 1; background: #222; border-radius: 12px;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 4: Advanced Insights -->
-        <section id="advanced-insights" class="section section-surface">
-            <div class="container story-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">DEEP INSIGHTS</p>
-                    <h2 class="section-heading">Fix your imbalances <span class="text-accent">before they become injuries.</span></h2>
-                    <p class="section-text">
-                        Training chest 4x a week while neglecting your back? Valen's engine analyzes your long-term volume distribution to warn you about severe anterior vs. posterior imbalances, specialization penalties, and chronic overtraining vectors.
-                    </p>
-                </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel" style="padding: 40px 30px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.05);">
-                        <div style="width: 100%; display: flex; align-items: flex-end; justify-content: center; gap: 12px; height: 120px; margin-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
-                            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
-                                <div style="width: 40px; height: 100px; background: linear-gradient(180deg, var(--accent) 0%, rgba(30,168,173,0.2) 100%); border-radius: 6px 6px 0 0;"></div>
-                                <span style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">CHEST</span>
-                            </div>
-                            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
-                                <div style="width: 40px; height: 80px; background: linear-gradient(180deg, var(--accent) 0%, rgba(30,168,173,0.2) 100%); border-radius: 6px 6px 0 0;"></div>
-                                <span style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">DELTS</span>
-                            </div>
-                            <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
-                                <div style="width: 40px; height: 25px; background: linear-gradient(180deg, #ef4444 0%, rgba(239,68,68,0.2) 100%); border-radius: 6px 6px 0 0;"></div>
-                                <span style="font-size: 0.7rem; color: var(--text-muted); font-weight: 600;">BACK</span>
-                            </div>
-                        </div>
-                        
-                        <div style="background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.3); padding: 16px 20px; border-radius: 12px; display: flex; align-items: flex-start; gap: 15px; width: 100%;">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="flex-shrink: 0;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-                            <div>
-                                <h4 style="color: #ef4444; margin: 0 0 5px 0; font-size: 0.95rem;">Anterior Overload Detected</h4>
-                                <p style="color: rgba(255,255,255,0.7); margin: 0; font-size: 0.8rem; line-height: 1.5;">Your push volume exceeds your pull volume by 320%. Consider adding Rhomboid and Lat work to prevent shoulder impingement.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section 5: Cloud Backup -->
-        <section id="cloud-backup" class="section">
-            <div class="container story-grid reverse-grid">
-                <div class="story-copy scroll-reveal">
-                    <p class="kicker">ENCRYPTED CLOUD SYNC</p>
-                    <h2 class="section-heading">Your data is yours. <span class="text-accent">Safe, synced, and secure.</span></h2>
-                    <p class="section-text">
-                        Valen runs 100% offline for zero latency in the gym. But when you hit WiFi, it silently securely backs up your entire encrypted training history to the cloud. Lose your phone? You won't lose a single set.
-                    </p>
-                </div>
-                <div class="story-visual scroll-reveal">
-                    <div class="glass-panel visual-panel" style="padding: 60px 20px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; border: none; background: transparent;">
-                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(circle at center, rgba(30,168,173,0.15) 0%, transparent 60%);"></div>
-                        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 400px; position: relative;">
-                            <!-- Line connecting -->
-                            <div style="position: absolute; left: 20%; right: 20%; height: 2px; background: rgba(255,255,255,0.1); z-index: 0;"></div>
-                            <div style="position: absolute; left: 20%; right: 20%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); z-index: 0; animation: pulse-line 2s infinite;"></div>
-                            
-                            <!-- Phone Node -->
-                            <div style="background: #111; border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 25px; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 12px; width: 110px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-                                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
-                                <span style="font-size: 0.75rem; font-weight: 600; color: var(--text-muted); letter-spacing: 0.05em;">DEVICE</span>
-                            </div>
-
-                            <!-- Cloud Node -->
-                            <div style="background: rgba(30,168,173,0.1); border: 1px solid var(--accent); border-radius: 20px; padding: 25px; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 12px; width: 110px; box-shadow: 0 0 30px rgba(30,168,173,0.3); backdrop-filter: blur(10px);">
-                                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"></path><polyline points="13 11 9 17 15 17 11 23"></polyline></svg>
-                                <span style="font-size: 0.75rem; font-weight: 600; color: var(--accent); letter-spacing: 0.05em;">CLOUD</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <style>
-            @keyframes pulse-line {
-                0% { transform: scaleX(0); opacity: 0; transform-origin: left; }
-                50% { transform: scaleX(1); opacity: 1; transform-origin: left; }
-                51.1% { transform: scaleX(1); opacity: 1; transform-origin: right; }
-                100% { transform: scaleX(0); opacity: 0; transform-origin: right; }
-            }
-        </style>
     </main>
 
     <footer class="footer">
@@ -1177,97 +743,35 @@
     </footer>
 
     <script>
-        // Enable JS-specific styling for graceful degradation
         document.documentElement.classList.add('js-enabled');
-
-        const observerOptions = {
-            threshold: 0.05 // Adjusted to 0.05 threshold to trigger early on mobile viewports
-        };
-
-        // Scroll reveal observer
-        const revealObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const elements = entry.target.querySelectorAll('.scroll-reveal');
-                    elements.forEach((el, index) => {
-                        setTimeout(() => {
-                            el.classList.add('revealed');
-                        }, index * 100);
-                    });
-                    revealObserver.unobserve(entry.target);
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.story-grid, .feature-grid, #interactive-map, #sra-science, #faq, .day-one-section').forEach(section => {
-            revealObserver.observe(section);
-        });
-
-        // Flow step sequence observer (200ms stagger)
-        const flowObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const steps = entry.target.querySelectorAll('.flow-step');
-                    const connectors = entry.target.querySelectorAll('.flow-connector');
-
-                    steps.forEach((step, index) => {
-                        setTimeout(() => {
-                            step.classList.add('active');
-                            if (connectors[index]) {
-                                setTimeout(() => {
-                                    connectors[index].classList.add('active');
-                                }, 150);
-                            }
-                        }, index * 200);
-                    });
-
-                    flowObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.15 }); // Adjusted threshold for better triggering on mobile
-
-        const flowContainer = document.querySelector('.flow-container');
-        if (flowContainer) {
-            flowObserver.observe(flowContainer);
-        }
-
-        // Mobile Hamburger Navigation Toggler
-        const navToggle = document.getElementById('nav-toggle');
-        const navbar = document.querySelector('.navbar');
-        
-        if (navToggle && navbar) {
-            // Navbar scroll effect: make thinner and more transparent when scrolling
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 20) {
-                    navbar.classList.add('scrolled');
-                } else {
-                    navbar.classList.remove('scrolled');
-                }
-            });
-
-            navToggle.addEventListener('click', (e) => {
+        (function () {
+            var els = document.querySelectorAll('.rv');
+            if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+            }, { threshold: 0.08 });
+            els.forEach(function (e) { io.observe(e); });
+        })();
+        (function () {
+            var toggle = document.getElementById('nav-toggle');
+            var nav = document.querySelector('.navbar');
+            if (!toggle || !nav) return;
+            toggle.addEventListener('click', function (e) {
                 e.stopPropagation();
-                const isActive = navbar.classList.toggle('is-active');
-                navToggle.setAttribute('aria-expanded', isActive);
+                var open = nav.classList.toggle('is-active');
+                toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
             });
-            
-            // Close menu when tapping any link inside
-            document.querySelectorAll('.nav-links a').forEach(link => {
-                link.addEventListener('click', () => {
-                    navbar.classList.remove('is-active');
-                    navToggle.setAttribute('aria-expanded', 'false');
-                });
+            document.querySelectorAll('.nav-links a').forEach(function (a) {
+                a.addEventListener('click', function () { nav.classList.remove('is-active'); toggle.setAttribute('aria-expanded', 'false'); });
             });
-            
-            // Close menu when clicking outside
-            document.addEventListener('click', (e) => {
-                if (navbar.classList.contains('is-active') && !navbar.contains(e.target)) {
-                    navbar.classList.remove('is-active');
-                    navToggle.setAttribute('aria-expanded', 'false');
-                }
+            document.addEventListener('click', function (e) {
+                if (!nav.contains(e.target)) { nav.classList.remove('is-active'); toggle.setAttribute('aria-expanded', 'false'); }
             });
-        }
-
+            window.addEventListener('scroll', function () { nav.classList.toggle('scrolled', window.scrollY > 20); }, { passive: true });
+        })();
+        document.querySelectorAll('[data-cta]').forEach(function (a) {
+            a.addEventListener('click', function () { if (window.posthog) posthog.capture('play_store_click', { location: a.getAttribute('data-cta') }); });
+        });
     </script>
 </body>
 

@@ -1,15 +1,21 @@
 # Valen
 
-> Valen is a free Android app that maps training recovery down to the muscle-subzone level, upper vs. mid vs. lower chest, anterior vs. posterior delts, push vs. pull ratio, entirely from your own workout log. No wearable, no sensors, no account required. It runs on a Stimulus-Recovery-Adaptation model to show which specific muscles are actually ready to train today.
+> Valen is a fitness app that maps training recovery down to the muscle-subzone level, upper vs. mid vs. lower chest, anterior vs. posterior delts, push vs. pull ratio, entirely from your own workout log. No wearable, no sensors, no account required. It runs on a Stimulus-Recovery-Adaptation model to show which specific muscles are actually ready to train today.
 
 Valen is built by an independent developer, not a corporation, supplement brand, or VC-backed company. Training data stays on-device by default; encrypted cloud backup is optional and only available to Pro users.
 
 ## Key facts
 
-- Platform: Android only (Google Play). iOS is planned but not yet available.
+- Platform: Google Play. iOS coming soon. No Wear OS or Apple Watch app, and no Health Connect or Google Fit connection: recovery comes only from the sets you log.
 - Ads: none, on any plan. No social feed.
-- Price: Free tier includes the full recovery heatmap, unlimited workout logging, exercise library with subzone mapping, and 30 days of history. Pro is $24.99/year or a $49.99 one-time lifetime purchase, and adds unlimited history, the adaptive weekly planner, deep muscle insights, encrypted cloud backup, and home-screen widgets.
-- Tracks 15+ muscle subzones (not just "chest" or "back") with per-subzone fatigue that decays hour-by-hour, MEV/MAV/MRV volume targets per muscle per week, e1RM and PR tracking, and CNS strain.
+- Account and offline: no account needed. Logging and all recovery calculations run on the phone, so it works offline. Data stays on the device by default. Anonymous analytics and crash reports are on by default and can be turned off in Settings.
+- Data portability: export a JSON file of your history, custom exercises and settings (free and Pro) and import it back. No CSV export, and no import from Hevy, Strong or other apps.
+- Free-plan caps: none on logging, saved routines or custom exercises.
+- Ease of use: Quick Log records a session in a few taps (pick muscle groups and a number of sets). The full log records weight, reps and set types. Strong is faster for set-by-set entry, and Valen does not claim otherwise.
+- Accuracy: recovery is a model built from logged sets and published research, not a measurement. Users can mark a muscle sore or injured to override it. Not medical advice.
+- Not built for: smartwatch logging, percentage-based programs such as 5/3/1 or GZCLP, importing history from other apps.
+- Price: Free tier includes the full recovery heatmap, unlimited workout logging, exercise library with subzone mapping, and unlimited history. Pro is $24.99/year or a $49.99 one-time lifetime purchase, and adds the adaptive weekly planner, deep muscle insights, encrypted cloud backup, and home-screen widgets.
+- Tracks 24 muscle subzones (not just "chest" or "back") with per-subzone fatigue that decays hour-by-hour, MEV/MAV/MRV volume targets per muscle per week, e1RM and PR tracking, and CNS strain.
 - Recovery is calculated entirely from logged training, no wearable, heart rate monitor, or sleep tracker required.
 - Example real-user imbalance findings the app surfaces: chest volume at 65% of weekly total vs. back at 7%; push volume running 2.2x pull volume; mid chest at 50% recovered while lower chest is at 18% recovered on the same day.
 
@@ -41,7 +47,12 @@ Valen is built by an independent developer, not a corporation, supplement brand,
 - [Why You're Probably Doing More Pushing Than Pulling](https://www.valenapp.tech/push-pull-imbalance.html): push/pull volume ratio and shoulder health
 - [Why Your Shoulders Never Seem to Recover](https://www.valenapp.tech/why-shoulders-never-recover.html): anterior/lateral/posterior deltoid recovery
 
+- [Case Study: The Rear Delt Nobody Was Training](https://www.valenapp.tech/example-scenario-neglected-rear-delts.html): illustrative case study (composite lifter, indicative numbers) of subzone diagnosis, corrective sessions and what they do and do not mean
+
 ## Product guides
+
+- [What Valen Does Not Do](https://www.valenapp.tech/what-valen-does-not-do.html): honest limits: no watch app or Health Connect, no Hevy or Strong import, no percentage programs, recovery is a model
+- [Your Data in Valen](https://www.valenapp.tech/workout-app-data-privacy-offline.html): no account, offline use, on-device data, free JSON export, optional Pro cloud backup, anonymous analytics
 
 - [The Workout App With Zero Learning Curve](https://www.valenapp.tech/workout-app-no-learning-curve.html): Quick Log, automatic recovery analysis and suggested exercises, with no fitness knowledge needed
 - [The Ad-Free Workout App](https://www.valenapp.tech/ad-free-workout-app.html): no ads on the free plan, no social feed, on-device data by default

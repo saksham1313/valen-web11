@@ -36,7 +36,7 @@
         "image": "https://www.valenapp.tech/og-image.png",
         "url": "https://www.valenapp.tech/hevy-vs-strong-vs-valen.html",
         "datePublished": "2026-08-22",
-        "dateModified": "2026-08-22",
+        "dateModified": "2026-09-20",
         "author": {
             "@type": "Person",
             "name": "John Arthur"
@@ -74,7 +74,7 @@
                 "name": "What's free in Hevy, Strong, and Valen?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Hevy's free tier includes unlimited routines and full history. Strong's free tier is limited and pushes toward its subscription for advanced features. Valen's free tier includes the full recovery heatmap, unlimited logging, and the subzone-mapped exercise library, with 30 days of history."
+                    "text": "Hevy's free tier caps saved routines, custom exercises and the history shown in its charts, and Strong's free tier also limits saved routines. Both publish their current limits, which change over time. Valen's free tier has no cap on logging, saved routines or custom exercises, and includes the full recovery heatmap and the subzone-mapped exercise library."
                 }
             },
             {
@@ -83,6 +83,30 @@
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Strong is built specifically around fast logging between rest periods and is the quickest of the three. Hevy is close behind. Valen logs just as completely, but every set also feeds the recovery model, which is the tradeoff for the extra data."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I move my Hevy or Strong history into Valen?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Valen can import only its own JSON export file. It cannot read CSV exports from Hevy or Strong, so your old history does not carry over. Export from your old app first if you want to keep a copy."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Valen work with Wear OS or Apple Watch?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Valen has no smartwatch app and does not read from Health Connect or Google Fit. You log on your phone. Hevy lists Wear OS and Apple Watch apps."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is Valen easier or harder to learn than Hevy or Strong?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Valen's Quick Log records a session by tapping muscle groups and a number of sets, with no exercise-by-exercise entry. The full log, with weight, reps and set types, works like the other two. Hevy and Strong are the more established loggers, and Strong is the fastest of the three for set-by-set entry."
                 }
             },
             {
@@ -171,10 +195,11 @@
                 <span></span>
             </button>
             <div class="nav-links" id="nav-links">
-                <a href="#faq">FAQ</a>
-                <a href="#features">Features</a>
-                <a href="pricing.html">Pro</a>
+                <a href="index.html#how">How it works</a>
+                <a href="index.html#features">Features</a>
+                <a href="pricing.html">Pricing</a>
                 <a href="blog.html">Blog</a>
+                <a href="index.html#faq">FAQ</a>
                 <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="nav-cta" target="_blank"
                     rel="noreferrer">Get Valen</a>
             </div>
@@ -185,7 +210,7 @@
         <article class="container" style="max-width: 800px; margin: 0 auto; padding-top: 120px; padding-bottom: 80px;">
             <p class="kicker" style="text-align: center; margin-bottom: 20px;">TRAINING APPS</p>
             <h1 class="hero-title" style="font-size: clamp(1.8rem, 5vw, 3rem); line-height: 1.1; margin-bottom: 30px; text-align: center;">Hevy vs Strong vs Valen: <br><span class="text-accent" style="display: inline-block;">The Honest Comparison for Gym Bros</span></h1>
-            <p style="text-align: center; color: var(--text-faint); font-size: 0.9rem; margin-bottom: 25px;">By John Arthur &middot; Last updated August 22, 2026</p>
+            <p style="text-align: center; color: var(--text-faint); font-size: 0.9rem; margin-bottom: 25px;">By John Arthur &middot; Last updated September 20, 2026</p>
 
             <div style="margin: 0 auto 45px; max-width: 720px; border-radius: 20px; overflow: hidden; border: 1px solid var(--border); box-shadow: 0 20px 50px rgba(0,0,0,0.35);">
                 <svg viewBox="0 0 720 220" width="100%" height="auto" style="display:block; background: var(--bg-2);" role="img" aria-label="Three app tiles side by side, with the third one highlighted and containing a subzone grid">
@@ -290,7 +315,7 @@
                                 <td style="padding: 12px 10px; color: var(--text-primary); font-weight: 600;">Platform</td>
                                 <td style="padding: 12px 10px;">iOS and Android</td>
                                 <td style="padding: 12px 10px;">iOS and Android</td>
-                                <td style="padding: 12px 10px;">Android only, iOS planned</td>
+                                <td style="padding: 12px 10px;">Google Play, iOS coming soon</td>
                             </tr>
                         </tbody>
                     </table>
@@ -299,7 +324,7 @@
 
                 <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Workout Logging</h3>
                 <p style="margin-bottom: 20px;">All three let you log sets, reps, and weight. This is table stakes at this point.</p>
-                <p style="margin-bottom: 20px;">Strong is the fastest. The interface was built around one thing and one thing only — getting sets logged between rest periods without fumbling around. It's genuinely hard to beat on pure logging speed.</p>
+                <p style="margin-bottom: 20px;">Strong is the fastest. The interface was built around one thing and one thing only: getting sets logged between rest periods without fumbling around. It's genuinely hard to beat on pure logging speed.</p>
                 <p style="margin-bottom: 20px;">Hevy is close behind. Slightly more visual, slightly more modern. Logging feels good. Not quite as snappy as Strong but most people wouldn't notice the difference.</p>
                 <p style="margin-bottom: 20px;">Valen logs workouts fine. Exercise library, custom exercises, sets and reps, RPE, session notes, rest timer built in. Where it differs is that every exercise you log feeds the recovery model automatically. So logging isn't just record-keeping, it's input data. Your chest day isn't just a workout entry, it's telling the app exactly what stress you put on upper chest, mid chest, lower chest, anterior delts, and triceps separately.</p>
                 <p style="margin-bottom: 40px;"><strong>Winner:</strong> Strong on raw speed. Valen on what the log actually does afterward.</p>
@@ -432,13 +457,15 @@
 
                 <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Offline Use & Pricing</h3>
                 <p style="margin-bottom: 20px;"><strong>Offline Use:</strong> Strong and Valen are fully offline first. Hevy works offline but syncs when connected. Valen gets a small nod for making offline the default rather than the fallback.</p>
-                <p style="margin-bottom: 20px;"><strong>Free Tier:</strong> Hevy offers unlimited routines and full history. Valen offers full recovery heatmap, unlimited logging, exercise library with subzone mapping, all free. Valen wins on how much the free tier actually tells you about your body.</p>
+                <p style="margin-bottom: 20px;"><strong>Free Tier:</strong> Hevy's free plan caps saved routines, custom exercises and chart history, and Strong's free plan limits saved routines. Valen has no cap on logging, saved routines or custom exercises, and its free plan includes the full recovery heatmap and the exercise library with subzone mapping. Check each app's store page for its current limits.</p>
                 <p style="margin-bottom: 40px;"><strong>Pricing:</strong> Strong has a subscription tier for advanced features. Hevy is subscription based. Valen offers a free tier plus annual or lifetime Pro. Lifetime option exists, which is increasingly rare in the app world.</p>
 
                 <h3 style="color: var(--text-primary); font-size: 28px; margin-top: 40px; margin-bottom: 20px; font-weight: 700;">Platform</h3>
                 <p style="margin-bottom: 20px;">Strong: iOS and Android.</p>
                 <p style="margin-bottom: 20px;">Hevy: iOS and Android.</p>
-                <p style="margin-bottom: 20px;">Valen: Android only right now. iOS is coming.</p>
+                <p style="margin-bottom: 20px;">Valen: on Google Play now, iOS coming soon.</p>
+                <p style="margin-bottom: 20px;">Watches and health platforms: Hevy lists Wear OS and Apple Watch apps. Valen has no smartwatch app and does not use Health Connect or Google Fit. It calculates recovery from the sets you log, so nothing needs to be connected.</p>
+                <p style="margin-bottom: 20px;">Switching apps: Hevy can import Strong CSV files. Valen cannot import CSV files from Hevy or Strong. It exports and imports its own JSON file only, so history from another app does not carry over. Details on the <a href="what-valen-does-not-do.html" style="color: var(--accent); text-decoration: underline;">limits page</a>.</p>
                 <p style="margin-bottom: 40px;"><strong>Winner:</strong> Strong and Hevy. Valen is catching up.</p>
 
                 <hr style="border: none; border-top: 1px solid rgba(255,255,255,0.1); margin-bottom: 40px; margin-top: 60px;">
@@ -455,18 +482,30 @@
                 </div>
                 <div style="margin-bottom: 20px;">
                     <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">What's free in Hevy, Strong, and Valen?</p>
-                    <p style="margin-bottom: 20px;">Hevy's free tier includes unlimited routines and full history. Strong's free tier is limited and pushes toward its subscription for advanced features. Valen's free tier includes the full recovery heatmap, unlimited logging, and the subzone-mapped exercise library, with 30 days of history.</p>
+                    <p style="margin-bottom: 20px;">Hevy's free tier caps saved routines, custom exercises and the history shown in its charts, and Strong's free tier also limits saved routines. Both publish their current limits, which change over time. Valen's free tier has no cap on logging, saved routines or custom exercises, and includes the full recovery heatmap and the subzone-mapped exercise library.</p>
                 </div>
                 <div style="margin-bottom: 20px;">
                     <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Which app is fastest for logging sets?</p>
                     <p style="margin-bottom: 20px;">Strong is built specifically around fast logging between rest periods and is the quickest of the three. Hevy is close behind. Valen logs just as completely, but every set also feeds the recovery model, which is the tradeoff for the extra data.</p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Can I move my Hevy or Strong history into Valen?</p>
+                    <p style="margin-bottom: 20px;">No. Valen can import only its own JSON export file. It cannot read CSV exports from Hevy or Strong, so your old history does not carry over. Export from your old app first if you want to keep a copy.</p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Does Valen work with Wear OS or Apple Watch?</p>
+                    <p style="margin-bottom: 20px;">No. Valen has no smartwatch app and does not read from Health Connect or Google Fit. You log on your phone. Hevy lists Wear OS and Apple Watch apps.</p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Is Valen easier or harder to learn than Hevy or Strong?</p>
+                    <p style="margin-bottom: 20px;">Valen's Quick Log records a session by tapping muscle groups and a number of sets, with no exercise-by-exercise entry. The full log, with weight, reps and set types, works like the other two. Hevy and Strong are the more established loggers, and Strong is the fastest of the three for set-by-set entry.</p>
                 </div>
                 <div style="margin-bottom: 40px;">
                     <p style="margin-bottom: 8px; color: var(--text-primary); font-weight: 600;">Do any of these apps track push/pull volume balance?</p>
                     <p style="margin-bottom: 20px;">Hevy shows basic volume by muscle group with no analysis. Strong doesn't track this at all. Valen shows push versus pull ratio and anterior versus posterior balance directly, and flags specialization imbalances, for example, if chest is getting 65% of weekly volume while back gets 7%.</p>
                 </div>
 
-                <p style="margin-top: 60px; font-style: italic; color: var(--text-faint);">Valen is free on Android. valenapp.tech</p>
+                <p style="margin-top: 60px; font-style: italic; color: var(--text-faint);">Valen is available on Google Play. valenapp.tech</p>
                 <p style="margin-top: 10px; font-style: italic; color: var(--text-faint);">See how Valen compares to other trackers: <a href="oura-vs-valen.html" style="color: var(--accent); text-decoration: underline;">Oura</a>, <a href="whoop-vs-valen.html" style="color: var(--accent); text-decoration: underline;">Whoop</a>, <a href="fitbit-air-vs-valen.html" style="color: var(--accent); text-decoration: underline;">Fitbit Air</a>, and <a href="fitbod-vs-valen.html" style="color: var(--accent); text-decoration: underline;">Fitbod</a>. Or see the <a href="muscle-subzone-tracking-guide.html" style="color: var(--accent); text-decoration: underline;">complete guide to muscle subzone tracking</a>.</p>
             </div>
         </article>
