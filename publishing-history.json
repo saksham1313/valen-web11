@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Asia/Kolkata",
+  "targetArticlesPerDay": 1,
+  "entries": [
+    {
+      "date": "2026-11-08",
+      "slug": "pre-workout-caffeine-and-sleep",
+      "title": "Pre-Workout Caffeine and Sleep: What Evening Lifters Should Know",
+      "topic": "Evening pre-workout caffeine dose, timing and sleep",
+      "url": "https://www.valenapp.tech/pre-workout-caffeine-and-sleep.html",
+      "inspiration": [
+        {
+          "creator": "trainwith_valen",
+          "url": "https://www.instagram.com/reel/Dfcord_OWab/",
+          "note": "Topic inspiration; no claim of measured trend ranking."
+        }
+      ],
+      "references": [
+        "https://doi.org/10.1093/sleep/zsae230",
+        "https://doi.org/10.1186/s12970-020-00383-4",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not_yet_verified",
+      "draftOrigin": "Reconstructed from verified research with user authorization; prior conversation draft unavailable."
+    }
+  ]
+}
