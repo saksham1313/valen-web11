@@ -21,10 +21,23 @@
         "https://doi.org/10.1186/s12970-020-00383-4",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/"
       ],
-      "status": "prepared",
-      "commit": null,
-      "deploymentStatus": "not_yet_verified",
-      "draftOrigin": "Reconstructed from verified research with user authorization; prior conversation draft unavailable."
+      "status": "published_verified",
+      "commit": "445e14c079000f8fe856df91533b4faa0712102a",
+      "deploymentStatus": "Ready \u2014 Production",
+      "draftOrigin": "Reconstructed from verified research with user authorization; prior conversation draft unavailable.",
+      "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AnXbi1XsqxN2U8rC1RNrr5rqwnqY",
+      "verifiedAt": "2026-11-08T18:09:51.027169+00:00",
+      "validation": {
+        "articleWords": 1323,
+        "headingsAndMetadata": "passed",
+        "jsonLdAndXml": "passed",
+        "internalLinksAndAnchors": "passed",
+        "inlineJavaScriptSyntax": "passed",
+        "desktopAndMobilePreview": "passed",
+        "liveArticleAndBlogAndSitemap": "passed",
+        "liveAssetsAndOverflow": "passed",
+        "build": "not applicable: static site, no build command"
+      }
     }
   ]
 }
