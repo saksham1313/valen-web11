@@ -23,7 +23,7 @@
       ],
       "status": "published_verified",
       "commit": "445e14c079000f8fe856df91533b4faa0712102a",
-      "deploymentStatus": "Ready \u2014 Production",
+      "deploymentStatus": "Ready — Production",
       "draftOrigin": "Reconstructed from verified research with user authorization; prior conversation draft unavailable.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AnXbi1XsqxN2U8rC1RNrr5rqwnqY",
       "verifiedAt": "2026-11-08T18:09:51.027169+00:00",
@@ -42,10 +42,26 @@
         {
           "date": "2026-11-09",
           "reason": "Reader-requested explanatory visuals and interactive examples",
-          "status": "prepared",
-          "commit": null,
+          "status": "published_verified",
+          "commit": "cdcbeefe2b8acefd72425a1fcc1008669b26c466",
           "visualsAdded": 4,
-          "articleWords": 1413
+          "articleWords": 1413,
+          "deploymentStatus": "Ready — Production",
+          "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AStTfALoQuhSrsm2YxhapnAYkf8y",
+          "verifiedAt": "2026-11-09T16:07:48Z",
+          "validation": {
+            "articleValidator": "passed",
+            "jsonXmlSvg": "passed",
+            "javaScriptSyntax": "passed",
+            "arithmeticChecks": "14 passed",
+            "publishingGuardTests": "10 passed",
+            "desktopAndMobileChrome": "passed, live 390px viewport, no figure or document overflow",
+            "interactiveControls": "passed, elapsed-time/serving/tempo examples",
+            "liveArticleAndBlogAndSitemap": "passed",
+            "liveSourceComparison": "12 pages/assets returned HTTP 200 and matched validated source",
+            "originalPublicationDatesAndHistory": "preserved",
+            "build": "not applicable: static site without build command"
+          }
         }
       ]
     },
@@ -70,7 +86,7 @@
       ],
       "status": "published_verified",
       "commit": "25753683307c1b70ccf06559b010df33fbfec12d",
-      "deploymentStatus": "Ready \u2014 Production",
+      "deploymentStatus": "Ready — Production",
       "draftOrigin": "Original article written from opened scientific sources and a verified recent Reel topic.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6FUKgbyDMjGuHkLVk21ZkaEqYbkS",
       "verifiedAt": "2026-11-09T09:10:28.567665+00:00",
@@ -91,10 +107,26 @@
         {
           "date": "2026-11-09",
           "reason": "Reader-requested explanatory visuals and interactive examples",
-          "status": "prepared",
-          "commit": null,
+          "status": "published_verified",
+          "commit": "cdcbeefe2b8acefd72425a1fcc1008669b26c466",
           "visualsAdded": 4,
-          "articleWords": 1395
+          "articleWords": 1395,
+          "deploymentStatus": "Ready — Production",
+          "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AStTfALoQuhSrsm2YxhapnAYkf8y",
+          "verifiedAt": "2026-11-09T16:07:48Z",
+          "validation": {
+            "articleValidator": "passed",
+            "jsonXmlSvg": "passed",
+            "javaScriptSyntax": "passed",
+            "arithmeticChecks": "14 passed",
+            "publishingGuardTests": "10 passed",
+            "desktopAndMobileChrome": "passed, live 390px viewport, no figure or document overflow",
+            "interactiveControls": "passed, elapsed-time/serving/tempo examples",
+            "liveArticleAndBlogAndSitemap": "passed",
+            "liveSourceComparison": "12 pages/assets returned HTTP 200 and matched validated source",
+            "originalPublicationDatesAndHistory": "preserved",
+            "build": "not applicable: static site without build command"
+          }
         }
       ]
     },
@@ -127,7 +159,7 @@
       ],
       "status": "published_verified",
       "commit": "e750d9b0cb08fd0a5a24bd48dbce674d13d72f56",
-      "deploymentStatus": "Ready \u2014 Production",
+      "deploymentStatus": "Ready — Production",
       "draftOrigin": "Original article researched and edited with six inspected GitHub marketing skills; explicit one-off additional publication.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6kAgHXbQ2xgVrDtRTF63PJZ1HaLw",
       "verifiedAt": "2026-11-09T15:34:42Z",
@@ -164,10 +196,26 @@
         {
           "date": "2026-11-09",
           "reason": "Reader-requested explanatory visuals and interactive examples",
-          "status": "prepared",
-          "commit": null,
+          "status": "published_verified",
+          "commit": "cdcbeefe2b8acefd72425a1fcc1008669b26c466",
           "visualsAdded": 4,
-          "articleWords": 1350
+          "articleWords": 1350,
+          "deploymentStatus": "Ready — Production",
+          "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AStTfALoQuhSrsm2YxhapnAYkf8y",
+          "verifiedAt": "2026-11-09T16:07:48Z",
+          "validation": {
+            "articleValidator": "passed",
+            "jsonXmlSvg": "passed",
+            "javaScriptSyntax": "passed",
+            "arithmeticChecks": "14 passed",
+            "publishingGuardTests": "10 passed",
+            "desktopAndMobileChrome": "passed, live 390px viewport, no figure or document overflow",
+            "interactiveControls": "passed, elapsed-time/serving/tempo examples",
+            "liveArticleAndBlogAndSitemap": "passed",
+            "liveSourceComparison": "12 pages/assets returned HTTP 200 and matched validated source",
+            "originalPublicationDatesAndHistory": "preserved",
+            "build": "not applicable: static site without build command"
+          }
         }
       ]
     }
