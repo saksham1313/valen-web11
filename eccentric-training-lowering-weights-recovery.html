@@ -46,7 +46,7 @@
         "@type": "WebPage",
         "@id": "https://www.valenapp.tech/eccentric-training-lowering-weights-recovery.html"
     },
-    "wordCount": 1357,
+    "wordCount": 1350,
     "articleSection": "Training science",
     "inLanguage": "en",
     "keywords": [
@@ -109,6 +109,8 @@
         .eccentric-article .article-note { font-size: 14px; color: var(--text-faint); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 20px; }
     </style>
     <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="blog-visuals.css?v=1">
+    <script defer src="blog-visuals.js?v=1"></script>
 
     <!-- PostHog -->
     <script>
@@ -191,6 +193,16 @@
 <p><strong>Eccentric training emphasizes the part of an exercise where an active muscle lengthens.</strong> In a curl, that happens as you lower the dumbbell and your elbow straightens. The muscle is still working. Its capacity during lowering can differ from its capacity during lifting, which helps explain why the downward part of a difficult rep can feel different.</p>
 <p>That observation raises a useful programming question: should you slow every rep, add heavy negatives, or change how you judge recovery? Start by separating three things that often get bundled together: the muscle action, the speed you choose, and the load you use.</p>
 
+
+<figure class="reading-visual" id="curl-muscle-actions" aria-labelledby="curl-muscle-actions-title">
+<figcaption><span class="rv-label">Movement explained</span><strong class="rv-title" id="curl-muscle-actions-title">The muscle stays active in both phases</strong></figcaption>
+<svg viewBox="0 0 640 310" role="img" aria-label="Curl schematic: during lifting elbow flexors actively shorten; during lowering they actively lengthen. Arrows show dumbbell movement, not measured muscle force."><defs><marker id="motion-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#f3c078"/></marker></defs>
+<g stroke-linecap="round" fill="none"><path d="M115 35 L115 150 L208 91" stroke="#a4bdc2" stroke-width="23"/><path d="M115 58 L115 120" stroke="#56d5cc" stroke-width="30"/><path d="M425 35 L425 150 L503 210" stroke="#a4bdc2" stroke-width="23"/><path d="M425 46 L425 132" stroke="#56d5cc" stroke-width="25"/>
+<path d="M250 175 Q275 115 245 63" stroke="#f3c078" stroke-width="4" marker-end="url(#motion-arrow)"/><path d="M548 65 Q577 130 548 202" stroke="#f3c078" stroke-width="4" marker-end="url(#motion-arrow)"/>
+<path d="M194 75 L224 112 M486 194 L520 229" stroke="#eef4f1" stroke-width="7"/><path d="M188 81 L201 68 M217 119 L232 106 M480 201 L493 187 M513 236 L528 222" stroke="#eef4f1" stroke-width="13"/></g>
+<text x="175" y="290" text-anchor="middle" fill="#e7f5f1" font-family="sans-serif" font-size="24">Lift · shorten</text><text x="475" y="290" text-anchor="middle" fill="#e7f5f1" font-family="sans-serif" font-size="24">Lower · lengthen</text></svg>
+<p class="rv-caption">Simplified curl, not an anatomy model or lifting demonstration. Amber arrows show load movement; teal marks the active elbow-flexor region.</p>
+</figure>
 <h2>Why can you lower a weight you cannot lift?</h2>
 <p>During the upward phase of a curl, the elbow flexors shorten while producing force: a concentric action. During a controlled descent, they produce force while lengthening: an eccentric action. An isometric action involves producing force without the same change in overall muscle length, as in a stationary hold.</p>
 <p>A <a href="https://doi.org/10.1093/ptj/67.8.1205">1987 study by Judy Griffin</a> tested elbow flexion in 30 healthy women using an isokinetic dynamometer. Average peak eccentric torque exceeded concentric and isometric torque. The difference also changed with testing velocity. The study reported imperfect test–retest consistency, another reason to avoid treating a single measurement as an exact personal limit.</p>
@@ -199,24 +211,26 @@
 
 <h2>Eccentric reps, slow tempo and overloaded negatives</h2>
 <p>You already perform eccentric work in many ordinary exercises. “Eccentric training” can describe several different changes, so identify which one your program actually uses.</p>
-<p class="table-hint">Swipe to compare all three columns.</p>
-<div class="table-wrap" tabindex="0" role="region" aria-label="Eccentric training comparison; scroll horizontally on smaller screens">
-<table>
-<caption>Three approaches that should be recorded differently</caption>
-<thead><tr><th scope="col">Approach</th><th scope="col">What changes</th><th scope="col">Useful record</th></tr></thead>
-<tbody>
-<tr><th scope="row">Ordinary controlled reps</th><td>You lift and lower the same load through your planned movement.</td><td>Exercise, load, sets and completed reps.</td></tr>
-<tr><th scope="row">Deliberately slower lowering</th><td>You extend the eccentric phase while keeping a manageable load.</td><td>Usual entries plus the intended lowering duration.</td></tr>
-<tr><th scope="row">Accentuated eccentric loading</th><td>The lowering phase uses more resistance than the lifting phase.</td><td>The different loads, assistance and setup, under an appropriate program.</td></tr>
-</tbody>
-</table>
-</div>
+
+<figure class="reading-visual" id="eccentric-options" aria-labelledby="eccentric-options-title">
+<figcaption><span class="rv-label">Compare the changes</span><strong class="rv-title" id="eccentric-options-title">Tempo and resistance are separate choices</strong></figcaption>
+<table class="rv-comparison-table"><thead><tr><th scope="col">Approach</th><th scope="col">Lift → lower</th><th scope="col">Record</th></tr></thead><tbody><tr><th scope="row">Ordinary reps</th><td>Same load<span>Controlled movement</span></td><td>Load, sets, reps</td></tr><tr><th scope="row">Slower lowering</th><td>Same load<span>Longer descent</span></td><td>Also note duration</td></tr><tr><th scope="row">Eccentric overload</th><td>Lowering load is greater<span>Specialized setup</span></td><td>Both loads, assistance, setup</td></tr></tbody></table>
+<p class="rv-caption">Slowing the descent changes time. Accentuated eccentric loading changes resistance between phases.</p>
+</figure>
+
 <p>A slower descent does not automatically mean an overloaded eccentric. Adding assistance after a failed curl is also a different exercise condition from the unassisted reps before it. If those details disappear from your notes, two sessions can look identical despite being quite different.</p>
 
 <h2>Does lowering more slowly build more muscle?</h2>
 <p>There is no established rule that the slowest possible lowering phase produces the most growth. A <a href="https://link.springer.com/article/10.1007/s40279-015-0304-0">2015 systematic review and meta-analysis</a> included eight studies and found similar hypertrophy outcomes across total repetition durations of roughly 0.5–8 seconds in training performed to muscular failure.</p>
 <p>That is total repetition time, including the lifting portion. It does not identify an ideal eccentric duration. The authors also noted limited evidence around very slow repetitions, so the findings should not become a precise tempo prescription for everyone.</p>
-<p>For practical comparison, pick a clear movement standard and record deliberate changes. If you switch from your usual curl to a three-second lowering phase, treat the new tempo as part of the exercise description. “Three seconds” here is an example for keeping records consistent, not a scientifically proven optimum.</p>
+
+<figure class="reading-visual" id="rep-tempo" aria-labelledby="rep-tempo-title">
+<figcaption><span class="rv-label">Explore repetition time</span><strong class="rv-title" id="rep-tempo-title">Total rep time includes every phase</strong></figcaption><noscript><p class="rv-caption">Interactive controls need JavaScript. The starting example remains visible.</p></noscript>
+<div class="rv-fields rv-three"><label for="tempo-lower">Lowering · seconds<input disabled id="tempo-lower" type="number" min="0" step="any" value="3" inputmode="decimal"></label><label for="tempo-lift">Lifting · seconds<input disabled id="tempo-lift" type="number" min="0" step="any" value="1" inputmode="decimal"></label><label for="tempo-pause">All pauses · seconds<input disabled id="tempo-pause" type="number" min="0" step="any" value="0" inputmode="decimal"></label></div>
+<output id="tempo-result" for="tempo-lower tempo-lift tempo-pause" aria-live="polite">4 seconds per rep</output><div class="rv-segments" aria-hidden="true"><span id="tempo-lower-bar" class="rv-segment rv-lowering" style="width:75%">3s</span><span id="tempo-lift-bar" class="rv-segment rv-lifting" style="width:25%">1s</span><span id="tempo-pause-bar" class="rv-segment rv-pause" style="width:0%"></span></div><div class="rv-legend"><span style="--legend:#59d6cc">Lowering</span><span style="--legend:#f3c078">Lifting</span><span style="--legend:#a6b7e9">Pauses</span></div>
+<p class="rv-caption">Illustrative timing only. This adds seconds; it does not identify an optimal tempo or predict growth.</p>
+</figure>
+
 
 <h2>Why soreness can change after unfamiliar lowering work</h2>
 <p><a href="https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00536/full">Hody and colleagues' 2019 review</a> describes delayed soreness and temporary reductions in muscle function following unfamiliar eccentric exercise. It also discusses the repeated-bout effect: later exposure to similar work can produce less soreness and a smaller disruption.</p>
@@ -229,7 +243,13 @@
 <p>Choose a movement you can already perform with control. If you want to experiment with slower lowering, keep the setup familiar and use a load you can manage throughout the rep. Avoid simultaneously increasing load, adding sets and extending the lowering phase; that leaves you guessing which change affected the session.</p>
 <p>This article does not prescribe assisted or supramaximal negatives. The ability to resist a descending load is not clearance to attempt a weight you cannot handle. Specialized eccentric loading needs suitable equipment, supervision and programming.</p>
 <h3>Make the next entry comparable</h3>
-<p>Imagine two curl sessions logged as “10 kg, 10 reps.” In the first you used your usual rhythm. In the second you deliberately lowered for three seconds and needed help on the last rep. Keep the weight and completed work accurate, then add the tempo and assistance details in a notebook if your logger lacks those fields.</p>
+
+<figure class="reading-visual" id="tempo-log-comparison" aria-labelledby="tempo-log-comparison-title">
+<figcaption><span class="rv-label">Worked example</span><strong class="rv-title" id="tempo-log-comparison-title">Identical numbers can hide a different session</strong></figcaption>
+<div class="rv-grid"><div class="rv-cell"><strong>10 kg × 10 reps</strong><small>Usual rhythm<br>Unassisted</small></div><div class="rv-cell"><strong>10 kg × 10 reps</strong><small>3-second lowering<br>Help on final rep</small></div></div>
+<p class="rv-caption">Illustrative entries. Record tempo and assistance separately if needed; load × reps cannot describe the whole session.</p>
+</figure>
+
 <p>Before your next planned session, compare the same setup and movement standard during your usual warm-up. If the movement feels substantially different or performance is clearly below your normal range, reconsider the planned progression. Sharp pain or a suspected injury calls for individual assessment rather than a recovery countdown.</p>
 
 <h2>How to use Valen alongside those observations</h2>

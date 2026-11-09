@@ -29,7 +29,7 @@
     "url": "https://www.valenapp.tech/pre-workout-caffeine-and-sleep.html",
     "image": "https://www.valenapp.tech/og-image.png",
     "datePublished": "2026-11-08",
-    "dateModified": "2026-11-08",
+    "dateModified": "2026-11-09",
     "author": {
         "@type": "Organization",
         "name": "Valen"
@@ -45,7 +45,8 @@
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://www.valenapp.tech/pre-workout-caffeine-and-sleep.html"
-    }
+    },
+    "wordCount": 1413
 }
     </script>
     <style>
@@ -58,6 +59,8 @@
         .caffeine-article .article-note { font-size: 14px; color: var(--text-faint); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 20px; }
     </style>
     <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="blog-visuals.css?v=1">
+    <script defer src="blog-visuals.js?v=1"></script>
 
     <!-- PostHog -->
     <script>
@@ -149,20 +152,49 @@
 <p>At 400 mg taken four hours before bed, estimated total sleep time was about 51 minutes shorter than with placebo. Some other sleep measures were affected at earlier timings too. The 100 mg conditions did not show statistically significant sleep differences from placebo.</p>
 <p>Those findings do not make 100 mg a universal safe dose or predict that everyone taking 400 mg will lose 51 minutes. It was a small, acute study in men, using caffeine capsules rather than a particular pre-workout blend. It also did not measure long-term muscle growth. Use it as a reason to examine dose and timing, not as a calculator for your personal sleep loss.</p>
 
+
+<figure class="reading-visual" id="caffeine-study" aria-labelledby="caffeine-study-title">
+<figcaption><span class="rv-label">Trial at a glance</span><strong class="rv-title" id="caffeine-study-title">Dose and timing were tested together</strong></figcaption>
+<div class="rv-matrix"><span></span><span>12h before bed</span><span>8h</span><span>4h</span><strong>100 mg</strong><b>Tested</b><b>Tested</b><b>Tested</b><strong>400 mg</strong><b>Tested</b><b>Tested</b><b>Tested</b></div>
+<div class="rv-pills"><span class="rv-pill">23 men</span><span class="rv-pill">Placebo comparison</span></div>
+<div class="rv-grid"><div class="rv-cell"><strong>400 mg · 4h</strong><small>About 51 minutes less sleep, on average.</small></div><div class="rv-cell"><strong>100 mg</strong><small>No statistically significant difference detected.</small></div></div>
+<p class="rv-caption"><a href="https://doi.org/10.1093/sleep/zsae230">Gardiner et al.</a> Small, acute trial; these are study findings, not personal dose limits.</p>
+</figure>
 <h2>How late is too late for pre-workout caffeine?</h2>
 <p>There is no single clock time that answers this for every lifter. “No caffeine after 4 PM” means something different for someone sleeping at 10 PM and someone sleeping after midnight. Write down your intended bedtime first, then work backward to see the actual gap.</p>
-<p>For example, a 7 PM pre-workout before an 11 PM bedtime leaves four hours. That simple calculation gives you a clearer question to investigate: does this particular evening routine work for you? It does not establish a safe window.</p>
+
+<figure class="reading-visual" id="caffeine-gap" aria-labelledby="caffeine-gap-title">
+<figcaption><span class="rv-label">Try your own times</span><strong class="rv-title" id="caffeine-gap-title">How much time separates drink and bed?</strong></figcaption><noscript><p class="rv-caption">Interactive controls need JavaScript. The starting example remains visible.</p></noscript>
+<div class="rv-fields"><label for="caffeine-time">Caffeine time<input disabled id="caffeine-time" type="time" value="19:00"></label><label for="bed-time">Next bedtime<input disabled id="bed-time" type="time" value="23:00"></label></div>
+<output id="gap-result" for="caffeine-time bed-time" aria-live="polite">4h 0m until bedtime</output>
+<div class="rv-track" aria-hidden="true"><div class="rv-track-fill" id="gap-fill" style="width:16.6667%"></div></div><div class="rv-scale" aria-hidden="true"><span>Drink · 0h</span><span>12h</span><span>24h</span></div>
+<p class="rv-caption">Assumes the next bedtime within 24 hours. Shows elapsed time only, not caffeine clearance or a safe cutoff.</p>
+</figure>
+
 <p>If sleep is already a problem, a useful first change is removing the late stimulant rather than searching for the latest possible cutoff. Keep the training appointment if it fits your life. Change the part you can control.</p>
 
 <h2>Build an evening routine you can repeat</h2>
 <h3>1. Check the label and the whole day</h3>
-<p>Read the caffeine amount per serving and the serving size. Write down the actual amount you use, not just “one scoop.” Include coffee, tea, energy drinks, and any other products whose labels list caffeine. An afternoon drink is easy to forget when you are only thinking about the tub in your gym bag.</p>
-<p>Do not stack products casually or assume a “stim-free” label answers every ingredient question. Read the full label. If caffeine is not clearly disclosed, choose something easier to evaluate. You do not need a complicated supplement routine to test whether evening caffeine suits you.</p>
+<p>Read the caffeine amount per serving and the serving size. Write down the actual amount you use, not just “one scoop.” Include coffee, tea, energy drinks, and any other products whose labels list caffeine. </p>
+<p>Do not stack products casually or assume a “stim-free” label answers every ingredient question. Read the full label. If caffeine is not clearly disclosed, choose something easier to evaluate. </p>
+
+<figure class="reading-visual" id="caffeine-label-math" aria-labelledby="caffeine-label-math-title">
+<figcaption><span class="rv-label">Read the label</span><strong class="rv-title" id="caffeine-label-math-title">Serving size changes the total</strong></figcaption><noscript><p class="rv-caption">Interactive controls need JavaScript. The starting example remains visible.</p></noscript>
+<div class="rv-fields rv-three"><label for="caffeine-per-serving">mg per serving<input disabled id="caffeine-per-serving" type="number" min="0" step="any" value="200" inputmode="decimal"></label><label for="caffeine-servings">Servings used<input disabled id="caffeine-servings" type="number" min="0" step="any" value="1" inputmode="decimal"></label><label for="caffeine-other">Other caffeine · mg<input disabled id="caffeine-other" type="number" min="0" step="any" value="100" inputmode="decimal"></label></div>
+<div class="rv-equation"><span id="caffeine-equation">200 × 1 + 100 =</span><output id="caffeine-total" for="caffeine-per-serving caffeine-servings caffeine-other" aria-live="polite">300 mg total</output></div>
+<p class="rv-caption">Example amounts. Use your product labels; coffee content varies. The total is arithmetic, not a recommended dose.</p>
+</figure>
 <h3>2. Try a session without the stimulant</h3>
 <p>Pack your gym bag, choose the session in advance, and give yourself time for a gradual warm-up. Have your usual food and water available so the experiment is not also a rushed, underprepared workout. The aim is to make a fair comparison with your normal routine.</p>
 <p>Do not immediately replace caffeine with another stimulant. A caffeine-free workout can simply be your ordinary workout without the caffeinated product. If you use caffeine heavily every day, plan a gradual reduction rather than interpreting the first difficult caffeine-free day as proof you cannot train without it.</p>
 <h3>3. Keep a short, useful record</h3>
-<p>For one or two weeks, note caffeine amount and time, workout start, intended bedtime, approximate time to fall asleep, overnight waking, and how you feel the next morning. Alongside that, record your main lifts, repetitions, and effort. A notes app or paper is enough.</p>
+
+<figure class="reading-visual" id="sleep-workout-record" aria-labelledby="sleep-workout-record-title">
+<figcaption><span class="rv-label">Keep for 1–2 weeks</span><strong class="rv-title" id="sleep-workout-record-title">Record both sides of the evening</strong></figcaption>
+<div class="rv-grid"><div class="rv-cell"><strong>Workout</strong><small>Caffeine: amount + time<br>Session: start, lifts, reps, effort</small></div><div class="rv-cell"><strong>Night afterward</strong><small>Bedtime, time to fall asleep<br>Waking, next-morning feeling</small></div></div>
+<p class="rv-caption">Copy these fields into paper or a notes app. Compare similar routines; Valen does not measure sleep or caffeine.</p>
+</figure>
+
 <p>Keep other parts of the routine reasonably consistent. A night after travel or an unusually stressful day is useful context, but a poor comparison. This is a practical observation exercise, not a controlled clinical trial or a way to diagnose a sleep disorder.</p>
 
 <h2>Protect the week, not just tonight's numbers</h2>

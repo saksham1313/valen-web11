@@ -45,7 +45,8 @@
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://www.valenapp.tech/cross-education-one-arm-training.html"
-    }
+    },
+    "wordCount": 1395
 }
     </script>
     <style>
@@ -58,6 +59,8 @@
         .cross-education-article .article-note { font-size: 14px; color: var(--text-faint); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 20px; }
     </style>
     <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="blog-visuals.css?v=1">
+    <script defer src="blog-visuals.js?v=1"></script>
 
     <!-- PostHog -->
     <script>
@@ -144,11 +147,35 @@
 <p>This is more than a single surprising experiment. A <a href="https://pubmed.ncbi.nlm.nih.gov/28936703/">2017 meta-analysis by Manca and colleagues</a> pooled 31 studies involving 785 participants and found an overall increase in contralateral, or opposite-side, strength. However, the authors also identified a high risk of bias across the studies. The finding supports a real phenomenon while leaving uncertainty about its size and how consistently it applies.</p>
 <p>A pooled research result is not a promise about your next curl session. It also does not create a rule that one right-arm set should count as a left-arm set in your workout log.</p>
 
+
+<figure class="reading-visual" id="strength-transfer-map" aria-labelledby="strength-transfer-map-title">
+<figcaption><span class="rv-label">Conceptual map</span><strong class="rv-title" id="strength-transfer-map-title">Practice can influence the opposite side</strong></figcaption>
+<svg viewBox="0 0 640 230" role="img" aria-label="Conceptual diagram: unilateral practice involves the nervous system; strength transfer to the opposite arm can occur, without an equivalent direct training dose."><defs><marker id="neural-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#56d5cc"/></marker></defs>
+<path d="M150 180 L150 115 L205 80" stroke="#56d5cc" stroke-width="25" fill="none" stroke-linecap="round"/><path d="M490 180 L490 115 L435 80" stroke="#91a6b0" stroke-width="25" fill="none" stroke-linecap="round"/>
+<circle cx="320" cy="65" r="39" fill="#193b44" stroke="#56d5cc" stroke-width="2"/><path d="M302 53 Q312 39 320 52 Q335 42 337 61 Q347 77 328 82 Q315 92 304 77 Q291 71 302 53" fill="none" stroke="#b9eee7" stroke-width="3"/>
+<path d="M215 90 Q245 105 278 71" fill="none" stroke="#56d5cc" stroke-width="3" marker-end="url(#neural-arrow)"/><path d="M365 71 Q405 105 427 100" fill="none" stroke="#56d5cc" stroke-width="3" stroke-dasharray="7 7" marker-end="url(#neural-arrow)"/>
+<path d="M186 62 L224 96 M177 72 L215 107" stroke="#dcece8" stroke-width="7"/><path d="M174 60 L185 48 M215 100 L229 87" stroke="#dcece8" stroke-width="13"/>
+<text x="150" y="220" text-anchor="middle" fill="#e7f5f1" font-family="sans-serif" font-size="23">Trained arm</text><text x="490" y="220" text-anchor="middle" fill="#e7f5f1" font-family="sans-serif" font-size="23">Untrained arm</text></svg>
+<p class="rv-caption">Neural contribution is supported by <a href="https://doi.org/10.3389/fphys.2024.1512309">Lecce et al.</a> Diagram simplifies possible pathways; no effect size is shown.</p>
+</figure>
 <h2>A stronger arm is not necessarily a bigger arm</h2>
 <p>A <a href="https://onlinelibrary.wiley.com/doi/10.1111/sms.14772">2024 trial by Song and colleagues</a> randomized 160 participants to different arm-training groups or a non-exercise control group. The training lasted six weeks and involved 18 sessions of unilateral elbow-flexion exercise. The researchers assessed one-repetition maximum strength and muscle thickness.</p>
-<p>Training one arm improved strength in the opposite, untrained arm without an accompanying increase in that arm's muscle thickness. Directly trained arms increased thickness, and their strength gains were greater than gains from transfer alone. Training both arms did not add a measurable transfer bonus to the strength gains of an arm that was already directly training.</p>
+
+<figure class="reading-visual" id="strength-versus-size" aria-labelledby="strength-versus-size-title">
+<figcaption><span class="rv-label">Keep outcomes separate</span><strong class="rv-title" id="strength-versus-size-title">What changed in the same trial?</strong></figcaption>
+<table class="rv-ledger"><thead><tr><th scope="col">Arm</th><th scope="col">Strength</th><th scope="col">Muscle thickness</th></tr></thead><tbody><tr><th scope="row">Directly trained</th><td class="rv-observed">Increase observed</td><td class="rv-observed">Increase observed</td></tr><tr><th scope="row">Untrained</th><td class="rv-observed">Increase observed</td><td>No increase observed</td></tr></tbody></table>
+<p class="rv-caption"><a href="https://doi.org/10.1111/sms.14772">Song et al.</a> Direction of findings only; this table does not compare effect sizes.</p>
+</figure>
+
+<p>Direct training produced greater strength gains than transfer alone. Training both arms did not add a measurable transfer bonus to an arm already training directly.</p>
 <p>These are findings about an elbow-flexion task, not a reason to leave a healthy arm untrained.</p>
 
+
+<figure class="reading-visual" id="transfer-study-results" aria-labelledby="transfer-study-results-title">
+<figcaption><span class="rv-label">Trial results</span><strong class="rv-title" id="transfer-study-results-title">Change in non-dominant arm strength</strong></figcaption>
+<div class="rv-scale rv-bar-key" aria-hidden="true"><span>0</span><span>+3 kg</span></div><div class="rv-bar-row"><span>Both arms trained</span><div class="rv-bar-lane" aria-hidden="true"><span class="rv-zero"></span><span class="rv-data-bar" style="left:9.000%;width:76.500%;"></span></div><span class="rv-bar-value">+2.7</span></div><div class="rv-bar-row"><span>This arm only</span><div class="rv-bar-lane" aria-hidden="true"><span class="rv-zero"></span><span class="rv-data-bar" style="left:9.000%;width:73.667%;"></span></div><span class="rv-bar-value">+2.6</span></div><div class="rv-bar-row"><span>Opposite arm only</span><div class="rv-bar-lane" aria-hidden="true"><span class="rv-zero"></span><span class="rv-data-bar" style="left:9.000%;width:42.500%;"></span></div><span class="rv-bar-value">+1.5</span></div><div class="rv-bar-row"><span>No training</span><div class="rv-bar-lane" aria-hidden="true"><span class="rv-zero"></span><span class="rv-data-bar" style="left:3.333%;width:5.667%;background:#b2c5cb;"></span></div><span class="rv-bar-value">-0.2</span></div>
+<p class="rv-caption">1RM change, kg; group means from <a href="https://doi.org/10.1111/sms.14772">Song et al.</a> 160 participants, 6 weeks, 18 sessions. Error bars unavailable in abstract; individual results vary.</p>
+</figure>
 <h2>Why might strength transfer between sides?</h2>
 <p>Producing force involves how the nervous system recruits and drives muscle, as well as the muscle itself. A <a href="https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2024.1512309/full">2025 study by Lecce and colleagues</a> followed nine people through eight weeks of unilateral biceps training and compared them with nine controls. The team used high-density electromyography to investigate motor-unit behavior.</p>
 <p>Strength improvements in the untrained side were accompanied by changes in motor-unit recruitment and discharge characteristics. That supports a neural contribution to cross-education. It does not identify one complete, settled explanation: the small study could not directly determine all the possible sites of central and spinal adaptation.</p>
@@ -157,7 +184,7 @@
 <h2>What this means for your next unilateral workout</h2>
 <h3>Keep direct training in the plan</h3>
 <p>If both arms can train normally and your goal includes developing both, keep work for both in your program. Cross-education is interesting background knowledge; it does not supply a practical reason to deliberately stop training one healthy side.</p>
-<p>Likewise, you do not need to add extra maximal attempts to prove that the effect exists. Continue your planned exercises and use ordinary training records to follow progress. A research question does not have to become another exhausting test at the end of every session.</p>
+<p>Likewise, you do not need to add extra maximal attempts to prove that the effect exists. Continue your planned exercises and use ordinary training records to follow progress. </p>
 <h3>Make comparisons you can interpret</h3>
 <p>When you compare left and right performance, keep the exercise setup consistent. Write down the load, repetitions, range of motion and any deliberate change in technique. Also note which arm went first and whether the second side had a different rest interval.</p>
 <p>For example, ten right-arm cable curls and eight left-arm curls are worth recording as they happened. Before explaining the difference, check whether you used the same handle position, body position and standard for completing a repetition. The log should preserve the observation before you attach a theory to it.</p>
@@ -167,8 +194,14 @@
 
 <h2>Log the work you did, without inventing extra sets</h2>
 <p>A training log is most useful when a future you can understand it. Choose a consistent convention for recording a single-arm exercise, and keep any extra left/right detail in a notebook or notes app if your logger does not have the fields you need.</p>
-<p>Record completed work rather than adding hypothetical sets for the opposite arm. If a planned side was skipped, note that plainly. Do not replace it with estimated “transfer volume,” because the studies do not provide a conversion from one side's repetitions to the other side's training dose.</p>
-<p>Before increasing work to correct an apparent imbalance, review a few comparable sessions. A setup change or a missed entry deserves a different response from a repeated performance pattern. The aim is a clearer decision, not a more impressive-looking total.</p>
+
+<figure class="reading-visual" id="unilateral-log-example" aria-labelledby="unilateral-log-example-title">
+<figcaption><span class="rv-label">Worked example</span><strong class="rv-title" id="unilateral-log-example-title">Record the sets each arm completed</strong></figcaption>
+<div class="rv-grid"><div class="rv-cell"><strong>Right arm</strong><small>3 sets completed<br>Log: 3 direct sets</small></div><div class="rv-cell"><strong>Left arm</strong><small>No sets completed<br>Log: 0 direct sets</small></div></div><span class="rv-stamp">Illustrative session</span>
+<p class="rv-caption">Cross-education does not supply a conversion into extra sets. Keep side-specific notes separately if your logger lacks those fields.</p>
+</figure>
+
+<p>Before increasing work to correct an apparent imbalance, review a few comparable sessions. A setup change or a missed entry deserves a different response from a repeated performance pattern. </p>
 
 <h2>Where Valen's recovery estimates fit</h2>
 <p>Valen's <a href="muscle-subzone-tracking-guide.html">muscle-subzone tracking</a> estimates recovery from the training you log and helps you inspect how work is distributed within muscle groups. It can give your training history more detail than a single total for “arms.”</p>

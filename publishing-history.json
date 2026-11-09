@@ -23,7 +23,7 @@
       ],
       "status": "published_verified",
       "commit": "445e14c079000f8fe856df91533b4faa0712102a",
-      "deploymentStatus": "Ready — Production",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Reconstructed from verified research with user authorization; prior conversation draft unavailable.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AnXbi1XsqxN2U8rC1RNrr5rqwnqY",
       "verifiedAt": "2026-11-08T18:09:51.027169+00:00",
@@ -37,7 +37,17 @@
         "liveArticleAndBlogAndSitemap": "passed",
         "liveAssetsAndOverflow": "passed",
         "build": "not applicable: static site, no build command"
-      }
+      },
+      "revisions": [
+        {
+          "date": "2026-11-09",
+          "reason": "Reader-requested explanatory visuals and interactive examples",
+          "status": "prepared",
+          "commit": null,
+          "visualsAdded": 4,
+          "articleWords": 1413
+        }
+      ]
     },
     {
       "date": "2026-11-09",
@@ -60,7 +70,7 @@
       ],
       "status": "published_verified",
       "commit": "25753683307c1b70ccf06559b010df33fbfec12d",
-      "deploymentStatus": "Ready — Production",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article written from opened scientific sources and a verified recent Reel topic.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6FUKgbyDMjGuHkLVk21ZkaEqYbkS",
       "verifiedAt": "2026-11-09T09:10:28.567665+00:00",
@@ -76,7 +86,17 @@
         "liveArticleAndBlogAndSitemap": "passed",
         "liveAssetsAndOverflow": "passed",
         "build": "not applicable: static site, no build command"
-      }
+      },
+      "revisions": [
+        {
+          "date": "2026-11-09",
+          "reason": "Reader-requested explanatory visuals and interactive examples",
+          "status": "prepared",
+          "commit": null,
+          "visualsAdded": 4,
+          "articleWords": 1395
+        }
+      ]
     },
     {
       "date": "2026-11-09",
@@ -107,7 +127,7 @@
       ],
       "status": "published_verified",
       "commit": "e750d9b0cb08fd0a5a24bd48dbce674d13d72f56",
-      "deploymentStatus": "Ready — Production",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article researched and edited with six inspected GitHub marketing skills; explicit one-off additional publication.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6kAgHXbQ2xgVrDtRTF63PJZ1HaLw",
       "verifiedAt": "2026-11-09T15:34:42Z",
@@ -139,7 +159,17 @@
         "schemaOrgValidator": "2 items, 0 errors, 0 warnings",
         "googleRichResultsTest": "Not completed: Could not connect to the reCAPTCHA service. No challenge bypassed.",
         "build": "not applicable: static site, no build command"
-      }
+      },
+      "revisions": [
+        {
+          "date": "2026-11-09",
+          "reason": "Reader-requested explanatory visuals and interactive examples",
+          "status": "prepared",
+          "commit": null,
+          "visualsAdded": 4,
+          "articleWords": 1350
+        }
+      ]
     }
   ]
 }
