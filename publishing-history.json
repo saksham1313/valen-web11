@@ -77,6 +77,38 @@
         "liveAssetsAndOverflow": "passed",
         "build": "not applicable: static site, no build command"
       }
+    },
+    {
+      "date": "2026-11-09",
+      "slug": "eccentric-training-lowering-weights-recovery",
+      "title": "Eccentric Training: Why Lowering Weights Feels Different",
+      "topic": "Eccentric muscle actions, tempo, soreness and practical workout records",
+      "url": "https://www.valenapp.tech/eccentric-training-lowering-weights-recovery.html",
+      "publicationMode": "user_requested_additional",
+      "authorization": {
+        "source": "explicit_user_request",
+        "date": "2026-11-09",
+        "reason": "User explicitly requested one additional article after today's scheduled publication."
+      },
+      "inspiration": [
+        {
+          "creator": "trainwith_valen",
+          "url": "https://www.instagram.com/reel/DfhhgV1ufcI/",
+          "publishedAt": "2026-11-09T14:16:03Z",
+          "note": "Rendered caption and post time verified in Chrome; lifting-versus-lowering question inspiration, no popularity ranking."
+        }
+      ],
+      "references": [
+        "https://doi.org/10.1093/ptj/67.8.1205",
+        "https://doi.org/10.1007/BF00626764",
+        "https://doi.org/10.1007/s40279-015-0304-0",
+        "https://doi.org/10.3389/fphys.2019.00536",
+        "https://doi.org/10.1186/s13102-026-01848-w"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not yet committed",
+      "draftOrigin": "Original article researched and edited with six inspected GitHub marketing skills; explicit one-off additional publication."
     }
   ]
 }

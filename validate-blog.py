@@ -16,6 +16,26 @@ class Document(HTMLParser):
     def handle_starttag(self, tag, attrs):
         self.elements.append((tag, dict(attrs)))
 
+def validate_history(entries):
+    """Keep the scheduled daily limit; audit a separately requested extra post."""
+    assert len({e['slug'] for e in entries})==len(entries), 'Duplicate slug in history'
+    daily=[]
+    additional=[]
+    for entry in entries:
+        mode=entry.get('publicationMode','daily')
+        assert mode in ('daily','user_requested_additional'), 'Unknown publication mode'
+        if mode=='user_requested_additional':
+            authorization=entry.get('authorization',{})
+            assert authorization.get('source')=='explicit_user_request', 'Extra article needs explicit user authorization'
+            assert authorization.get('date')==entry['date'], 'Extra article authorization must match its IST date'
+            assert isinstance(authorization.get('reason'),str) and authorization['reason'].strip(), 'Extra article needs an authorization reason'
+        if entry['status'] in ('failed','aborted'):
+            continue
+        (additional if mode=='user_requested_additional' else daily).append(entry['date'])
+    assert len(set(daily))==len(daily), 'Multiple daily articles reserved on the same IST date'
+    assert len(set(additional))==len(additional), 'Multiple extra articles reserved on the same IST date'
+    assert set(additional)<=set(daily), 'An extra article must follow an existing daily article'
+
 def validate(root, slug):
     path=root/(slug+'.html')
     text=path.read_text()
@@ -64,9 +84,7 @@ def validate(root, slug):
     assert locations.count(expected)==1, 'Sitemap missing or duplicated'
     history=json.loads((root/'publishing-history.json').read_text())
     entries=history['entries']
-    assert len({e['slug'] for e in entries})==len(entries), 'Duplicate slug in history'
-    daily=[e['date'] for e in entries if e['status'] not in ('failed','aborted')]
-    assert len(set(daily))==len(daily), 'Multiple articles reserved on the same IST date'
+    validate_history(entries)
     entry=next(e for e in entries if e['slug']==slug)
     assert entry['url']==expected and entry['title']==posting['headline']
     print(f'PASS: {slug}: {words} words; headings, SEO, JSON-LD, local links/anchors, blog index, sitemap and history')
