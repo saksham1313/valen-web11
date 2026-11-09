@@ -38,6 +38,30 @@
         "liveAssetsAndOverflow": "passed",
         "build": "not applicable: static site, no build command"
       }
+    },
+    {
+      "date": "2026-11-09",
+      "slug": "cross-education-one-arm-training",
+      "title": "Can Training One Arm Strengthen the Other? Cross-Education Explained",
+      "topic": "Cross-education: strength transfer, muscle-size limits and honest unilateral-work logging",
+      "url": "https://www.valenapp.tech/cross-education-one-arm-training.html",
+      "inspiration": [
+        {
+          "creator": "trainwith_valen",
+          "url": "https://www.instagram.com/reel/DffX2-fuBc3/",
+          "publishedAt": "2026-11-08T18:13:20Z",
+          "note": "Verified rendered caption and post time; question inspiration, not a measured trend ranking."
+        }
+      ],
+      "references": [
+        "https://doi.org/10.1007/s00421-017-3720-z",
+        "https://doi.org/10.1111/sms.14772",
+        "https://doi.org/10.3389/fphys.2024.1512309"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not_yet_verified",
+      "draftOrigin": "Original article written from opened scientific sources and a verified recent Reel topic."
     }
   ]
 }
