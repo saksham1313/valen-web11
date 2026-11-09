@@ -58,10 +58,25 @@
         "https://doi.org/10.1111/sms.14772",
         "https://doi.org/10.3389/fphys.2024.1512309"
       ],
-      "status": "prepared",
-      "commit": null,
-      "deploymentStatus": "not_yet_verified",
-      "draftOrigin": "Original article written from opened scientific sources and a verified recent Reel topic."
+      "status": "published_verified",
+      "commit": "25753683307c1b70ccf06559b010df33fbfec12d",
+      "deploymentStatus": "Ready \u2014 Production",
+      "draftOrigin": "Original article written from opened scientific sources and a verified recent Reel topic.",
+      "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6FUKgbyDMjGuHkLVk21ZkaEqYbkS",
+      "verifiedAt": "2026-11-09T09:10:28.567665+00:00",
+      "validation": {
+        "articleWords": 1338,
+        "headingsAndMetadata": "passed",
+        "jsonLdAndXml": "passed",
+        "internalLinksAndAnchors": "passed",
+        "inlineJavaScriptSyntax": "passed",
+        "desktopAndMobilePreview": "passed",
+        "mobileNavigation": "passed",
+        "previousContentAndHistory": "preserved",
+        "liveArticleAndBlogAndSitemap": "passed",
+        "liveAssetsAndOverflow": "passed",
+        "build": "not applicable: static site, no build command"
+      }
     }
   ]
 }
