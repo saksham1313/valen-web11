@@ -59,7 +59,7 @@
 }
     </script>
     <script type="application/ld+json">
-    {
+{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -68,39 +68,31 @@
             "name": "How much does Valen Pro cost?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Valen Pro is billed at roughly $24.99 USD per year, or $49.99 USD as a single lifetime purchase, with the exact figure shown in your local currency at checkout on Google Play since pricing is region-adjusted. For context: that yearly price is in the same range as bare-bones logging apps that don't track recovery at all, such as Hevy Pro (about $23.99/year) and Strong PRO (about $29.99/year). It is a fraction of what recovery-focused competitors charge for far less granular data. Fitbod runs $15.99/month (about $191.88/year if paid monthly, or $95.99/year on its annual plan) for whole-muscle-group recovery only, no subzone breakdown, and wearable-based recovery trackers like Whoop ($199-$359/year membership) or Fitbit Air ($99.99 hardware plus an optional $9.99/month Google Health Premium subscription) cost several times more for general biometric readiness with zero muscle-specific detail. In short, Valen Pro's yearly price is close to a single month of a wearable subscription, or less than two months of Fitbod, for a full year of muscle-subzone-level recovery tracking."
+                "text": "$24.99 USD a year or $49.99 USD once. Google Play adjusts the price for your region and shows it in local currency at checkout."
             }
         },
         {
             "@type": "Question",
-            "name": "Is Valen actually free, or is that a trial?",
+            "name": "Is the free plan a trial?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Valen's free tier is permanent, not a trial. It includes the full recovery heatmap, unlimited workout logging, the muscle-subzone-mapped exercise library, and unlimited training history, with no account or payment required to start. This is different from apps like Fitbod, which only offers a 7-day trial before requiring a paid subscription to keep functioning at all."
+                "text": "No. It is permanent. You get the full recovery map, unlimited logging, the subzone exercise library and unlimited history, with no account and no payment. Fitbod, for comparison, gives a 7-day trial before it asks you to pay."
             }
         },
         {
             "@type": "Question",
-            "name": "Is a yearly subscription or the lifetime purchase better value?",
+            "name": "Yearly or lifetime?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The one-time lifetime purchase pays for itself compared to the yearly subscription in under two years, then costs nothing further. Lifetime pricing is increasingly rare among fitness apps, most of which (Fitbod, Whoop, Strong PRO) are subscription-only with no permanent buyout option."
+                "text": "Lifetime pays for itself against yearly in under two years, then costs nothing more. Most fitness apps are subscription only."
             }
         },
         {
             "@type": "Question",
-            "name": "Does Valen Pro price vary by country?",
+            "name": "Does free limit routines, custom exercises or logging?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Like all Google Play subscriptions, Valen Pro's price is adjusted for each region's purchasing power and displayed in local currency at checkout, so the amount shown on the Play Store listing in your country may differ from the USD reference price."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Does the free plan limit routines, custom exercises or logging?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "No. Free has no cap on logged sessions, saved routines or custom exercises, and there are no ads. Pro adds features, not room to log. For comparison, Hevy's free plan caps saved routines, custom exercises and chart history, and Strong's free plan limits saved routines. Both publish their current limits, which change over time."
+                "text": "No. No caps on sessions, saved routines or custom exercises, and no ads. Pro adds features, not room to log."
             }
         },
         {
@@ -108,23 +100,23 @@
             "name": "Can I export my data without paying?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes. Export and import of a JSON file with your history, custom exercises and settings are available on the free plan. Valen exports JSON only, not CSV, and cannot import CSV files from other apps. Encrypted cloud backup, which needs a Google sign-in, is the Pro option."
+                "text": "Yes. Free includes JSON export and import of your history, custom exercises and settings. It is JSON only, with no CSV and no import from other apps. Encrypted cloud backup, which needs a Google sign-in, is Pro."
             }
         },
         {
             "@type": "Question",
-            "name": "What does Pro add that the free plan does not have?",
+            "name": "What does Pro add?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Pro adds the adaptive weekly plan with training blocks, the corrective session, score breakdown, strain vs recovery, split over time, training intelligence, physique trajectory, Smart Rest, home screen widgets and encrypted cloud backup. Everything needed to log workouts and see recovery is free."
+                "text": "The adaptive weekly plan with training blocks, the corrective session, score breakdown, strain vs recovery, split over time, training intelligence, physique trajectory, Smart Rest, home screen widgets and encrypted cloud backup. Logging and seeing your recovery stay free."
             }
         },
         {
             "@type": "Question",
-            "name": "Is there an iPhone version or a smartwatch app?",
+            "name": "Is there an iPhone or smartwatch version?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "iOS is coming soon. Valen has no Wear OS or Apple Watch app and no Health Connect connection. Recovery is calculated from the sets you log, so nothing needs to be connected."
+                "text": "iOS is coming soon. There is no Wear OS or Apple Watch app and no Health Connect link. Recovery comes from the sets you log."
             }
         }
     ]
@@ -133,9 +125,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=3">
-    <link rel="stylesheet" href="home.css?v=11">
+    <link rel="stylesheet" href="home.css?v=24">
 
     <!-- PostHog -->
     <script>
@@ -208,27 +200,24 @@
     </nav>
 
     <main>
-        <section class="h-section" style="padding-top: 80px;">
+        <section class="h-section" style="padding-top: 72px;">
             <div class="h-wrap">
-                <span class="h-eyebrow">Pricing</span>
-                <h1 class="h-h2" style="font-size: clamp(2.4rem, 5.4vw, 4rem);">Simple pricing. Pro for serious lifters.</h1>
-                <p class="h-lead">Start with the full recovery map and unlimited logging. Pro adds weekly planning, deeper insights and cloud backup, as a yearly subscription or a single lifetime purchase. Local pricing shows at checkout on Google Play.</p>
+                <h1 class="h-h2" style="font-size: clamp(2.4rem, 5.4vw, 3.8rem);">Free is the full recovery map.</h1>
+                <p class="h-lead">Pro adds planning and deeper insights. Yearly or once. Local pricing shows at checkout on Google Play.</p>
 
                 <div class="h-price">
                     <div class="h-card rv">
                         <h3>Free</h3>
-                        <div class="cost">$0, no account, no ads</div>
+                        <div class="cost">$0. No account, no ads.</div>
                         <ul>
-                            <li>Full recovery map, updated hour by hour</li>
-                            <li>Unlimited workout logging and Quick Log</li>
+                            <li>Recovery map, updated hour by hour</li>
+                            <li>Unlimited logging, Quick Log and history</li>
                             <li>209 exercises mapped to subzones</li>
                             <li>Daily session suggestions</li>
                             <li>Saved routines</li>
-                            <li>Rest timer with notification</li>
-                            <li>Plate calculator</li>
-                            <li>Progressive overload streak</li>
-                            <li>Unlimited history, no time cap</li>
-                            <li>JSON data export and import</li>
+                            <li>Rest timer and plate calculator</li>
+                            <li>Overload streak</li>
+                            <li>JSON export and import</li>
                         </ul>
                         <div class="h-cta-row"><a href="https://play.google.com/store/apps/details?id=com.valen.health" class="h-btn h-btn-ghost" target="_blank" rel="noreferrer" data-cta="pricing-free">Get Valen</a></div>
                     </div>
@@ -236,70 +225,62 @@
                         <h3>Pro</h3>
                         <div class="cost">Everything in Free, plus</div>
                         <ul>
-                            <li>Adaptive weekly plan and training blocks</li>
-                            <li>Corrective session and training intelligence</li>
+                            <li>Weekly plan and training blocks</li>
+                            <li>Diagnosis and corrective session</li>
                             <li>Score breakdown, strain vs recovery, split over time</li>
                             <li>Physique trajectory</li>
                             <li>Smart Rest</li>
                             <li>Home screen widgets</li>
                             <li>Encrypted cloud backup</li>
                         </ul>
+                        <div class="h-tiers">
+                            <div><b>$24.99</b><span>a year, cancel any time</span></div>
+                            <div><b>$49.99</b><span>once, yours for good</span></div>
+                        </div>
                         <div class="h-cta-row"><a href="https://play.google.com/store/apps/details?id=com.valen.health" class="h-btn h-btn-primary" target="_blank" rel="noreferrer" data-cta="pricing-pro"><svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l220.7-221.2 60.1 60.1L104.6 499z"/></svg> Get Valen Pro</a></div>
                     </div>
                 </div>
-
-                <div class="h-price" style="margin-top: 22px;">
-                    <div class="h-card rv">
-                        <h3>Pro Yearly</h3>
-                        <div class="cost">$24.99 a year</div>
-                        <p class="h-note" style="margin-top:0;">Cancel any time in Google Play. Price is a USD reference and varies by region.</p>
-                    </div>
-                    <div class="h-card win rv">
-                        <h3>Pro Lifetime</h3>
-                        <div class="cost">$49.99 once</div>
-                        <p class="h-note" style="margin-top:0;">Pays for itself against the yearly plan in under two years, then it is yours. Price varies by region.</p>
-                    </div>
+                <p class="h-note">Prices are USD references and vary by region.</p>
+                <div class="h-links" aria-label="Comparisons">
+                    <a href="hevy-vs-strong-vs-valen.html">vs Hevy and Strong</a>
+                    <a href="fitbod-vs-valen.html">vs Fitbod</a>
+                    <a href="whoop-vs-valen.html">vs Whoop</a>
+                    <a href="oura-vs-valen.html">vs Oura</a>
                 </div>
-                <p class="h-note">Wondering how this compares with other apps? <a href="hevy-vs-strong-vs-valen.html" style="color:var(--h-teal)">Hevy and Strong</a>, <a href="fitbod-vs-valen.html" style="color:var(--h-teal)">Fitbod</a>, <a href="whoop-vs-valen.html" style="color:var(--h-teal)">Whoop</a>, <a href="oura-vs-valen.html" style="color:var(--h-teal)">Oura</a>.</p>
             </div>
         </section>
 
         <section class="h-section alt" id="faq">
             <div class="h-wrap">
-                <span class="h-eyebrow">Pricing questions</span>
                 <h2 class="h-h2">Before you buy</h2>
                 <div class="h-faq">
                     <details class="rv">
                         <summary>How much does Valen Pro cost?</summary>
-                        <p>Valen Pro is billed at roughly $24.99 USD per year, or $49.99 USD as a single lifetime purchase, with the exact figure shown in your local currency at checkout on Google Play since pricing is region-adjusted. For context: that yearly price is in the same range as bare-bones logging apps that don't track recovery at all, such as Hevy Pro (about $23.99/year) and Strong PRO (about $29.99/year). It is a fraction of what recovery-focused competitors charge for far less granular data. Fitbod runs $15.99/month (about $191.88/year if paid monthly, or $95.99/year on its annual plan) for whole-muscle-group recovery only, no subzone breakdown, and wearable-based recovery trackers like Whoop ($199-$359/year membership) or Fitbit Air ($99.99 hardware plus an optional $9.99/month Google Health Premium subscription) cost several times more for general biometric readiness with zero muscle-specific detail. In short, Valen Pro's yearly price is close to a single month of a wearable subscription, or less than two months of Fitbod, for a full year of muscle-subzone-level recovery tracking.</p>
+                        <p>$24.99 USD a year or $49.99 USD once. Google Play adjusts the price for your region and shows it in local currency at checkout.</p>
                     </details>
                     <details class="rv">
-                        <summary>Is Valen actually free, or is that a trial?</summary>
-                        <p>Valen's free tier is permanent, not a trial. It includes the full recovery heatmap, unlimited workout logging, the muscle-subzone-mapped exercise library, and unlimited training history, with no account or payment required to start. This is different from apps like Fitbod, which only offers a 7-day trial before requiring a paid subscription to keep functioning at all.</p>
+                        <summary>Is the free plan a trial?</summary>
+                        <p>No. It is permanent. You get the full recovery map, unlimited logging, the subzone exercise library and unlimited history, with no account and no payment. Fitbod, for comparison, gives a 7-day trial before it asks you to pay.</p>
                     </details>
                     <details class="rv">
-                        <summary>Is a yearly subscription or the lifetime purchase better value?</summary>
-                        <p>The one-time lifetime purchase pays for itself compared to the yearly subscription in under two years, then costs nothing further. Lifetime pricing is increasingly rare among fitness apps, most of which (Fitbod, Whoop, Strong PRO) are subscription-only with no permanent buyout option.</p>
+                        <summary>Yearly or lifetime?</summary>
+                        <p>Lifetime pays for itself against yearly in under two years, then costs nothing more. Most fitness apps are subscription only.</p>
                     </details>
                     <details class="rv">
-                        <summary>Does Valen Pro price vary by country?</summary>
-                        <p>Yes. Like all Google Play subscriptions, Valen Pro's price is adjusted for each region's purchasing power and displayed in local currency at checkout, so the amount shown on the Play Store listing in your country may differ from the USD reference price.</p>
-                    </details>
-                    <details class="rv">
-                        <summary>Does the free plan limit routines, custom exercises or logging?</summary>
-                        <p>No. Free has no cap on logged sessions, saved routines or custom exercises, and there are no ads. Pro adds features, not room to log. For comparison, Hevy's free plan caps saved routines, custom exercises and chart history, and Strong's free plan limits saved routines. Both publish their current limits, which change over time.</p>
+                        <summary>Does free limit routines, custom exercises or logging?</summary>
+                        <p>No. No caps on sessions, saved routines or custom exercises, and no ads. Pro adds features, not room to log.</p>
                     </details>
                     <details class="rv">
                         <summary>Can I export my data without paying?</summary>
-                        <p>Yes. Export and import of a JSON file with your history, custom exercises and settings are available on the free plan. Valen exports JSON only, not CSV, and cannot import CSV files from other apps. Encrypted cloud backup, which needs a Google sign-in, is the Pro option.</p>
+                        <p>Yes. Free includes JSON export and import of your history, custom exercises and settings. It is JSON only, with no CSV and no import from other apps. Encrypted cloud backup, which needs a Google sign-in, is Pro.</p>
                     </details>
                     <details class="rv">
-                        <summary>What does Pro add that the free plan does not have?</summary>
-                        <p>Pro adds the adaptive weekly plan with training blocks, the corrective session, score breakdown, strain vs recovery, split over time, training intelligence, physique trajectory, Smart Rest, home screen widgets and encrypted cloud backup. Everything needed to log workouts and see recovery is free.</p>
+                        <summary>What does Pro add?</summary>
+                        <p>The adaptive weekly plan with training blocks, the corrective session, score breakdown, strain vs recovery, split over time, training intelligence, physique trajectory, Smart Rest, home screen widgets and encrypted cloud backup. Logging and seeing your recovery stay free.</p>
                     </details>
                     <details class="rv">
-                        <summary>Is there an iPhone version or a smartwatch app?</summary>
-                        <p>iOS is coming soon. Valen has no Wear OS or Apple Watch app and no Health Connect connection. Recovery is calculated from the sets you log, so nothing needs to be connected.</p>
+                        <summary>Is there an iPhone or smartwatch version?</summary>
+                        <p>iOS is coming soon. There is no Wear OS or Apple Watch app and no Health Connect link. Recovery comes from the sets you log.</p>
                     </details>
                 </div>
             </div>
@@ -307,7 +288,6 @@
 
         <section class="h-final">
             <div class="h-wrap">
-                <span class="h-brand">Valen</span>
                 <h2 class="h-h2">Know which muscles are ready to train.</h2>
                 <div class="h-cta-row">
                     <a href="https://play.google.com/store/apps/details?id=com.valen.health" class="h-btn h-btn-primary" target="_blank" rel="noreferrer" data-cta="pricing-final"><svg viewBox="0 0 512 512" fill="currentColor" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l220.7-221.2 60.1 60.1L104.6 499z"/></svg> Get Valen on Google Play</a>
