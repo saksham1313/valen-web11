@@ -23,7 +23,7 @@
       ],
       "status": "published_verified",
       "commit": "445e14c079000f8fe856df91533b4faa0712102a",
-      "deploymentStatus": "Ready — Production",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Reconstructed from verified research with user authorization; prior conversation draft unavailable.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AnXbi1XsqxN2U8rC1RNrr5rqwnqY",
       "verifiedAt": "2026-11-08T18:09:51.027169+00:00",
@@ -46,7 +46,7 @@
           "commit": "cdcbeefe2b8acefd72425a1fcc1008669b26c466",
           "visualsAdded": 4,
           "articleWords": 1413,
-          "deploymentStatus": "Ready — Production",
+          "deploymentStatus": "Ready \u2014 Production",
           "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AStTfALoQuhSrsm2YxhapnAYkf8y",
           "verifiedAt": "2026-11-09T16:07:48Z",
           "validation": {
@@ -86,7 +86,7 @@
       ],
       "status": "published_verified",
       "commit": "25753683307c1b70ccf06559b010df33fbfec12d",
-      "deploymentStatus": "Ready — Production",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article written from opened scientific sources and a verified recent Reel topic.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6FUKgbyDMjGuHkLVk21ZkaEqYbkS",
       "verifiedAt": "2026-11-09T09:10:28.567665+00:00",
@@ -111,7 +111,7 @@
           "commit": "cdcbeefe2b8acefd72425a1fcc1008669b26c466",
           "visualsAdded": 4,
           "articleWords": 1395,
-          "deploymentStatus": "Ready — Production",
+          "deploymentStatus": "Ready \u2014 Production",
           "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AStTfALoQuhSrsm2YxhapnAYkf8y",
           "verifiedAt": "2026-11-09T16:07:48Z",
           "validation": {
@@ -159,7 +159,7 @@
       ],
       "status": "published_verified",
       "commit": "e750d9b0cb08fd0a5a24bd48dbce674d13d72f56",
-      "deploymentStatus": "Ready — Production",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article researched and edited with six inspected GitHub marketing skills; explicit one-off additional publication.",
       "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6kAgHXbQ2xgVrDtRTF63PJZ1HaLw",
       "verifiedAt": "2026-11-09T15:34:42Z",
@@ -200,7 +200,7 @@
           "commit": "cdcbeefe2b8acefd72425a1fcc1008669b26c466",
           "visualsAdded": 4,
           "articleWords": 1350,
-          "deploymentStatus": "Ready — Production",
+          "deploymentStatus": "Ready \u2014 Production",
           "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/AStTfALoQuhSrsm2YxhapnAYkf8y",
           "verifiedAt": "2026-11-09T16:07:48Z",
           "validation": {
@@ -218,6 +218,32 @@
           }
         }
       ]
+    },
+    {
+      "date": "2026-11-11",
+      "slug": "protein-digestion-muscle-recovery",
+      "title": "Protein Digestion and Muscle Recovery: What a Meal Does",
+      "topic": "Protein digestion, dietary amino acids and the distinction between acute muscle protein synthesis and long-term growth",
+      "url": "https://www.valenapp.tech/protein-digestion-muscle-recovery.html",
+      "inspiration": [
+        {
+          "creator": "trainwith_valen",
+          "url": "https://www.instagram.com/reel/Dfh7R2wzKWS/",
+          "publishedAt": "2026-11-09T18:00:06Z",
+          "note": "Caption and exact post time verified in authenticated Chrome. Topic inspiration only; no popularity or keyword-volume claim."
+        }
+      ],
+      "references": [
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+        "https://doi.org/10.1371/journal.pone.0141582",
+        "https://doi.org/10.3945/ajcn.112.051201",
+        "https://doi.org/10.1186/s12970-017-0177-8"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not yet committed",
+      "draftOrigin": "Original article from opened primary studies, a professional digestive-system guide and ISSN consensus. User requested the next article now, before the usual 09:00 IST target; no 10 November catch-up post.",
+      "visuals": 4
     }
   ]
 }

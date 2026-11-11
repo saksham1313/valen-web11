@@ -40,6 +40,8 @@ Valen is built by an independent developer, not a corporation, supplement brand,
 
 ## Training science
 
+- [Protein digestion and muscle recovery](https://www.valenapp.tech/protein-digestion-muscle-recovery.html): Follows dietary protein through digestion and muscle protein turnover, with study limitations and practical food/workout records.
+
 - [Eccentric training, tempo and recovery](https://www.valenapp.tech/eccentric-training-lowering-weights-recovery.html): Distinguishes ordinary lowering, slow tempo and eccentric overload, with study limitations and a practical logging checklist.
 
 - [Why Your Chest Never Grows Evenly](https://www.valenapp.tech/chest-recovery-imbalance.html): upper vs mid vs lower pec fiber recruitment and recovery
