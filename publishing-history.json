@@ -259,6 +259,33 @@
         "build": "not applicable: static site without build command"
       },
       "reconciliationNote": "Publication occurred 11 November. Interrupted runs left the reservation prepared; live content and original Ready Production deployment were reverified 13 November before updating this record. Current Production at reconciliation was 1520eb87149d484f0b566468e582bd2cb91424c4."
+    },
+    {
+      "date": "2026-11-13",
+      "slug": "poor-sleep-strength-training-workout",
+      "title": "Poor Sleep and Strength Training: How to Adjust Your Workout",
+      "topic": "Interpreting sleep-loss evidence and adjusting a strength session using alertness, familiar warm-ups and accurate workout records",
+      "url": "https://www.valenapp.tech/poor-sleep-strength-training-workout.html",
+      "inspiration": [
+        {
+          "creator": "drmikeclips",
+          "surfacedOn": "rpstrength",
+          "url": "https://www.instagram.com/reel/DfpKv8dlCLT/",
+          "publishedAt": "2026-11-12T13:33:40Z",
+          "note": "Caption and timestamp verified in authenticated Chrome. Inspired the sleep-and-muscle question; drug-equivalence language is not adopted. No popularity ranking claimed."
+        }
+      ],
+      "references": [
+        "https://doi.org/10.1007/s40279-022-01706-y",
+        "https://doi.org/10.14814/phy2.14660",
+        "https://doi.org/10.1136/bjsports-2020-102025",
+        "https://doi.org/10.5664/jcsm.4758"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not yet committed",
+      "draftOrigin": "Original article from opened primary research, systematic review and professional consensus. Four reader-focused visuals. No catch-up article for missed dates.",
+      "visuals": 4
     }
   ]
 }
