@@ -239,11 +239,26 @@
         "https://doi.org/10.3945/ajcn.112.051201",
         "https://doi.org/10.1186/s12970-017-0177-8"
       ],
-      "status": "prepared",
-      "commit": null,
-      "deploymentStatus": "not yet committed",
+      "status": "published_verified",
+      "commit": "4af90ad0ece80827ec4580889f77db4627cab47a",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article from opened primary studies, a professional digestive-system guide and ISSN consensus. User requested the next article now, before the usual 09:00 IST target; no 10 November catch-up post.",
-      "visuals": 4
+      "visuals": 4,
+      "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6YGuTYmyczceAcGEsxajbSvY4DgU",
+      "verifiedAt": "2026-11-13T04:12:29Z",
+      "validation": {
+        "articleWords": 1263,
+        "articleValidator": "passed",
+        "jsonXmlSvg": "passed",
+        "inlineJavaScriptSyntax": "passed",
+        "publishingGuardTests": "10 passed",
+        "visualArithmeticChecks": "14 passed",
+        "desktopAndMobileChrome": "passed; live 390px viewport without figure or document overflow on original publication; desktop rechecked during reconciliation",
+        "liveArticleAndBlogAndSitemap": "passed; rechecked in Chrome 13 November",
+        "liveAssets": "passed",
+        "build": "not applicable: static site without build command"
+      },
+      "reconciliationNote": "Publication occurred 11 November. Interrupted runs left the reservation prepared; live content and original Ready Production deployment were reverified 13 November before updating this record. Current Production at reconciliation was 1520eb87149d484f0b566468e582bd2cb91424c4."
     }
   ]
 }
