@@ -281,11 +281,28 @@
         "https://doi.org/10.1136/bjsports-2020-102025",
         "https://doi.org/10.5664/jcsm.4758"
       ],
-      "status": "prepared",
-      "commit": null,
-      "deploymentStatus": "not yet committed",
+      "status": "published_verified",
+      "commit": "13c73953311389ca6ba0e2b69f2bd68f28713ede",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article from opened primary research, systematic review and professional consensus. Four reader-focused visuals. No catch-up article for missed dates.",
-      "visuals": 4
+      "visuals": 4,
+      "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/EXpVtw7Q7LA21bs7Ma2sNZs7UWb2",
+      "verifiedAt": "2026-11-13T04:23:12Z",
+      "validation": {
+        "articleWords": 1285,
+        "articleValidator": "passed",
+        "jsonXmlSvg": "passed",
+        "inlineJavaScriptSyntax": "passed",
+        "visualArithmetic": "chart coordinates and 16/24-repetition example checked; existing 14 checks passed",
+        "desktopAndMobileChrome": "passed at desktop and actual 390px live viewport; no document or figure overflow",
+        "mobileNavigation": "opened and closed in local Chrome preview",
+        "noJavaScriptContent": "all article prose, figures and data preserved in static HTML/SVG",
+        "liveArticleAndBlogAndSitemap": "passed in Chrome",
+        "liveMetadataAndAssets": "passed in Chrome",
+        "liveSourceComparison": "13 pages/assets HTTP200 and identical to validated current source",
+        "previousContentAndHistory": "preserved, including current homepage changes",
+        "build": "not applicable: static site without build command"
+      }
     }
   ]
 }
