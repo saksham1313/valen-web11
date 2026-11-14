@@ -303,6 +303,31 @@
         "previousContentAndHistory": "preserved, including current homepage changes",
         "build": "not applicable: static site without build command"
       }
+    },
+    {
+      "date": "2026-11-15",
+      "slug": "sets-per-muscle-per-week-volume-guide",
+      "title": "How Many Sets per Muscle per Week? A Practical Volume Guide",
+      "topic": "Weekly sets per muscle, direct versus indirect counting and practical volume adjustments",
+      "url": "https://www.valenapp.tech/sets-per-muscle-per-week-volume-guide.html",
+      "inspiration": [
+        {
+          "creator": "rpstrength",
+          "url": "https://www.instagram.com/reel/Dfn1f1dDvHX/",
+          "publishedAt": "2026-11-12T01:08:08Z",
+          "note": "Caption and timestamp verified in authenticated Chrome. Weekly-volume question inspiration only; no requested guide, comment or DM used. No popularity ranking claimed."
+        }
+      ],
+      "references": [
+        "https://doi.org/10.47206/ijsc.v1i1.81",
+        "https://doi.org/10.1007/s40279-025-02344-w",
+        "https://doi.org/10.1007/s40279-024-02069-2"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not yet committed",
+      "draftOrigin": "Original article from an opened professional position stand and publisher/NIH-hosted systematic-review abstracts. Four native explanatory visuals; examples labeled hypothetical. No missed-date catch-up batch.",
+      "visuals": 4
     }
   ]
 }

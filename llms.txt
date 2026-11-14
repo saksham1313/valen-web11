@@ -40,6 +40,8 @@ Valen is built by an independent developer, not a corporation, supplement brand,
 
 ## Training science
 
+- [Sets per muscle per week](https://www.valenapp.tech/sets-per-muscle-per-week-volume-guide.html): A practical volume guide with weekly tallies, compound-set counting conventions, schedule comparisons and research limitations.
+
 - [Poor sleep and strength training](https://www.valenapp.tech/poor-sleep-strength-training-workout.html): Explains sleep-loss evidence and practical workout decisions, with a confidence-interval chart and an illustrative log.
 
 - [Protein digestion and muscle recovery](https://www.valenapp.tech/protein-digestion-muscle-recovery.html): Follows dietary protein through digestion and muscle protein turnover, with study limitations and practical food/workout records.
