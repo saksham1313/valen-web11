@@ -323,11 +323,29 @@
         "https://doi.org/10.1007/s40279-025-02344-w",
         "https://doi.org/10.1007/s40279-024-02069-2"
       ],
-      "status": "prepared",
-      "commit": null,
-      "deploymentStatus": "not yet committed",
+      "status": "published_verified",
+      "commit": "57fc703e678f35f959538ebd92a3620d3f6993e0",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article from an opened professional position stand and publisher/NIH-hosted systematic-review abstracts. Four native explanatory visuals; examples labeled hypothetical. No missed-date catch-up batch.",
-      "visuals": 4
+      "visuals": 4,
+      "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/HPPioJSCSMHXA5J4AZryZQMn7G3v",
+      "verifiedAt": "2026-11-14T18:59:16Z",
+      "validation": {
+        "articleWords": 1324,
+        "articleValidator": "passed",
+        "jsonXmlSvg": "passed",
+        "inlineJavaScriptSyntax": "passed",
+        "exampleArithmetic": "weekly total10; direct4 / fractional7 / full10; schedule rows12 each",
+        "existingVisualArithmeticChecks": "14 passed",
+        "desktopAndMobileChrome": "passed; actual390px live viewport; no document or figure overflow",
+        "mobileNavigation": "opened and closed in local Chrome preview",
+        "noJavaScriptContent": "all prose, figures and calculations preserved in static HTML",
+        "liveArticleAndBlogAndSitemap": "passed in Chrome",
+        "liveMetadataAndAssets": "passed",
+        "liveSourceComparison": "13 pages/assets HTTP200 and identical to validated current source",
+        "previousContentAndHistory": "preserved",
+        "build": "not applicable: static site without build command"
+      }
     }
   ]
 }
