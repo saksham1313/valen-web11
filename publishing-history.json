@@ -346,6 +346,31 @@
         "previousContentAndHistory": "preserved",
         "build": "not applicable: static site without build command"
       }
+    },
+    {
+      "date": "2026-11-16",
+      "slug": "free-weights-vs-machines-muscle-growth",
+      "title": "Free Weights vs Machines for Muscle Growth: How to Choose",
+      "topic": "Free weights versus machines for muscle growth, movement-specific strength and accurate substitution records",
+      "url": "https://www.valenapp.tech/free-weights-vs-machines-muscle-growth.html",
+      "inspiration": [
+        {
+          "creator": "hevyapp",
+          "url": "https://www.instagram.com/reel/Dfcqz09PTfO/",
+          "publishedAt": "2026-11-08T21:00:54Z",
+          "note": "Equipment-choice caption and exact timestamp verified in authenticated Chrome; original article independently researched. No popularity ranking claimed."
+        }
+      ],
+      "references": [
+        "https://doi.org/10.1186/s13102-023-00713-4",
+        "https://doi.org/10.1519/JSC.0000000000003349",
+        "https://doi.org/10.1249/MSS.0000000000003897"
+      ],
+      "status": "prepared",
+      "commit": null,
+      "deploymentStatus": "not yet committed",
+      "draftOrigin": "Original article from opened systematic-review full text, randomized-trial abstract and 2026 ACSM professional consensus. Four explanatory native visuals; examples labeled hypothetical. Current remote source restored selectively while preserving unrelated local edits.",
+      "visuals": 4
     }
   ]
 }

@@ -40,6 +40,8 @@ Valen is built by an independent developer, not a corporation, supplement brand,
 
 ## Training science
 
+- [Free weights versus machines for muscle growth](https://www.valenapp.tech/free-weights-vs-machines-muscle-growth.html): Explains study uncertainty, movement-specific strength and practical equipment selection, with an evidence plot and substitution examples.
+
 - [Sets per muscle per week](https://www.valenapp.tech/sets-per-muscle-per-week-volume-guide.html): A practical volume guide with weekly tallies, compound-set counting conventions, schedule comparisons and research limitations.
 
 - [Poor sleep and strength training](https://www.valenapp.tech/poor-sleep-strength-training-workout.html): Explains sleep-loss evidence and practical workout decisions, with a confidence-interval chart and an illustrative log.
