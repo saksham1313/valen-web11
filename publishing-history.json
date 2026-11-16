@@ -366,11 +366,29 @@
         "https://doi.org/10.1519/JSC.0000000000003349",
         "https://doi.org/10.1249/MSS.0000000000003897"
       ],
-      "status": "prepared",
-      "commit": null,
-      "deploymentStatus": "not yet committed",
+      "status": "published_verified",
+      "commit": "4a2fb0da7f50af9ef613a80b741c339049da99d2",
+      "deploymentStatus": "Ready \u2014 Production",
       "draftOrigin": "Original article from opened systematic-review full text, randomized-trial abstract and 2026 ACSM professional consensus. Four explanatory native visuals; examples labeled hypothetical. Current remote source restored selectively while preserving unrelated local edits.",
-      "visuals": 4
+      "visuals": 4,
+      "deploymentUrl": "https://vercel.com/sakshambhatia1414-gmailcoms-projects/valen-web11/6dzw1x4nQ2A3xXTaL81sfxvy3sQY",
+      "verifiedAt": "2026-11-16T12:46:17Z",
+      "validation": {
+        "articleWords": 1221,
+        "articleValidator": "passed",
+        "jsonXmlSvg": "passed",
+        "inlineJavaScriptSyntax": "passed",
+        "chartCoordinates": "three points checked on -0.6 to +0.6 SMD axis; source CI preserved",
+        "existingVisualArithmeticChecks": "14 passed",
+        "desktopAndMobileChrome": "passed; actual390px live viewport; no document or figure overflow",
+        "mobileNavigation": "opened and closed in local Chrome preview",
+        "noJavaScriptContent": "all prose, chart values and figures static HTML/SVG",
+        "liveArticleAndBlogAndSitemap": "passed in Chrome",
+        "liveMetadataAndAssets": "passed",
+        "liveSourceComparison": "13 pages/assets HTTP200 and identical to validated current source",
+        "previousContentAndHistory": "preserved; unrelated local edits untouched",
+        "build": "not applicable: static site without build command"
+      }
     }
   ]
 }
